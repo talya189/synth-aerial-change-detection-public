@@ -19,7 +19,7 @@ The scene planner reported 195 buildings, 29 road segments, 85 access paths, and
 | What | Where |
 |---|---|
 | Code, configs, docs | this folder |
-| Your assets (zips) | `../assets`, read via `configs/asset_roles.json` |
+| Local asset ZIPs | `../assets`, read via `configs/asset_roles.json` |
 | Elevation data, extracted assets, texture tiers, the template, outputs, Python venv | `~/synth_aerial_work` (outside iCloud; override with `SYNTH_WORK_ROOT`) |
 
 ## Folder layout
@@ -61,8 +61,8 @@ bash setup/cloud_setup.sh
 export BLENDER=~/synth_aerial_work/tools/blender/blender
 ```
 
-The script installs Blender (Linux) and the Python packages, downloads the Copernicus elevation tiles, ingests your local assets, and builds the template.
-- **Assets:** Place your own licensed asset ZIPs in `../assets` for full rendering. Planning and tests can run without them.
+The script installs Blender (Linux) and the Python packages, downloads the Copernicus elevation tiles, ingests local asset ZIPs, and builds the template.
+- **Assets:** Place licensed asset ZIPs in `../assets` for full rendering. Planning and tests can run without them.
 - **Rendering:** uses the best GPU available (Metal, OptiX, CUDA, HIP), otherwise the CPU, which is much slower.
 - **Without Blender:** planning (`--plan-only`), rule checks and tests work.
 
@@ -104,4 +104,4 @@ Change scatter sliders in a generated scene and re-render:
   --set '{"scatter_stones": {"Density": 0.3}}' --camera cam_oblique --out out.png
 ```
 
-The Korazim terrain preset uses a local GeoPackage at `$SYNTH_WORK_ROOT/data/aoi_korazim.gpkg` (default work root: `~/synth_aerial_work`). Supply your own authorized AOI file before running that preset.
+The Korazim terrain preset uses a local GeoPackage at `$SYNTH_WORK_ROOT/data/aoi_korazim.gpkg` (default work root: `~/synth_aerial_work`). Provide an authorized local AOI file before running that preset.
