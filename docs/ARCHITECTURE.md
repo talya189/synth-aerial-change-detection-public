@@ -65,7 +65,7 @@ blender-original/                    (code + configs; in iCloud Documents)
 ├── configs/
 │   ├── assets.json, asset_roles.json, classes.json, terrain.json
 │   ├── scene/            planner presets (rules + parameters per landscape type)
-│   └── specs/            hand-written test specs (e.g. step1_minimal.json)
+│   └── specs/            scene presets and test fixtures
 ├── synth/
 │   ├── common/           config, rng, camera math, sun position
 │   ├── prep/             DEM download/preprocess, asset ingest
@@ -102,7 +102,7 @@ blender-original/                    (code + configs; in iCloud Documents)
 |---|---|
 | 30 m DEM vs sub-metre pixels | Cubic upsampling plus band-limited micro-relief tapered at the core edge; built features (road cuts, terraces) edit the terrain. Validated. |
 | Looking real, not "randomly populated" | Rule-based placement (routing under grade limits, parcels facing streets, wetness/slope-driven vegetation), checked on plan maps and renders at every step. |
-| Rural specifics (Galilee first, Negev later) | Dry-season grassland, fields and terraces, pine groves and yard trees, village houses with rooftop equipment; later: desert ground, wadis, acacias, Bedouin structures. Several need assets: see section 7. |
+| Rural landscape details | Dry-season grassland, fields and terraces, pine groves, yard trees, and village houses with rooftop equipment. |
 | Pixel-exact labels | Object Index pass (unfiltered); class/instance tables; round-trip-checked PNGs. Validated, and a past write bug was caught and fixed. |
 | T1/T2 consistency | Stable entity ids and per-entity RNG streams: unchanged objects are identical. Diff-based sync rebuilds only what changed. Fixed camera first, pixel-aligned. |
 | Structural vs environmental change | Change masks from labels/geometry only; environment recorded separately. |

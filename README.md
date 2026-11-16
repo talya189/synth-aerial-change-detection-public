@@ -16,9 +16,13 @@ I used purchased, licensed Fab/Megascans assets for rendering. The public reposi
 
 ## Example output
 
-Synthetic hillside village, seed 1, rendered from directly overhead in Blender.
+Synthetic hillside village, seed 1, rendered in Blender from three viewpoints.
 
 ![Nadir render of a synthetic hillside village](docs/results/hillside-village-seed-1.jpg)
+
+![Oblique view of the same hillside village](docs/results/hillside-village-seed-1-oblique.jpg)
+
+![Low-angle view of the same hillside village](docs/results/hillside-village-seed-1-low.jpg)
 
 The scene planner reported 195 buildings, 29 road segments, 85 access paths, and 179 trees. All buildings had access paths. One road exceeded the slope threshold. This example shows a single generated scene.
 
@@ -86,8 +90,6 @@ See [docs/PLACES.md](docs/PLACES.md): the place files (`configs/places/`) hold t
 ## Run the development steps
 
 ```bash
-# Step 1: scene spec -> .blend -> renders + masks  (outputs/steps/step1)
-~/synth_aerial_work/venv/bin/python -m synth.steps.step1
 # Step 2: real terrain (Korazim)
 ~/synth_aerial_work/venv/bin/python -m synth.steps.step2
 # Step 3: ground materials (add --calibrate to re-fit layer colours to their targets)
