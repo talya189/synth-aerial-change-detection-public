@@ -1,0 +1,384 @@
+{
+  "spec_version": 1,
+  "scene_id": "step6_catalogue",
+  "seed": 4,
+  "region": {
+    "type": "flat_test",
+    "_comment": "Flat 240 m test plot (gentle undulation) at Korazim's coordinates, so sun and sky match the real site.",
+    "size_m": 200,
+    "relief_m": 0.3,
+    "elevation_m": 120,
+    "latlon": [
+      32.9546,
+      35.6621
+    ]
+  },
+  "environment": {
+    "season": "summer",
+    "date": "2025-06-15",
+    "local_time": "09:30",
+    "utc_offset_h": 3,
+    "haze_visibility_km": 40
+  },
+  "terrain_material": "galilee_summer",
+  "cameras": [
+    {
+      "id": "cam_nadir",
+      "target": [
+        0,
+        -5
+      ],
+      "tilt_deg": 0,
+      "heading_deg": 0,
+      "gsd_m": 0.12,
+      "resolution": [
+        1536,
+        1152
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_species",
+      "target": [
+        0,
+        30
+      ],
+      "tilt_deg": 62,
+      "heading_deg": 0,
+      "gsd_m": 0.05,
+      "resolution": [
+        1536,
+        768
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_groves",
+      "target": [
+        0,
+        -40
+      ],
+      "tilt_deg": 50,
+      "heading_deg": 10,
+      "gsd_m": 0.09,
+      "resolution": [
+        1536,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    }
+  ],
+  "render": {
+    "samples": 64,
+    "adaptive_threshold": 0.01,
+    "denoise": false,
+    "max_bounces": 6,
+    "filter_width": 1.5,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "texture_tier": 1024
+  },
+  "entities": {
+    "roads": [],
+    "paths": [],
+    "buildings": [],
+    "trees": [
+      {
+        "id": "tree_001",
+        "species": "pine",
+        "x": -70.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "scale": 0.6
+      },
+      {
+        "id": "tree_002",
+        "species": "pine",
+        "x": -60.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "scale": 1.0
+      },
+      {
+        "id": "tree_003",
+        "species": "fan_palm",
+        "x": -47.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "scale": 0.9
+      },
+      {
+        "id": "tree_004",
+        "species": "fan_palm",
+        "x": -37.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "scale": 1.4
+      },
+      {
+        "id": "tree_005",
+        "species": "date_palm",
+        "x": -24.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 5
+      },
+      {
+        "id": "tree_006",
+        "species": "date_palm",
+        "x": -14.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 11
+      },
+      {
+        "id": "tree_007",
+        "species": "olive",
+        "x": -1.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 3.5,
+        "crown": 3.5
+      },
+      {
+        "id": "tree_008",
+        "species": "olive",
+        "x": 9.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 6.0,
+        "crown": 6.5
+      },
+      {
+        "id": "tree_009",
+        "species": "oak",
+        "x": 22.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 6.0,
+        "crown": 6.0
+      },
+      {
+        "id": "tree_010",
+        "species": "oak",
+        "x": 32.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 11.0,
+        "crown": 11.0
+      },
+      {
+        "id": "tree_011",
+        "species": "carob",
+        "x": 45.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 5.0,
+        "crown": 5.0
+      },
+      {
+        "id": "tree_012",
+        "species": "carob",
+        "x": 55.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 9.0,
+        "crown": 8.0
+      },
+      {
+        "id": "tree_013",
+        "species": "cypress",
+        "x": 68.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 8.0,
+        "crown": 1.5
+      },
+      {
+        "id": "tree_014",
+        "species": "cypress",
+        "x": 78.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 15.0,
+        "crown": 2.6
+      },
+      {
+        "id": "tree_015",
+        "species": "ziziphus",
+        "x": 91.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 4.0,
+        "crown": 4.0
+      },
+      {
+        "id": "tree_016",
+        "species": "ziziphus",
+        "x": 101.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 7.0,
+        "crown": 7.5
+      },
+      {
+        "id": "tree_017",
+        "species": "citrus",
+        "x": 114.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 2.8,
+        "crown": 2.8
+      },
+      {
+        "id": "tree_018",
+        "species": "citrus",
+        "x": 124.0,
+        "y": 30.0,
+        "yaw_deg": 0.0,
+        "height": 4.5,
+        "crown": 4.2
+      }
+    ],
+    "groves": [
+      {
+        "id": "grove_001",
+        "species": "olive",
+        "polygon": [
+          [
+            -60,
+            -20
+          ],
+          [
+            -5,
+            -20
+          ],
+          [
+            -5,
+            -60
+          ],
+          [
+            -60,
+            -60
+          ]
+        ],
+        "spacing_m": 7.0,
+        "row_deg": 0.0,
+        "forest": false
+      },
+      {
+        "id": "grove_002",
+        "species": "pine",
+        "polygon": [
+          [
+            10,
+            -15
+          ],
+          [
+            65,
+            -15
+          ],
+          [
+            65,
+            -65
+          ],
+          [
+            10,
+            -65
+          ]
+        ],
+        "spacing_m": 6.0,
+        "row_deg": 0.0,
+        "forest": true
+      }
+    ]
+  },
+  "scatter": {
+    "basalt": {
+      "role": "rock.small_dark",
+      "kind": "rock.small_dark",
+      "Density": 0.5,
+      "Min Distance": 0.45,
+      "Cluster Size": 22,
+      "Coverage": 0.6,
+      "Slope Min": 0,
+      "Slope Max": 60,
+      "Slope Gain": 0.4,
+      "Scale Min": 1.0,
+      "Scale Max": 3.0,
+      "Power Law": 1.4,
+      "Align": 1.0,
+      "Sink": 0.05,
+      "Live Fraction": 1.0,
+      "Live Tint": [
+        0.5,
+        0.48,
+        0.46,
+        1.0
+      ]
+    },
+    "boulder": {
+      "role": "rock.small_dark",
+      "kind": "rock.small_dark",
+      "Density": 0.03,
+      "Min Distance": 1.6,
+      "Cluster Size": 35,
+      "Coverage": 0.45,
+      "Slope Min": 0,
+      "Slope Max": 60,
+      "Slope Gain": 0.6,
+      "Scale Min": 2.6,
+      "Scale Max": 5.0,
+      "Power Law": 1.5,
+      "Align": 1.0,
+      "Sink": 0.1,
+      "Live Fraction": 1.0,
+      "Live Tint": [
+        0.5,
+        0.48,
+        0.46,
+        1.0
+      ]
+    },
+    "slab": {
+      "role": "rock.outcrop",
+      "kind": "rock.outcrop",
+      "Density": 0.012,
+      "Min Distance": 2.5,
+      "Cluster Size": 30,
+      "Coverage": 0.4,
+      "Slope Min": 12,
+      "Slope Max": 60,
+      "Slope Gain": 1.0,
+      "Scale Min": 0.8,
+      "Scale Max": 1.8,
+      "Align": 1.0,
+      "Sink": 0.05
+    }
+  },
+  "history": [],
+  "_comment": "Step 6 species catalogue: each species small and large (row, west to east, in configs/vegetation.json order), an olive grove (rows) and a pine-forest patch (irregular).",
+  "post": {
+    "visibility_km": [
+      40,
+      50
+    ],
+    "psf_sigma_px": [
+      0.5,
+      0.6
+    ],
+    "noise": [
+      0.004,
+      0.006
+    ],
+    "vignette": [
+      0.05,
+      0.07
+    ],
+    "jpeg_quality": null
+  }
+}

@@ -1,0 +1,710 @@
+{
+  "spec_version": 1,
+  "scene_id": "step4_village_arab_village",
+  "seed": 42,
+  "region": {
+    "type": "dem",
+    "_comment": "Real terrain: Copernicus GLO-30 (30 m) over the Korazim / Rosh Pina AOI (configs/terrain.json). site_rank picks one of the ranked candidate sites (0 = best for a village: moderate slopes, some relief). Resolved coordinates are written back under 'resolved'.",
+    "source": "copernicus_glo30",
+    "aoi": "korazim",
+    "core_size_m": 1000,
+    "site_rank": 0,
+    "water_level_abs": -210.5
+  },
+  "environment": {
+    "season": "summer",
+    "date": "2025-06-15",
+    "local_time": "09:30",
+    "utc_offset_h": 3,
+    "haze_visibility_km": 40
+  },
+  "terrain_material": "galilee_summer",
+  "cameras": [
+    {
+      "id": "cam_nadir",
+      "target": [
+        -39.8,
+        338.3
+      ],
+      "tilt_deg": 0,
+      "heading_deg": 0,
+      "gsd_m": 0.24,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_oblique",
+      "target": [
+        -39.8,
+        338.3
+      ],
+      "tilt_deg": 45,
+      "heading_deg": 30,
+      "gsd_m": 0.19,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_low",
+      "target": [
+        -39.8,
+        338.3
+      ],
+      "tilt_deg": 68,
+      "heading_deg": 200,
+      "gsd_m": 0.12,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    }
+  ],
+  "render": {
+    "samples": 64,
+    "adaptive_threshold": 0.01,
+    "denoise": false,
+    "max_bounces": 6,
+    "filter_width": 1.5,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "texture_tier": 1024
+  },
+  "post": {
+    "visibility_km": [
+      40,
+      50
+    ],
+    "psf_sigma_px": [
+      0.5,
+      0.6
+    ],
+    "noise": [
+      0.004,
+      0.006
+    ],
+    "vignette": [
+      0.05,
+      0.07
+    ],
+    "jpeg_quality": null
+  },
+  "entities": {
+    "roads": [],
+    "paths": [],
+    "buildings": [
+      {
+        "id": "bld_001",
+        "type": "arab_house",
+        "center": [
+          -45.0,
+          325.0
+        ],
+        "width": 14.1,
+        "depth": 12.8,
+        "yaw_deg": 48.9,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_002",
+        "type": "arab_house",
+        "center": [
+          -22.94,
+          324.15
+        ],
+        "width": 12.4,
+        "depth": 14.1,
+        "yaw_deg": 3.6,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_003",
+        "type": "unfinished",
+        "center": [
+          -33.05,
+          341.78
+        ],
+        "width": 8.3,
+        "depth": 10.9,
+        "yaw_deg": 7.2,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.block",
+        "balcony": false,
+        "expandable": true
+      },
+      {
+        "id": "bld_004",
+        "type": "arab_house",
+        "center": [
+          -46.44,
+          356.26
+        ],
+        "width": 11.4,
+        "depth": 12.4,
+        "yaw_deg": 83.9,
+        "floors": 4,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_005",
+        "type": "arab_house",
+        "center": [
+          -68.71,
+          317.48
+        ],
+        "width": 14.8,
+        "depth": 12.4,
+        "yaw_deg": -36.7,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_006",
+        "type": "unfinished",
+        "center": [
+          -92.57,
+          326.91
+        ],
+        "width": 9.1,
+        "depth": 11.5,
+        "yaw_deg": 18.6,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.block",
+        "balcony": false,
+        "expandable": true
+      },
+      {
+        "id": "bld_007",
+        "type": "arab_house",
+        "center": [
+          -3.45,
+          318.84
+        ],
+        "width": 12.4,
+        "depth": 13.8,
+        "yaw_deg": -75.2,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 7.3,
+          "depth": 7.4,
+          "floors": 1
+        },
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_008",
+        "type": "arab_house",
+        "center": [
+          -8.11,
+          344.55
+        ],
+        "width": 15.6,
+        "depth": 11.9,
+        "yaw_deg": 10.6,
+        "floors": 4,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_009",
+        "type": "arab_house",
+        "center": [
+          -66.12,
+          335.08
+        ],
+        "width": 12.1,
+        "depth": 12.6,
+        "yaw_deg": 50.0,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_010",
+        "type": "arab_house",
+        "center": [
+          14.65,
+          336.28
+        ],
+        "width": 15.6,
+        "depth": 13.2,
+        "yaw_deg": 14.1,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_011",
+        "type": "arab_house",
+        "center": [
+          -110.65,
+          319.04
+        ],
+        "width": 14.0,
+        "depth": 14.9,
+        "yaw_deg": 24.3,
+        "floors": 4,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "back",
+          "width": 5.4,
+          "depth": 6.7,
+          "floors": 1
+        },
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_012",
+        "type": "house",
+        "center": [
+          11.09,
+          300.99
+        ],
+        "width": 10.2,
+        "depth": 10.7,
+        "yaw_deg": -71.5,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_013",
+        "type": "house",
+        "center": [
+          5.5,
+          282.54
+        ],
+        "width": 11.9,
+        "depth": 11.1,
+        "yaw_deg": 15.1,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_014",
+        "type": "arab_house",
+        "center": [
+          35.73,
+          335.79
+        ],
+        "width": 14.3,
+        "depth": 13.7,
+        "yaw_deg": 28.2,
+        "floors": 4,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "back",
+          "width": 8.0,
+          "depth": 7.8,
+          "floors": 1
+        },
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_015",
+        "type": "house",
+        "center": [
+          -8.75,
+          299.16
+        ],
+        "width": 10.7,
+        "depth": 11.7,
+        "yaw_deg": -13.8,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_016",
+        "type": "arab_house",
+        "center": [
+          -29.54,
+          370.87
+        ],
+        "width": 15.5,
+        "depth": 14.3,
+        "yaw_deg": 90.9,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_017",
+        "type": "arab_house",
+        "center": [
+          -77.35,
+          354.36
+        ],
+        "width": 12.2,
+        "depth": 11.6,
+        "yaw_deg": 45.5,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_018",
+        "type": "unfinished",
+        "center": [
+          -29.61,
+          391.95
+        ],
+        "width": 9.2,
+        "depth": 9.5,
+        "yaw_deg": 35.3,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.block",
+        "balcony": false,
+        "expandable": true
+      },
+      {
+        "id": "bld_019",
+        "type": "arab_house",
+        "center": [
+          -81.36,
+          378.81
+        ],
+        "width": 12.0,
+        "depth": 13.0,
+        "yaw_deg": 45.8,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_020",
+        "type": "arab_house",
+        "center": [
+          -37.0,
+          308.15
+        ],
+        "width": 12.2,
+        "depth": 13.4,
+        "yaw_deg": -45.7,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_021",
+        "type": "arab_house",
+        "center": [
+          -121.92,
+          301.33
+        ],
+        "width": 13.7,
+        "depth": 11.2,
+        "yaw_deg": 26.6,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_022",
+        "type": "arab_house",
+        "center": [
+          -28.05,
+          411.77
+        ],
+        "width": 13.5,
+        "depth": 14.6,
+        "yaw_deg": 29.4,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_023",
+        "type": "arab_house",
+        "center": [
+          9.96,
+          359.6
+        ],
+        "width": 13.9,
+        "depth": 14.7,
+        "yaw_deg": 13.9,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_024",
+        "type": "house",
+        "center": [
+          6.5,
+          379.14
+        ],
+        "width": 9.1,
+        "depth": 11.1,
+        "yaw_deg": 15.4,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_025",
+        "type": "house",
+        "center": [
+          -91.84,
+          398.64
+        ],
+        "width": 12.0,
+        "depth": 10.9,
+        "yaw_deg": -40.6,
+        "floors": 2,
+        "roof": "tiled",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "left",
+          "width": 5.7,
+          "depth": 6.7,
+          "floors": 1
+        },
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_026",
+        "type": "house",
+        "center": [
+          -103.64,
+          302.15
+        ],
+        "width": 8.2,
+        "depth": 9.7,
+        "yaw_deg": 29.3,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_027",
+        "type": "arab_house",
+        "center": [
+          -49.51,
+          291.44
+        ],
+        "width": 12.6,
+        "depth": 14.5,
+        "yaw_deg": 45.4,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_028",
+        "type": "arab_house",
+        "center": [
+          -72.4,
+          410.69
+        ],
+        "width": 12.6,
+        "depth": 13.3,
+        "yaw_deg": -50.8,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "left",
+          "width": 6.3,
+          "depth": 6.5,
+          "floors": 1
+        },
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_029",
+        "type": "house",
+        "center": [
+          -36.02,
+          276.51
+        ],
+        "width": 10.1,
+        "depth": 9.8,
+        "yaw_deg": 45.7,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "right",
+          "width": 5.7,
+          "depth": 4.6,
+          "floors": 1
+        },
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_030",
+        "type": "arab_house",
+        "center": [
+          -62.65,
+          276.91
+        ],
+        "width": 14.0,
+        "depth": 13.3,
+        "yaw_deg": 39.4,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_031",
+        "type": "arab_house",
+        "center": [
+          -49.4,
+          386.15
+        ],
+        "width": 12.6,
+        "depth": 14.5,
+        "yaw_deg": 28.1,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "back",
+          "width": 7.0,
+          "depth": 8.8,
+          "floors": 1
+        },
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_032",
+        "type": "house",
+        "center": [
+          -138.65,
+          314.57
+        ],
+        "width": 12.5,
+        "depth": 12.3,
+        "yaw_deg": -27.3,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "right",
+          "width": 4.5,
+          "depth": 6.2,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_033",
+        "type": "house",
+        "center": [
+          24.36,
+          371.16
+        ],
+        "width": 8.2,
+        "depth": 10.7,
+        "yaw_deg": -71.7,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "back",
+          "width": 3.4,
+          "depth": 5.8,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_034",
+        "type": "arab_house",
+        "center": [
+          52.83,
+          355.03
+        ],
+        "width": 11.3,
+        "depth": 14.9,
+        "yaw_deg": -59.2,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": true
+      }
+    ],
+    "trees": []
+  },
+  "scatter": "galilee_summer",
+  "history": [],
+  "_comment": "Step 4 village, style 'arab_village': the Step 3 site plus 34 buildings placed by synth/spec/placement.py. Generated once; edit freely. Village centre [-39.8, 338.3], ground 25.4 m."
+}

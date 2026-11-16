@@ -1,0 +1,506 @@
+{
+  "spec_version": 1,
+  "scene_id": "step4_village_moshav",
+  "seed": 41,
+  "region": {
+    "type": "dem",
+    "_comment": "Real terrain: Copernicus GLO-30 (30 m) over the Korazim / Rosh Pina AOI (configs/terrain.json). site_rank picks one of the ranked candidate sites (0 = best for a village: moderate slopes, some relief). Resolved coordinates are written back under 'resolved'.",
+    "source": "copernicus_glo30",
+    "aoi": "korazim",
+    "core_size_m": 1000,
+    "site_rank": 0,
+    "water_level_abs": -210.5
+  },
+  "environment": {
+    "season": "summer",
+    "date": "2025-06-15",
+    "local_time": "09:30",
+    "utc_offset_h": 3,
+    "haze_visibility_km": 40
+  },
+  "terrain_material": "galilee_summer",
+  "cameras": [
+    {
+      "id": "cam_nadir",
+      "target": [
+        -22.2,
+        335.8
+      ],
+      "tilt_deg": 0,
+      "heading_deg": 0,
+      "gsd_m": 0.4,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_oblique",
+      "target": [
+        -22.2,
+        335.8
+      ],
+      "tilt_deg": 45,
+      "heading_deg": 30,
+      "gsd_m": 0.32,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_low",
+      "target": [
+        -22.2,
+        335.8
+      ],
+      "tilt_deg": 68,
+      "heading_deg": 200,
+      "gsd_m": 0.2,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    }
+  ],
+  "render": {
+    "samples": 64,
+    "adaptive_threshold": 0.01,
+    "denoise": false,
+    "max_bounces": 6,
+    "filter_width": 1.5,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "texture_tier": 1024
+  },
+  "post": {
+    "visibility_km": [
+      40,
+      50
+    ],
+    "psf_sigma_px": [
+      0.5,
+      0.6
+    ],
+    "noise": [
+      0.004,
+      0.006
+    ],
+    "vignette": [
+      0.05,
+      0.07
+    ],
+    "jpeg_quality": null
+  },
+  "entities": {
+    "roads": [],
+    "paths": [],
+    "buildings": [
+      {
+        "id": "bld_001",
+        "type": "house",
+        "center": [
+          -45.0,
+          325.0
+        ],
+        "width": 10.4,
+        "depth": 12.2,
+        "yaw_deg": 52.1,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "back",
+          "width": 5.1,
+          "depth": 5.2,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_002",
+        "type": "moshav_house",
+        "center": [
+          -11.21,
+          328.57
+        ],
+        "width": 11.7,
+        "depth": 8.6,
+        "yaw_deg": 41.9,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.white",
+        "annex": {
+          "side": "back",
+          "width": 6.8,
+          "depth": 5.4,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_003",
+        "type": "villa",
+        "center": [
+          -39.7,
+          363.36
+        ],
+        "width": 15.0,
+        "depth": 10.4,
+        "yaw_deg": 24.9,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.white",
+        "annex": {
+          "side": "back",
+          "width": 8.5,
+          "depth": 8.4,
+          "floors": 2
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_004",
+        "type": "greenhouse",
+        "center": [
+          36.67,
+          238.09
+        ],
+        "width": 42.5,
+        "depth": 31.0,
+        "yaw_deg": -19.1,
+        "floors": 1,
+        "roof": "tunnel",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_005",
+        "type": "house",
+        "center": [
+          -69.84,
+          326.24
+        ],
+        "width": 8.8,
+        "depth": 12.8,
+        "yaw_deg": 3.0,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_006",
+        "type": "coop",
+        "center": [
+          -120.89,
+          348.94
+        ],
+        "width": 69.6,
+        "depth": 13.9,
+        "yaw_deg": 55.6,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.concrete",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_007",
+        "type": "coop",
+        "center": [
+          -142.32,
+          363.62
+        ],
+        "width": 69.6,
+        "depth": 13.9,
+        "yaw_deg": 55.6,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.concrete",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_008",
+        "type": "coop",
+        "center": [
+          -163.76,
+          378.29
+        ],
+        "width": 69.6,
+        "depth": 13.9,
+        "yaw_deg": 55.6,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.concrete",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_009",
+        "type": "coop",
+        "center": [
+          -185.19,
+          392.97
+        ],
+        "width": 69.6,
+        "depth": 13.9,
+        "yaw_deg": 55.6,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.concrete",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_010",
+        "type": "moshav_house",
+        "center": [
+          -9.14,
+          295.31
+        ],
+        "width": 9.1,
+        "depth": 9.0,
+        "yaw_deg": 50.8,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_011",
+        "type": "moshav_house",
+        "center": [
+          -10.46,
+          353.57
+        ],
+        "width": 10.2,
+        "depth": 9.0,
+        "yaw_deg": -8.9,
+        "floors": 2,
+        "roof": "tiled",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_012",
+        "type": "moshav_house",
+        "center": [
+          -32.93,
+          290.57
+        ],
+        "width": 12.0,
+        "depth": 10.7,
+        "yaw_deg": 84.4,
+        "floors": 2,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_013",
+        "type": "house",
+        "center": [
+          21.42,
+          368.68
+        ],
+        "width": 9.1,
+        "depth": 10.8,
+        "yaw_deg": -8.4,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_014",
+        "type": "moshav_house",
+        "center": [
+          -66.59,
+          282.64
+        ],
+        "width": 12.1,
+        "depth": 8.7,
+        "yaw_deg": 83.3,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "right",
+          "width": 4.5,
+          "depth": 5.3,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_015",
+        "type": "moshav_house",
+        "center": [
+          48.15,
+          369.9
+        ],
+        "width": 10.0,
+        "depth": 8.7,
+        "yaw_deg": 100.7,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "right",
+          "width": 4.1,
+          "depth": 4.4,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_016",
+        "type": "villa",
+        "center": [
+          71.71,
+          377.34
+        ],
+        "width": 16.8,
+        "depth": 11.8,
+        "yaw_deg": -35.3,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_017",
+        "type": "greenhouse",
+        "center": [
+          127.55,
+          358.05
+        ],
+        "width": 26.7,
+        "depth": 39.7,
+        "yaw_deg": 7.4,
+        "floors": 1,
+        "roof": "tunnel",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_018",
+        "type": "villa",
+        "center": [
+          67.92,
+          346.02
+        ],
+        "width": 14.7,
+        "depth": 10.8,
+        "yaw_deg": -38.5,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.white",
+        "annex": {
+          "side": "right",
+          "width": 10.0,
+          "depth": 9.1,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_019",
+        "type": "unfinished",
+        "center": [
+          -19.01,
+          269.3
+        ],
+        "width": 10.9,
+        "depth": 10.2,
+        "yaw_deg": 79.7,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.block",
+        "balcony": false,
+        "expandable": true
+      },
+      {
+        "id": "bld_020",
+        "type": "villa",
+        "center": [
+          -95.54,
+          293.09
+        ],
+        "width": 13.4,
+        "depth": 11.0,
+        "yaw_deg": 85.3,
+        "floors": 2,
+        "roof": "tiled",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 9.0,
+          "depth": 8.9,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_021",
+        "type": "unfinished",
+        "center": [
+          -7.58,
+          396.88
+        ],
+        "width": 8.6,
+        "depth": 10.3,
+        "yaw_deg": 10.7,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.block",
+        "balcony": false,
+        "expandable": true
+      },
+      {
+        "id": "bld_022",
+        "type": "coop",
+        "center": [
+          157.67,
+          321.84
+        ],
+        "width": 77.1,
+        "depth": 14.4,
+        "yaw_deg": 1.2,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      }
+    ],
+    "trees": []
+  },
+  "scatter": "galilee_summer",
+  "history": [],
+  "_comment": "Step 4 village, style 'moshav': the Step 3 site plus 22 buildings placed by synth/spec/placement.py. Generated once; edit freely. Village centre [-22.2, 335.8], ground 25.3 m."
+}

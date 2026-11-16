@@ -1,0 +1,131 @@
+{
+  "_comment": "Maps asset folder/zip stems to roles. Generators request roles, never asset names. Add a line here when you add an asset; run `python -m synth.prep.asset_ingest`.",
+  "asset_root": "../assets",
+  "roles": {
+    "arid_gravel_ground_wkfneic_4k": [
+      "terrain.gravel"
+    ],
+    "gravel_ground_xbnefgl_4k": [
+      "terrain.gravel",
+      "road.shoulder"
+    ],
+    "gravel_ground_xdutads_4k": [
+      "terrain.soil_sandy"
+    ],
+    "dry_soil_ground_umsndibcw_4k": [
+      "terrain.soil"
+    ],
+    "trampled_sandy_soil_ubinaeukw_4k": [
+      "terrain.trampled",
+      "path.dirt"
+    ],
+    "trampled_forest_path_ub4jdihkw_4k": [
+      "path.dirt_alt",
+      "terrain.dry_grass"
+    ],
+    "rocky_ground_vjdqcba_4k": [
+      "terrain.rocky"
+    ],
+    "bright_desert_sand_sjzkfega_4k": [
+      "terrain.sand"
+    ],
+    "wild_grass_sbykqdp0_4k": [
+      "terrain.grass"
+    ],
+    "dirt_ground_xdhhdgq_4k": [
+      "terrain.dirt",
+      "road.dirt"
+    ],
+    "dirt_road_omdgn0_4k": [
+      "road.dirt_alt",
+      "terrain.dust"
+    ],
+    "dusty_rough_asphalt_vbhnaejn_4k": [
+      "road.asphalt_alt"
+    ],
+    "asphalt_surface_rmqlqkp0_4k": [
+      "road.asphalt"
+    ],
+    "concrete_pavement_wjwkbdv_4k": [
+      "path.sidewalk",
+      "yard.paving"
+    ],
+    "dusty_concrete_floor_ugtkadmg_4k": [
+      "roof.flat"
+    ],
+    "rough_concrete_ogip20_4k": [
+      "wall.concrete",
+      "roof.flat_alt"
+    ],
+    "stucco_wall_th5keedew_4k": [
+      "wall.stucco"
+    ],
+    "stone_wall_vmghfd3o_4k": [
+      "wall.stone",
+      "terrace.wall"
+    ],
+    "roof_tiles_tmdkacdfw_4k": [
+      "roof.tiles"
+    ],
+    "concrete_block_wall_ugsifevlw_4k": [
+      "wall.block"
+    ],
+    "desert_soil_scatter_tl0gedmka_4k": [
+      "decal.soil_scatter"
+    ],
+    "date_palm_pjyjk2_4k": [
+      "atlas.date_palm_frond"
+    ],
+    "palm_tree_trunk_ue1ifg0fa_mid": [
+      "model.palm_trunk"
+    ],
+    "fan_palm_sesmj_mid": [
+      "veg.fan_palm"
+    ],
+    "dry_grass_tbbqejqr_mid": [
+      "veg.dry_grass"
+    ],
+    "dead_shrubs_vdknbbuha_mid": [
+      "veg.dead_shrub"
+    ],
+    "dead_shrubs_vdknafgha_mid": [
+      "veg.dead_shrub"
+    ],
+    "tree_aleppo_pine_01_usd": [
+      "veg.aleppo_pine"
+    ],
+    "sandstone_rock_vd5rdhd_mid": [
+      "rock.small"
+    ],
+    "icelandic_porous_rocks_skxqf_mid": [
+      "rock.small_dark"
+    ],
+    "sandstone_rocky_ground_sgxug_mid": [
+      "rock.flat"
+    ],
+    "limestone_rocks_ubvsaf3da_mid": [
+      "rock.outcrop"
+    ],
+    "limestone_rubble_ubxbejwda_mid": [
+      "rock.rubble"
+    ],
+    "concrete_rubble_pile_ujriaadga_mid": [
+      "prop.rubble"
+    ],
+    "modular_building_flat_roof_kit_vdjkbg1dw_mid": [
+      "kit.flat_roof"
+    ],
+    "unfinished_building_mid": [
+      "kit.unfinished_building"
+    ],
+    "wooden_pallet_vh1icei_mid": [
+      "prop.pallet"
+    ],
+    "concrete_barrier_sepsb_mid": [
+      "prop.barrier"
+    ],
+    "plastic_drum_vgyiciqaw_mid": [
+      "prop.drum"
+    ]
+  }
+}

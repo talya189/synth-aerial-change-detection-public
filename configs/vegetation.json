@@ -1,0 +1,486 @@
+{
+  "_comment": "Tree species and planting rules. source: usd = scanned 3D tree (asset role), model = scanned model, date_palm = procedural palm on a scanned trunk, proc = procedural tree (synth/blender/proc_veg.py: crown shape, leaf / shadowed-leaf / bark colours in linear RGB). height_m / crown_m = ranges drawn per tree (seeded by its id) unless the spec gives them. Wild shrubs and ground cover stay in configs/presets/ground_cover/. Procedural species are built from leaf clusters (leaf_size_m = size of one foliage spray (about 2x a real leaf: single leaves are below a pixel from the air); foliage_density = how full the crown is).",
+  "species": {
+    "pine": {
+      "source": "usd",
+      "role": "veg.aleppo_pine",
+      "kind": "veg.tree.pine",
+      "scale": [
+        0.6,
+        1.0
+      ]
+    },
+    "fan_palm": {
+      "source": "model",
+      "role": "veg.fan_palm",
+      "kind": "veg.palm.fan",
+      "scale": [
+        0.9,
+        1.4
+      ]
+    },
+    "date_palm": {
+      "source": "date_palm",
+      "role": "atlas.date_palm_frond",
+      "trunk_role": "model.palm_trunk",
+      "kind": "veg.palm.date",
+      "height_m": [
+        5,
+        11
+      ]
+    },
+    "olive": {
+      "source": "proc",
+      "kind": "veg.tree.olive",
+      "shape": "round",
+      "height_m": [
+        3.5,
+        6.0
+      ],
+      "crown_m": [
+        3.5,
+        6.5
+      ],
+      "trunk_frac": 0.3,
+      "leaf": [
+        0.15,
+        0.17,
+        0.11
+      ],
+      "leaf_dark": [
+        0.06,
+        0.07,
+        0.045
+      ],
+      "bark": [
+        0.16,
+        0.14,
+        0.12
+      ],
+      "leaf_size_m": [
+        0.13,
+        0.05
+      ],
+      "foliage_density": 1.0
+    },
+    "oak": {
+      "source": "proc",
+      "kind": "veg.tree.oak",
+      "shape": "broad",
+      "height_m": [
+        6.0,
+        11.0
+      ],
+      "crown_m": [
+        6.0,
+        11.0
+      ],
+      "trunk_frac": 0.3,
+      "leaf": [
+        0.055,
+        0.1,
+        0.03
+      ],
+      "leaf_dark": [
+        0.02,
+        0.04,
+        0.015
+      ],
+      "bark": [
+        0.12,
+        0.1,
+        0.08
+      ],
+      "leaf_size_m": [
+        0.16,
+        0.09
+      ],
+      "foliage_density": 1.35
+    },
+    "carob": {
+      "source": "proc",
+      "kind": "veg.tree.carob",
+      "shape": "round",
+      "height_m": [
+        5.0,
+        9.0
+      ],
+      "crown_m": [
+        5.0,
+        8.0
+      ],
+      "trunk_frac": 0.22,
+      "leaf": [
+        0.04,
+        0.09,
+        0.025
+      ],
+      "leaf_dark": [
+        0.012,
+        0.03,
+        0.01
+      ],
+      "bark": [
+        0.14,
+        0.11,
+        0.09
+      ],
+      "leaf_size_m": [
+        0.15,
+        0.1
+      ],
+      "foliage_density": 1.35
+    },
+    "cypress": {
+      "source": "proc",
+      "kind": "veg.tree.cypress",
+      "shape": "column",
+      "height_m": [
+        8.0,
+        15.0
+      ],
+      "crown_m": [
+        1.5,
+        2.6
+      ],
+      "trunk_frac": 0.05,
+      "leaf": [
+        0.03,
+        0.065,
+        0.025
+      ],
+      "leaf_dark": [
+        0.01,
+        0.022,
+        0.01
+      ],
+      "bark": [
+        0.12,
+        0.1,
+        0.08
+      ],
+      "leaf_size_m": [
+        0.09,
+        0.035
+      ],
+      "foliage_density": 1.0
+    },
+    "ziziphus": {
+      "source": "proc",
+      "kind": "veg.tree.ziziphus",
+      "shape": "irregular",
+      "height_m": [
+        4.0,
+        7.0
+      ],
+      "crown_m": [
+        4.0,
+        7.5
+      ],
+      "trunk_frac": 0.25,
+      "leaf": [
+        0.07,
+        0.12,
+        0.045
+      ],
+      "leaf_dark": [
+        0.025,
+        0.045,
+        0.018
+      ],
+      "bark": [
+        0.15,
+        0.12,
+        0.1
+      ],
+      "leaf_size_m": [
+        0.11,
+        0.07
+      ],
+      "foliage_density": 1.35
+    },
+    "citrus": {
+      "source": "proc",
+      "kind": "veg.tree.citrus",
+      "shape": "round",
+      "height_m": [
+        2.8,
+        4.5
+      ],
+      "crown_m": [
+        2.8,
+        4.2
+      ],
+      "trunk_frac": 0.18,
+      "leaf": [
+        0.035,
+        0.1,
+        0.025
+      ],
+      "leaf_dark": [
+        0.01,
+        0.035,
+        0.01
+      ],
+      "bark": [
+        0.14,
+        0.12,
+        0.1
+      ],
+      "leaf_size_m": [
+        0.15,
+        0.08
+      ],
+      "foliage_density": 1.35
+    }
+  },
+  "planting": {
+    "_comment": "Per settlement style. yard: trees per house and how far from its walls; street: trees along these road classes; groves: orchards (rows) on gentle ground around the village; forest: planted pine patches (irregular). Species weights are relative. street trees go only on through streets (no turning circle) longer than min_length_m. Forest patches use the scanned pine: keep them small (render cost).",
+    "moshav": {
+      "yard": {
+        "per_house": [
+          1,
+          4
+        ],
+        "dist_m": [
+          2.5,
+          9.0
+        ],
+        "species": {
+          "citrus": 3,
+          "olive": 2,
+          "pine": 1,
+          "date_palm": 1,
+          "fan_palm": 1,
+          "cypress": 1
+        }
+      },
+      "street": {
+        "classes": [
+          "street"
+        ],
+        "spacing_m": [
+          16,
+          24
+        ],
+        "offset_m": 2.0,
+        "p_side": 0.3,
+        "species": {
+          "cypress": 2,
+          "pine": 1,
+          "fan_palm": 1
+        },
+        "min_length_m": 150
+      },
+      "groves": {
+        "count": 4,
+        "species": {
+          "olive": 2,
+          "citrus": 2
+        },
+        "size_m": [
+          [
+            60,
+            140
+          ],
+          [
+            40,
+            90
+          ]
+        ],
+        "spacing_m": [
+          6,
+          8
+        ],
+        "max_slope_deg": 10,
+        "dist_m": [
+          40,
+          260
+        ]
+      },
+      "forest": {
+        "count": 1,
+        "size_m": [
+          [
+            50,
+            90
+          ],
+          [
+            40,
+            70
+          ]
+        ],
+        "spacing_m": [
+          6,
+          8
+        ],
+        "max_slope_deg": 30,
+        "dist_m": [
+          120,
+          380
+        ]
+      }
+    },
+    "arab_village": {
+      "yard": {
+        "per_house": [
+          0,
+          2
+        ],
+        "dist_m": [
+          1.5,
+          6.0
+        ],
+        "species": {
+          "olive": 3,
+          "citrus": 1,
+          "date_palm": 1,
+          "ziziphus": 1
+        }
+      },
+      "street": {
+        "classes": [],
+        "spacing_m": [
+          12,
+          18
+        ],
+        "offset_m": 1.5,
+        "p_side": 0.0,
+        "species": {
+          "date_palm": 1
+        },
+        "min_length_m": 150
+      },
+      "groves": {
+        "count": 7,
+        "species": {
+          "olive": 1
+        },
+        "size_m": [
+          [
+            50,
+            150
+          ],
+          [
+            40,
+            100
+          ]
+        ],
+        "spacing_m": [
+          7,
+          9
+        ],
+        "max_slope_deg": 14,
+        "dist_m": [
+          30,
+          280
+        ]
+      },
+      "forest": {
+        "count": 0,
+        "size_m": [
+          [
+            80,
+            160
+          ],
+          [
+            60,
+            120
+          ]
+        ],
+        "spacing_m": [
+          4.5,
+          6.5
+        ],
+        "max_slope_deg": 30,
+        "dist_m": [
+          150,
+          380
+        ]
+      }
+    },
+    "town": {
+      "yard": {
+        "per_house": [
+          0,
+          3
+        ],
+        "dist_m": [
+          3.0,
+          10.0
+        ],
+        "species": {
+          "pine": 2,
+          "cypress": 1,
+          "olive": 1,
+          "fan_palm": 1,
+          "carob": 1
+        }
+      },
+      "street": {
+        "classes": [
+          "street"
+        ],
+        "spacing_m": [
+          13,
+          18
+        ],
+        "offset_m": 2.5,
+        "p_side": 0.5,
+        "species": {
+          "fan_palm": 2,
+          "date_palm": 1,
+          "cypress": 1
+        },
+        "min_length_m": 150
+      },
+      "groves": {
+        "count": 1,
+        "species": {
+          "olive": 1
+        },
+        "size_m": [
+          [
+            60,
+            120
+          ],
+          [
+            40,
+            80
+          ]
+        ],
+        "spacing_m": [
+          7,
+          8
+        ],
+        "max_slope_deg": 10,
+        "dist_m": [
+          60,
+          280
+        ]
+      },
+      "forest": {
+        "count": 1,
+        "size_m": [
+          [
+            50,
+            90
+          ],
+          [
+            40,
+            70
+          ]
+        ],
+        "spacing_m": [
+          6,
+          8
+        ],
+        "max_slope_deg": 30,
+        "dist_m": [
+          100,
+          380
+        ]
+      }
+    }
+  }
+}

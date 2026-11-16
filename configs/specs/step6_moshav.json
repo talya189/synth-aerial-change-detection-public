@@ -1,0 +1,3607 @@
+{
+  "spec_version": 1,
+  "scene_id": "step6_moshav",
+  "seed": 51,
+  "region": {
+    "type": "dem",
+    "_comment": "Real terrain: Copernicus GLO-30 (30 m) over the Korazim / Rosh Pina AOI (configs/terrain.json). site_rank picks one of the ranked candidate sites (0 = best for a village: moderate slopes, some relief). Resolved coordinates are written back under 'resolved'.",
+    "source": "copernicus_glo30",
+    "aoi": "korazim",
+    "core_size_m": 1000,
+    "site_rank": 0,
+    "water_level_abs": -210.5
+  },
+  "environment": {
+    "season": "summer",
+    "date": "2025-06-15",
+    "local_time": "09:30",
+    "utc_offset_h": 3,
+    "haze_visibility_km": 40
+  },
+  "terrain_material": "galilee_summer",
+  "cameras": [
+    {
+      "id": "cam_nadir",
+      "target": [
+        -120.7,
+        241.5
+      ],
+      "tilt_deg": 0,
+      "heading_deg": 0,
+      "gsd_m": 0.5,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_oblique",
+      "target": [
+        -120.7,
+        241.5
+      ],
+      "tilt_deg": 45,
+      "heading_deg": 30,
+      "gsd_m": 0.4,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_street",
+      "target": [
+        -120.7,
+        241.5
+      ],
+      "tilt_deg": 62,
+      "heading_deg": 200,
+      "gsd_m": 0.2,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    }
+  ],
+  "render": {
+    "samples": 64,
+    "adaptive_threshold": 0.01,
+    "denoise": false,
+    "max_bounces": 6,
+    "filter_width": 1.5,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "texture_tier": 1024
+  },
+  "post": {
+    "visibility_km": [
+      40,
+      50
+    ],
+    "psf_sigma_px": [
+      0.5,
+      0.6
+    ],
+    "noise": [
+      0.004,
+      0.006
+    ],
+    "vignette": [
+      0.05,
+      0.07
+    ],
+    "jpeg_quality": null
+  },
+  "entities": {
+    "roads": [
+      {
+        "id": "road_001",
+        "class": "main",
+        "centerline": [
+          [
+            -25.64,
+            443.65
+          ],
+          [
+            -11.29,
+            425.67
+          ],
+          [
+            0.77,
+            410.99
+          ],
+          [
+            12.44,
+            397.29
+          ],
+          [
+            23.08,
+            385.34
+          ],
+          [
+            33.31,
+            374.37
+          ],
+          [
+            43.84,
+            363.69
+          ],
+          [
+            53.97,
+            354.02
+          ],
+          [
+            64.42,
+            344.71
+          ],
+          [
+            74.44,
+            336.43
+          ],
+          [
+            84.79,
+            328.57
+          ],
+          [
+            94.65,
+            321.73
+          ],
+          [
+            104.82,
+            315.35
+          ],
+          [
+            115.28,
+            309.48
+          ],
+          [
+            125.14,
+            304.61
+          ],
+          [
+            130.62,
+            302.16
+          ],
+          [
+            136.17,
+            299.88
+          ],
+          [
+            146.51,
+            296.13
+          ],
+          [
+            157.04,
+            292.97
+          ],
+          [
+            166.76,
+            290.62
+          ],
+          [
+            176.59,
+            288.78
+          ],
+          [
+            186.5,
+            287.45
+          ],
+          [
+            196.46,
+            286.62
+          ],
+          [
+            206.46,
+            286.27
+          ],
+          [
+            217.45,
+            286.41
+          ],
+          [
+            228.44,
+            287.05
+          ],
+          [
+            238.39,
+            288.03
+          ],
+          [
+            248.3,
+            289.36
+          ],
+          [
+            258.17,
+            290.98
+          ],
+          [
+            268.97,
+            293.05
+          ],
+          [
+            278.74,
+            295.16
+          ],
+          [
+            289.46,
+            297.66
+          ],
+          [
+            333.12,
+            308.52
+          ],
+          [
+            342.88,
+            310.71
+          ],
+          [
+            351.71,
+            312.48
+          ],
+          [
+            360.58,
+            313.95
+          ],
+          [
+            369.52,
+            315.05
+          ],
+          [
+            377.5,
+            315.59
+          ],
+          [
+            384.49,
+            315.65
+          ],
+          [
+            388.49,
+            315.47
+          ],
+          [
+            392.47,
+            315.11
+          ],
+          [
+            396.43,
+            314.56
+          ],
+          [
+            400.36,
+            313.79
+          ],
+          [
+            404.23,
+            312.78
+          ],
+          [
+            407.09,
+            311.86
+          ],
+          [
+            410.81,
+            310.41
+          ],
+          [
+            413.53,
+            309.15
+          ],
+          [
+            417.04,
+            307.23
+          ],
+          [
+            419.58,
+            305.63
+          ],
+          [
+            422.01,
+            303.87
+          ],
+          [
+            425.1,
+            301.33
+          ],
+          [
+            427.28,
+            299.28
+          ],
+          [
+            430.03,
+            296.37
+          ],
+          [
+            432.58,
+            293.29
+          ],
+          [
+            434.93,
+            290.06
+          ],
+          [
+            437.62,
+            285.84
+          ],
+          [
+            440.05,
+            281.47
+          ],
+          [
+            442.65,
+            276.07
+          ],
+          [
+            444.95,
+            270.52
+          ],
+          [
+            446.98,
+            264.88
+          ],
+          [
+            449.08,
+            258.2
+          ],
+          [
+            450.91,
+            251.45
+          ],
+          [
+            452.75,
+            243.66
+          ],
+          [
+            454.35,
+            235.82
+          ],
+          [
+            455.93,
+            226.96
+          ],
+          [
+            457.32,
+            218.07
+          ],
+          [
+            458.68,
+            208.16
+          ],
+          [
+            461.42,
+            184.32
+          ],
+          [
+            464.13,
+            155.45
+          ],
+          [
+            467.18,
+            117.57
+          ],
+          [
+            469.83,
+            79.66
+          ],
+          [
+            471.81,
+            45.72
+          ],
+          [
+            473.24,
+            13.75
+          ],
+          [
+            474.07,
+            -12.23
+          ],
+          [
+            474.66,
+            -40.23
+          ],
+          [
+            475.52,
+            -124.22
+          ],
+          [
+            475.96,
+            -152.22
+          ],
+          [
+            476.67,
+            -179.21
+          ],
+          [
+            477.63,
+            -203.19
+          ],
+          [
+            479.04,
+            -228.15
+          ],
+          [
+            480.91,
+            -253.08
+          ],
+          [
+            483.19,
+            -276.97
+          ],
+          [
+            486.0,
+            -301.03
+          ]
+        ]
+      },
+      {
+        "id": "road_002",
+        "class": "street",
+        "centerline": [
+          [
+            -244.33,
+            326.12
+          ],
+          [
+            -235.65,
+            319.37
+          ],
+          [
+            -218.91,
+            308.42
+          ],
+          [
+            -200.89,
+            295.81
+          ],
+          [
+            -180.75,
+            284.73
+          ],
+          [
+            -166.95,
+            276.63
+          ],
+          [
+            -159.81,
+            273.02
+          ],
+          [
+            -153.28,
+            270.52
+          ],
+          [
+            -146.5,
+            268.78
+          ],
+          [
+            -139.55,
+            268.01
+          ],
+          [
+            -134.56,
+            268.22
+          ],
+          [
+            -128.67,
+            269.33
+          ],
+          [
+            -107.08,
+            277.22
+          ],
+          [
+            -95.39,
+            279.9
+          ],
+          [
+            -81.44,
+            280.99
+          ],
+          [
+            -58.45,
+            280.54
+          ],
+          [
+            -48.53,
+            281.68
+          ],
+          [
+            -42.74,
+            283.24
+          ],
+          [
+            -37.13,
+            285.36
+          ],
+          [
+            -7.52,
+            299.92
+          ],
+          [
+            -1.05,
+            302.59
+          ],
+          [
+            5.62,
+            304.7
+          ],
+          [
+            11.48,
+            305.95
+          ],
+          [
+            17.43,
+            306.71
+          ],
+          [
+            43.41,
+            307.83
+          ],
+          [
+            56.33,
+            309.19
+          ],
+          [
+            71.99,
+            312.42
+          ],
+          [
+            84.48,
+            316.64
+          ]
+        ]
+      },
+      {
+        "id": "road_003",
+        "class": "street",
+        "centerline": [
+          [
+            -246.26,
+            263.65
+          ],
+          [
+            -232.84,
+            243.76
+          ],
+          [
+            -223.79,
+            231.8
+          ],
+          [
+            -209.27,
+            215.28
+          ],
+          [
+            -197.75,
+            204.18
+          ],
+          [
+            -190.77,
+            198.5
+          ],
+          [
+            -183.48,
+            193.22
+          ],
+          [
+            -167.26,
+            183.36
+          ],
+          [
+            -155.42,
+            178.01
+          ],
+          [
+            -149.67,
+            176.32
+          ],
+          [
+            -143.76,
+            175.28
+          ],
+          [
+            -133.78,
+            174.89
+          ],
+          [
+            -122.84,
+            176.03
+          ],
+          [
+            -113.07,
+            178.12
+          ],
+          [
+            -92.84,
+            183.76
+          ],
+          [
+            -82.97,
+            185.22
+          ],
+          [
+            -74.99,
+            184.73
+          ],
+          [
+            -60.32,
+            181.64
+          ],
+          [
+            -40.52,
+            178.85
+          ],
+          [
+            -30.53,
+            178.94
+          ],
+          [
+            -18.68,
+            180.75
+          ],
+          [
+            -6.12,
+            184.09
+          ],
+          [
+            6.07,
+            188.59
+          ],
+          [
+            16.9,
+            193.75
+          ],
+          [
+            34.32,
+            203.57
+          ],
+          [
+            42.35,
+            207.63
+          ],
+          [
+            77.82,
+            221.91
+          ]
+        ]
+      },
+      {
+        "id": "road_004",
+        "class": "street",
+        "centerline": [
+          [
+            -224.29,
+            311.94
+          ],
+          [
+            -273.56,
+            236.62
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_006",
+        "class": "street",
+        "centerline": [
+          [
+            -145.53,
+            268.67
+          ],
+          [
+            -154.45,
+            188.16
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_007",
+        "class": "street",
+        "centerline": [
+          [
+            -98.97,
+            279.08
+          ],
+          [
+            -80.2,
+            197.2
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_008",
+        "class": "street",
+        "centerline": [
+          [
+            -98.97,
+            279.08
+          ],
+          [
+            -116.4,
+            355.11
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_009",
+        "class": "street",
+        "centerline": [
+          [
+            -52.04,
+            281.28
+          ],
+          [
+            -42.11,
+            194.85
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_010",
+        "class": "street",
+        "centerline": [
+          [
+            -8.89,
+            299.25
+          ],
+          [
+            37.39,
+            205.12
+          ]
+        ],
+        "connects": "road_002",
+        "connects_end": "road_003"
+      },
+      {
+        "id": "road_011",
+        "class": "street",
+        "centerline": [
+          [
+            36.54,
+            307.53
+          ],
+          [
+            39.77,
+            232.6
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_012",
+        "class": "street",
+        "centerline": [
+          [
+            -229.93,
+            239.91
+          ],
+          [
+            -301.7,
+            185.6
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_013",
+        "class": "street",
+        "centerline": [
+          [
+            -201.26,
+            207.56
+          ],
+          [
+            -261.62,
+            144.91
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_014",
+        "class": "street",
+        "centerline": [
+          [
+            -201.26,
+            207.56
+          ],
+          [
+            -145.94,
+            264.97
+          ]
+        ],
+        "connects": "road_003",
+        "connects_end": "road_006"
+      },
+      {
+        "id": "road_015",
+        "class": "street",
+        "centerline": [
+          [
+            -164.36,
+            182.05
+          ],
+          [
+            -196.48,
+            110.97
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_016",
+        "class": "street",
+        "centerline": [
+          [
+            -121.51,
+            176.32
+          ],
+          [
+            -101.42,
+            82.44
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_017",
+        "class": "street",
+        "centerline": [
+          [
+            -121.51,
+            176.32
+          ],
+          [
+            -141.16,
+            268.19
+          ]
+        ],
+        "connects": "road_003",
+        "connects_end": "road_002"
+      },
+      {
+        "id": "road_018",
+        "class": "street",
+        "centerline": [
+          [
+            -76.35,
+            184.81
+          ],
+          [
+            -82.6,
+            83.01
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_019",
+        "class": "street",
+        "centerline": [
+          [
+            -26.27,
+            179.59
+          ],
+          [
+            -9.51,
+            69.86
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_020",
+        "class": "street",
+        "centerline": [
+          [
+            -26.27,
+            179.59
+          ],
+          [
+            -40.77,
+            274.49
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_021",
+        "class": "street",
+        "centerline": [
+          [
+            18.47,
+            194.63
+          ],
+          [
+            75.92,
+            92.71
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_022",
+        "class": "street",
+        "centerline": [
+          [
+            -102.11,
+            278.36
+          ],
+          [
+            -88.21,
+            184.44
+          ]
+        ],
+        "connects": "road_002",
+        "connects_end": "road_003"
+      },
+      {
+        "id": "road_023",
+        "class": "street",
+        "centerline": [
+          [
+            64.42,
+            344.71
+          ],
+          [
+            55.92,
+            334.88
+          ],
+          [
+            52.8,
+            332.39
+          ],
+          [
+            48.14,
+            330.65
+          ],
+          [
+            36.23,
+            329.25
+          ],
+          [
+            34.36,
+            328.56
+          ],
+          [
+            32.0,
+            326.73
+          ],
+          [
+            28.12,
+            322.17
+          ],
+          [
+            24.91,
+            315.97
+          ],
+          [
+            24.14,
+            310.05
+          ],
+          [
+            24.38,
+            308.08
+          ],
+          [
+            24.99,
+            307.04
+          ]
+        ],
+        "connects": "road_001",
+        "connects_end": "road_002"
+      },
+      {
+        "id": "road_024",
+        "class": "track",
+        "centerline": [
+          [
+            -244.33,
+            326.12
+          ],
+          [
+            -253.13,
+            334.26
+          ],
+          [
+            -263.5,
+            345.1
+          ],
+          [
+            -280.7,
+            361.83
+          ],
+          [
+            -295.23,
+            376.99
+          ],
+          [
+            -301.07,
+            383.83
+          ],
+          [
+            -306.04,
+            391.33
+          ],
+          [
+            -309.73,
+            399.52
+          ],
+          [
+            -311.42,
+            405.28
+          ],
+          [
+            -312.46,
+            411.19
+          ],
+          [
+            -313.74,
+            426.13
+          ],
+          [
+            -314.64,
+            447.1
+          ],
+          [
+            -316.08,
+            462.03
+          ]
+        ],
+        "connects": "road_002"
+      },
+      {
+        "id": "road_026",
+        "class": "track",
+        "centerline": [
+          [
+            -187.4,
+            131.06
+          ],
+          [
+            -248.4,
+            158.63
+          ]
+        ],
+        "connects": "road_015",
+        "connects_end": "road_013"
+      },
+      {
+        "id": "road_027",
+        "class": "track",
+        "centerline": [
+          [
+            -244.47,
+            281.08
+          ],
+          [
+            -339.88,
+            343.49
+          ]
+        ],
+        "connects": "road_004"
+      }
+    ],
+    "paths": [
+      {
+        "id": "path_001",
+        "surface": "dirt",
+        "width": 1.15,
+        "centerline": [
+          [
+            -16.26,
+            114.26
+          ],
+          [
+            -18.06,
+            115.99
+          ],
+          [
+            -21.81,
+            119.3
+          ],
+          [
+            -22.97,
+            120.24
+          ],
+          [
+            -24.2,
+            121.1
+          ],
+          [
+            -26.38,
+            122.31
+          ],
+          [
+            -26.79,
+            122.63
+          ],
+          [
+            -29.2,
+            123.32
+          ],
+          [
+            -30.69,
+            123.51
+          ],
+          [
+            -31.69,
+            123.48
+          ],
+          [
+            -32.67,
+            123.32
+          ],
+          [
+            -37.01,
+            122.11
+          ],
+          [
+            -39.47,
+            121.68
+          ],
+          [
+            -42.46,
+            121.55
+          ],
+          [
+            -44.46,
+            121.62
+          ],
+          [
+            -49.44,
+            122.01
+          ],
+          [
+            -50.94,
+            122.02
+          ],
+          [
+            -52.44,
+            121.92
+          ],
+          [
+            -54.42,
+            121.62
+          ],
+          [
+            -59.32,
+            120.64
+          ],
+          [
+            -61.3,
+            120.36
+          ],
+          [
+            -63.29,
+            120.2
+          ],
+          [
+            -69.29,
+            120.01
+          ],
+          [
+            -74.76,
+            119.43
+          ],
+          [
+            -76.23,
+            119.14
+          ],
+          [
+            -79.89,
+            118.05
+          ]
+        ]
+      },
+      {
+        "id": "path_002",
+        "surface": "dirt",
+        "width": 1.11,
+        "centerline": [
+          [
+            37.67,
+            271.84
+          ],
+          [
+            36.29,
+            271.27
+          ],
+          [
+            34.35,
+            270.76
+          ],
+          [
+            33.37,
+            270.56
+          ],
+          [
+            29.89,
+            270.19
+          ],
+          [
+            28.42,
+            269.94
+          ],
+          [
+            26.52,
+            269.31
+          ],
+          [
+            25.18,
+            268.64
+          ],
+          [
+            20.45,
+            265.83
+          ],
+          [
+            17.61,
+            263.79
+          ],
+          [
+            15.75,
+            262.12
+          ],
+          [
+            13.45,
+            259.48
+          ],
+          [
+            12.13,
+            258.13
+          ]
+        ]
+      },
+      {
+        "id": "path_003",
+        "surface": "dirt",
+        "width": 1.09,
+        "centerline": [
+          [
+            -285.84,
+            198.33
+          ],
+          [
+            -285.23,
+            199.7
+          ],
+          [
+            -284.91,
+            200.64
+          ],
+          [
+            -284.21,
+            203.56
+          ],
+          [
+            -283.75,
+            204.99
+          ],
+          [
+            -281.61,
+            210.05
+          ],
+          [
+            -281.14,
+            211.48
+          ],
+          [
+            -280.82,
+            212.94
+          ],
+          [
+            -280.33,
+            216.91
+          ],
+          [
+            -279.8,
+            219.86
+          ],
+          [
+            -279.04,
+            222.76
+          ],
+          [
+            -277.89,
+            226.6
+          ],
+          [
+            -277.24,
+            228.49
+          ],
+          [
+            -275.37,
+            233.12
+          ],
+          [
+            -274.06,
+            235.88
+          ]
+        ]
+      },
+      {
+        "id": "path_004",
+        "surface": "dirt",
+        "width": 0.74,
+        "centerline": [
+          [
+            -14.36,
+            104.0
+          ],
+          [
+            -16.86,
+            104.0
+          ],
+          [
+            -21.86,
+            103.8
+          ],
+          [
+            -25.85,
+            104.04
+          ],
+          [
+            -27.85,
+            104.0
+          ],
+          [
+            -29.83,
+            103.71
+          ],
+          [
+            -33.75,
+            102.91
+          ],
+          [
+            -37.21,
+            102.39
+          ],
+          [
+            -39.69,
+            102.13
+          ],
+          [
+            -41.69,
+            102.13
+          ],
+          [
+            -47.16,
+            102.7
+          ],
+          [
+            -49.63,
+            103.1
+          ],
+          [
+            -51.57,
+            103.59
+          ],
+          [
+            -57.81,
+            105.41
+          ],
+          [
+            -59.26,
+            105.77
+          ],
+          [
+            -61.23,
+            106.13
+          ],
+          [
+            -63.22,
+            106.27
+          ],
+          [
+            -69.21,
+            105.88
+          ],
+          [
+            -72.21,
+            105.97
+          ],
+          [
+            -75.17,
+            106.4
+          ],
+          [
+            -80.0,
+            107.69
+          ],
+          [
+            -81.91,
+            107.99
+          ]
+        ]
+      },
+      {
+        "id": "path_005",
+        "surface": "dirt",
+        "width": 0.72,
+        "centerline": [
+          [
+            -103.68,
+            300.16
+          ],
+          [
+            -102.34,
+            300.85
+          ],
+          [
+            -101.06,
+            301.63
+          ],
+          [
+            -98.29,
+            303.77
+          ],
+          [
+            -94.99,
+            306.03
+          ],
+          [
+            -91.91,
+            308.57
+          ],
+          [
+            -90.27,
+            309.72
+          ],
+          [
+            -85.84,
+            312.04
+          ],
+          [
+            -82.85,
+            313.85
+          ],
+          [
+            -81.53,
+            314.56
+          ],
+          [
+            -76.5,
+            316.79
+          ],
+          [
+            -72.49,
+            318.82
+          ],
+          [
+            -70.76,
+            319.83
+          ],
+          [
+            -66.53,
+            322.5
+          ],
+          [
+            -62.09,
+            324.8
+          ],
+          [
+            -60.39,
+            325.84
+          ],
+          [
+            -58.8,
+            327.06
+          ],
+          [
+            -54.32,
+            331.04
+          ],
+          [
+            -50.41,
+            334.92
+          ],
+          [
+            -48.55,
+            336.59
+          ],
+          [
+            -44.62,
+            339.68
+          ],
+          [
+            -42.96,
+            340.78
+          ],
+          [
+            -39.54,
+            342.86
+          ],
+          [
+            -37.12,
+            344.62
+          ],
+          [
+            -35.22,
+            346.26
+          ],
+          [
+            -31.22,
+            350.02
+          ],
+          [
+            -27.74,
+            352.88
+          ],
+          [
+            -23.96,
+            356.16
+          ],
+          [
+            -22.39,
+            357.39
+          ],
+          [
+            -20.28,
+            358.73
+          ],
+          [
+            -14.93,
+            361.44
+          ],
+          [
+            -10.23,
+            364.29
+          ],
+          [
+            -2.67,
+            368.18
+          ],
+          [
+            4.1,
+            372.44
+          ],
+          [
+            6.57,
+            374.14
+          ],
+          [
+            10.55,
+            377.16
+          ],
+          [
+            12.47,
+            378.77
+          ],
+          [
+            15.95,
+            381.95
+          ]
+        ]
+      }
+    ],
+    "buildings": [
+      {
+        "id": "bld_001",
+        "type": "villa",
+        "center": [
+          -20.44,
+          242.21
+        ],
+        "width": 12.9,
+        "depth": 11.2,
+        "yaw_deg": -81.3,
+        "floors": 2,
+        "roof": "tiled",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_002",
+        "type": "house",
+        "center": [
+          45.17,
+          345.36
+        ],
+        "width": 8.9,
+        "depth": 11.3,
+        "yaw_deg": 38.1,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": true
+      },
+      {
+        "id": "bld_003",
+        "type": "house",
+        "center": [
+          -11.85,
+          171.65
+        ],
+        "width": 9.3,
+        "depth": 10.1,
+        "yaw_deg": -81.2,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "right",
+          "width": 5.3,
+          "depth": 5.4,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_004",
+        "type": "house",
+        "center": [
+          10.28,
+          293.21
+        ],
+        "width": 9.5,
+        "depth": 12.8,
+        "yaw_deg": -63.6,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_005",
+        "type": "water_tower",
+        "center": [
+          -196.57,
+          149.64
+        ],
+        "width": 11.9,
+        "depth": 11.9,
+        "yaw_deg": -23.1,
+        "floors": 1,
+        "roof": "tank",
+        "wall": "wall.concrete",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_006",
+        "type": "moshav_house",
+        "center": [
+          -231.3,
+          220.92
+        ],
+        "width": 10.1,
+        "depth": 10.4,
+        "yaw_deg": -141.3,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_007",
+        "type": "moshav_house",
+        "center": [
+          -116.5,
+          288.37
+        ],
+        "width": 11.1,
+        "depth": 9.9,
+        "yaw_deg": 20.9,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_008",
+        "type": "moshav_house",
+        "center": [
+          -77.01,
+          267.94
+        ],
+        "width": 9.9,
+        "depth": 8.4,
+        "yaw_deg": 179.4,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.white",
+        "annex": {
+          "side": "right",
+          "width": 5.3,
+          "depth": 5.1,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_009",
+        "type": "villa",
+        "center": [
+          -257.48,
+          169.27
+        ],
+        "width": 15.3,
+        "depth": 11.5,
+        "yaw_deg": 46.3,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_010",
+        "type": "villa",
+        "center": [
+          -38.75,
+          162.36
+        ],
+        "width": 12.2,
+        "depth": 12.5,
+        "yaw_deg": 99.5,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_011",
+        "type": "villa",
+        "center": [
+          -133.36,
+          157.75
+        ],
+        "width": 14.3,
+        "depth": 12.2,
+        "yaw_deg": 102.7,
+        "floors": 2,
+        "roof": "tiled",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "left",
+          "width": 8.5,
+          "depth": 9.1,
+          "floors": 2
+        },
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_012",
+        "type": "shed",
+        "center": [
+          -246.71,
+          346.84
+        ],
+        "width": 21.1,
+        "depth": 14.5,
+        "yaw_deg": -46.9,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.block",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_013",
+        "type": "shed",
+        "center": [
+          -262.93,
+          325.58
+        ],
+        "width": 20.8,
+        "depth": 12.4,
+        "yaw_deg": 135.1,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.concrete",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_014",
+        "type": "water_tower",
+        "center": [
+          -276.55,
+          372.39
+        ],
+        "width": 8.0,
+        "depth": 8.0,
+        "yaw_deg": -46.7,
+        "floors": 2,
+        "roof": "tank",
+        "wall": "wall.concrete",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_015",
+        "type": "coop",
+        "center": [
+          -293.21,
+          294.06
+        ],
+        "width": 60.9,
+        "depth": 14.6,
+        "yaw_deg": 147.1,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_016",
+        "type": "coop",
+        "center": [
+          -307.91,
+          271.34
+        ],
+        "width": 60.9,
+        "depth": 14.6,
+        "yaw_deg": 147.1,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_017",
+        "type": "coop",
+        "center": [
+          -322.61,
+          248.62
+        ],
+        "width": 60.9,
+        "depth": 14.6,
+        "yaw_deg": 147.1,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_018",
+        "type": "coop",
+        "center": [
+          -337.3,
+          225.9
+        ],
+        "width": 60.9,
+        "depth": 14.6,
+        "yaw_deg": 147.1,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_019",
+        "type": "moshav_house",
+        "center": [
+          11.27,
+          230.76
+        ],
+        "width": 9.4,
+        "depth": 8.6,
+        "yaw_deg": 115.0,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 5.5,
+          "depth": 3.5,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_020",
+        "type": "greenhouse",
+        "center": [
+          -292.57,
+          435.17
+        ],
+        "width": 36.9,
+        "depth": 30.0,
+        "yaw_deg": -87.7,
+        "floors": 1,
+        "roof": "tunnel",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_021",
+        "type": "moshav_house",
+        "center": [
+          -223.3,
+          328.04
+        ],
+        "width": 9.0,
+        "depth": 8.1,
+        "yaw_deg": -32.1,
+        "floors": 2,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 5.2,
+          "depth": 5.1,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_022",
+        "type": "moshav_house",
+        "center": [
+          -198.88,
+          311.27
+        ],
+        "width": 11.3,
+        "depth": 8.3,
+        "yaw_deg": -34.5,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 5.2,
+          "depth": 4.5,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_023",
+        "type": "house",
+        "center": [
+          38.75,
+          133.78
+        ],
+        "width": 11.0,
+        "depth": 9.4,
+        "yaw_deg": 120.0,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_024",
+        "type": "house",
+        "center": [
+          -121.08,
+          245.86
+        ],
+        "width": 9.3,
+        "depth": 11.0,
+        "yaw_deg": -79.6,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_025",
+        "type": "house",
+        "center": [
+          51.11,
+          270.45
+        ],
+        "width": 10.8,
+        "depth": 10.8,
+        "yaw_deg": -88.0,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": true
+      },
+      {
+        "id": "bld_026",
+        "type": "moshav_house",
+        "center": [
+          -17.81,
+          219.22
+        ],
+        "width": 12.4,
+        "depth": 8.7,
+        "yaw_deg": -82.1,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "right",
+          "width": 6.0,
+          "depth": 4.6,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_027",
+        "type": "house",
+        "center": [
+          68.53,
+          203.03
+        ],
+        "width": 9.8,
+        "depth": 9.9,
+        "yaw_deg": -157.1,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_028",
+        "type": "moshav_house",
+        "center": [
+          -183.76,
+          209.09
+        ],
+        "width": 12.5,
+        "depth": 8.2,
+        "yaw_deg": -131.9,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_029",
+        "type": "villa",
+        "center": [
+          74.5,
+          299.8
+        ],
+        "width": 12.3,
+        "depth": 10.5,
+        "yaw_deg": -168.2,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "right",
+          "width": 7.6,
+          "depth": 7.9,
+          "floors": 2
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_030",
+        "type": "moshav_house",
+        "center": [
+          -219.19,
+          169.75
+        ],
+        "width": 9.1,
+        "depth": 10.1,
+        "yaw_deg": -134.3,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_031",
+        "type": "moshav_house",
+        "center": [
+          -31.15,
+          115.42
+        ],
+        "width": 10.9,
+        "depth": 9.6,
+        "yaw_deg": 99.3,
+        "floors": 2,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 4.7,
+          "depth": 6.0,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_032",
+        "type": "moshav_house",
+        "center": [
+          -89.01,
+          293.02
+        ],
+        "width": 11.5,
+        "depth": 10.1,
+        "yaw_deg": 4.9,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "right",
+          "width": 6.3,
+          "depth": 5.8,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_033",
+        "type": "house",
+        "center": [
+          -62.6,
+          242.13
+        ],
+        "width": 9.2,
+        "depth": 11.7,
+        "yaw_deg": 97.1,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_034",
+        "type": "house",
+        "center": [
+          -65.74,
+          142.05
+        ],
+        "width": 10.3,
+        "depth": 11.4,
+        "yaw_deg": -93.4,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "right",
+          "width": 3.9,
+          "depth": 5.7,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_035",
+        "type": "house",
+        "center": [
+          -1.72,
+          115.01
+        ],
+        "width": 8.8,
+        "depth": 12.4,
+        "yaw_deg": -82.0,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "back",
+          "width": 4.3,
+          "depth": 5.1,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_036",
+        "type": "villa",
+        "center": [
+          53.33,
+          248.42
+        ],
+        "width": 15.5,
+        "depth": 12.0,
+        "yaw_deg": -90.9,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_037",
+        "type": "villa",
+        "center": [
+          -23.71,
+          276.6
+        ],
+        "width": 12.7,
+        "depth": 12.2,
+        "yaw_deg": -152.4,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 8.9,
+          "depth": 7.5,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_038",
+        "type": "house",
+        "center": [
+          -141.92,
+          190.16
+        ],
+        "width": 8.8,
+        "depth": 11.7,
+        "yaw_deg": -1.2,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_039",
+        "type": "house",
+        "center": [
+          -193.97,
+          184.96
+        ],
+        "width": 9.9,
+        "depth": 9.7,
+        "yaw_deg": 145.6,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_040",
+        "type": "moshav_house",
+        "center": [
+          -185.28,
+          241.98
+        ],
+        "width": 12.4,
+        "depth": 9.6,
+        "yaw_deg": 46.0,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "right",
+          "width": 6.2,
+          "depth": 5.6,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      }
+    ],
+    "trees": [
+      {
+        "id": "tree_001",
+        "species": "cypress",
+        "x": -237.55,
+        "y": 327.62,
+        "yaw_deg": 91.7,
+        "height": 13.16,
+        "crown": 2.26
+      },
+      {
+        "id": "tree_002",
+        "species": "cypress",
+        "x": -223.71,
+        "y": 317.95,
+        "yaw_deg": 345.8,
+        "height": 9.87,
+        "crown": 1.69
+      },
+      {
+        "id": "tree_003",
+        "species": "cypress",
+        "x": -204.95,
+        "y": 305.18,
+        "yaw_deg": 21.9,
+        "height": 11.14,
+        "crown": 2.02
+      },
+      {
+        "id": "tree_004",
+        "species": "cypress",
+        "x": -188.19,
+        "y": 294.93,
+        "yaw_deg": 126.0,
+        "height": 12.1,
+        "crown": 1.59
+      },
+      {
+        "id": "tree_005",
+        "species": "cypress",
+        "x": -169.17,
+        "y": 284.14,
+        "yaw_deg": 34.6,
+        "height": 10.2,
+        "crown": 1.76
+      },
+      {
+        "id": "tree_006",
+        "species": "cypress",
+        "x": -147.97,
+        "y": 274.68,
+        "yaw_deg": 301.8,
+        "height": 12.09,
+        "crown": 2.56
+      },
+      {
+        "id": "tree_007",
+        "species": "cypress",
+        "x": -130.79,
+        "y": 274.38,
+        "yaw_deg": 120.2,
+        "height": 9.74,
+        "crown": 2.09
+      },
+      {
+        "id": "tree_008",
+        "species": "cypress",
+        "x": -112.99,
+        "y": 280.76,
+        "yaw_deg": 96.8,
+        "height": 13.54,
+        "crown": 1.54
+      },
+      {
+        "id": "tree_009",
+        "species": "cypress",
+        "x": -77.56,
+        "y": 286.27,
+        "yaw_deg": 351.7,
+        "height": 12.04,
+        "crown": 1.77
+      },
+      {
+        "id": "tree_010",
+        "species": "cypress",
+        "x": -58.46,
+        "y": 285.92,
+        "yaw_deg": 342.6,
+        "height": 12.99,
+        "crown": 1.96
+      },
+      {
+        "id": "tree_011",
+        "species": "cypress",
+        "x": -35.55,
+        "y": 292.1,
+        "yaw_deg": 235.1,
+        "height": 11.04,
+        "crown": 2.08
+      },
+      {
+        "id": "tree_012",
+        "species": "cypress",
+        "x": -17.55,
+        "y": 300.95,
+        "yaw_deg": 133.7,
+        "height": 13.41,
+        "crown": 2.19
+      },
+      {
+        "id": "tree_013",
+        "species": "cypress",
+        "x": 1.09,
+        "y": 308.88,
+        "yaw_deg": 205.4,
+        "height": 14.64,
+        "crown": 2.27
+      },
+      {
+        "id": "tree_014",
+        "species": "cypress",
+        "x": 42.02,
+        "y": 313.13,
+        "yaw_deg": 82.1,
+        "height": 12.92,
+        "crown": 1.76
+      },
+      {
+        "id": "tree_015",
+        "species": "cypress",
+        "x": 58.03,
+        "y": 315.0,
+        "yaw_deg": 171.6,
+        "height": 13.47,
+        "crown": 2.54
+      },
+      {
+        "id": "tree_016",
+        "species": "cypress",
+        "x": 77.35,
+        "y": 319.88,
+        "yaw_deg": 332.1,
+        "height": 13.4,
+        "crown": 1.97
+      },
+      {
+        "id": "tree_017",
+        "species": "cypress",
+        "x": -238.24,
+        "y": 261.32,
+        "yaw_deg": 328.2,
+        "height": 13.11,
+        "crown": 2.04
+      },
+      {
+        "id": "tree_018",
+        "species": "cypress",
+        "x": -226.13,
+        "y": 243.76,
+        "yaw_deg": 294.7,
+        "height": 14.6,
+        "crown": 2.34
+      },
+      {
+        "id": "tree_019",
+        "species": "cypress",
+        "x": -212.07,
+        "y": 226.57,
+        "yaw_deg": 123.8,
+        "height": 14.2,
+        "crown": 2.08
+      },
+      {
+        "id": "tree_020",
+        "species": "cypress",
+        "x": -170.94,
+        "y": 191.86,
+        "yaw_deg": 161.7,
+        "height": 11.42,
+        "crown": 2.2
+      },
+      {
+        "id": "tree_021",
+        "species": "cypress",
+        "x": -127.65,
+        "y": 180.91,
+        "yaw_deg": 112.4,
+        "height": 10.07,
+        "crown": 1.85
+      },
+      {
+        "id": "tree_022",
+        "species": "cypress",
+        "x": -108.05,
+        "y": 185.07,
+        "yaw_deg": 189.7,
+        "height": 12.4,
+        "crown": 1.73
+      },
+      {
+        "id": "tree_023",
+        "species": "cypress",
+        "x": -69.81,
+        "y": 189.11,
+        "yaw_deg": 39.5,
+        "height": 11.23,
+        "crown": 2.51
+      },
+      {
+        "id": "tree_024",
+        "species": "cypress",
+        "x": -51.27,
+        "y": 185.77,
+        "yaw_deg": 105.1,
+        "height": 10.32,
+        "crown": 2.6
+      },
+      {
+        "id": "tree_025",
+        "species": "cypress",
+        "x": -13.66,
+        "y": 187.62,
+        "yaw_deg": 356.5,
+        "height": 8.45,
+        "crown": 2.6
+      },
+      {
+        "id": "tree_026",
+        "species": "cypress",
+        "x": 8.34,
+        "y": 195.6,
+        "yaw_deg": 183.9,
+        "height": 10.35,
+        "crown": 2.14
+      },
+      {
+        "id": "tree_027",
+        "species": "cypress",
+        "x": 29.21,
+        "y": 206.83,
+        "yaw_deg": 136.9,
+        "height": 8.3,
+        "crown": 1.88
+      },
+      {
+        "id": "tree_028",
+        "species": "cypress",
+        "x": 45.42,
+        "y": 214.63,
+        "yaw_deg": 5.6,
+        "height": 12.65,
+        "crown": 1.84
+      },
+      {
+        "id": "tree_029",
+        "species": "cypress",
+        "x": 67.62,
+        "y": 223.57,
+        "yaw_deg": 284.6,
+        "height": 8.3,
+        "crown": 1.84
+      },
+      {
+        "id": "tree_030",
+        "species": "cypress",
+        "x": -248.22,
+        "y": 256.99,
+        "yaw_deg": 202.2,
+        "height": 14.98,
+        "crown": 2.36
+      },
+      {
+        "id": "tree_031",
+        "species": "cypress",
+        "x": -238.08,
+        "y": 241.97,
+        "yaw_deg": 329.0,
+        "height": 9.37,
+        "crown": 2.4
+      },
+      {
+        "id": "tree_032",
+        "species": "cypress",
+        "x": -224.06,
+        "y": 224.0,
+        "yaw_deg": 154.3,
+        "height": 11.03,
+        "crown": 1.99
+      },
+      {
+        "id": "tree_033",
+        "species": "cypress",
+        "x": -213.11,
+        "y": 211.56,
+        "yaw_deg": 138.7,
+        "height": 11.22,
+        "crown": 2.55
+      },
+      {
+        "id": "tree_034",
+        "species": "cypress",
+        "x": -200.18,
+        "y": 199.26,
+        "yaw_deg": 250.4,
+        "height": 12.72,
+        "crown": 2.51
+      },
+      {
+        "id": "tree_035",
+        "species": "cypress",
+        "x": -186.64,
+        "y": 188.9,
+        "yaw_deg": 153.3,
+        "height": 12.12,
+        "crown": 1.68
+      },
+      {
+        "id": "tree_036",
+        "species": "cypress",
+        "x": -145.27,
+        "y": 170.11,
+        "yaw_deg": 79.4,
+        "height": 13.42,
+        "crown": 2.01
+      },
+      {
+        "id": "tree_037",
+        "species": "cypress",
+        "x": -103.55,
+        "y": 175.22,
+        "yaw_deg": 348.9,
+        "height": 13.64,
+        "crown": 1.94
+      },
+      {
+        "id": "tree_038",
+        "species": "cypress",
+        "x": -86.7,
+        "y": 179.26,
+        "yaw_deg": 5.1,
+        "height": 13.96,
+        "crown": 1.72
+      },
+      {
+        "id": "tree_039",
+        "species": "cypress",
+        "x": -68.13,
+        "y": 177.82,
+        "yaw_deg": 104.5,
+        "height": 8.49,
+        "crown": 2.1
+      },
+      {
+        "id": "tree_040",
+        "species": "cypress",
+        "x": -46.17,
+        "y": 174.24,
+        "yaw_deg": 270.9,
+        "height": 14.12,
+        "crown": 2.33
+      },
+      {
+        "id": "tree_041",
+        "species": "cypress",
+        "x": 11.11,
+        "y": 185.06,
+        "yaw_deg": 306.4,
+        "height": 10.2,
+        "crown": 2.46
+      },
+      {
+        "id": "tree_042",
+        "species": "cypress",
+        "x": 26.13,
+        "y": 192.81,
+        "yaw_deg": 231.4,
+        "height": 14.61,
+        "crown": 2.22
+      },
+      {
+        "id": "tree_043",
+        "species": "cypress",
+        "x": 42.54,
+        "y": 201.73,
+        "yaw_deg": 349.4,
+        "height": 12.31,
+        "crown": 2.24
+      },
+      {
+        "id": "tree_044",
+        "species": "cypress",
+        "x": 61.33,
+        "y": 209.51,
+        "yaw_deg": 122.8,
+        "height": 11.75,
+        "crown": 1.97
+      },
+      {
+        "id": "tree_045",
+        "species": "date_palm",
+        "x": -12.09,
+        "y": 232.8,
+        "yaw_deg": 302.6,
+        "height": 7.43
+      },
+      {
+        "id": "tree_046",
+        "species": "olive",
+        "x": -12.2,
+        "y": 248.05,
+        "yaw_deg": 235.3,
+        "height": 4.75,
+        "crown": 4.65
+      },
+      {
+        "id": "tree_047",
+        "species": "pine",
+        "x": -9.96,
+        "y": 236.26,
+        "yaw_deg": 168.8
+      },
+      {
+        "id": "tree_048",
+        "species": "citrus",
+        "x": -22.36,
+        "y": 232.02,
+        "yaw_deg": 35.5,
+        "height": 3.21,
+        "crown": 2.99
+      },
+      {
+        "id": "tree_049",
+        "species": "olive",
+        "x": 33.57,
+        "y": 352.51,
+        "yaw_deg": 27.2,
+        "height": 4.37,
+        "crown": 5.85
+      },
+      {
+        "id": "tree_050",
+        "species": "pine",
+        "x": 40.53,
+        "y": 353.38,
+        "yaw_deg": 53.9
+      },
+      {
+        "id": "tree_051",
+        "species": "olive",
+        "x": 51.75,
+        "y": 338.54,
+        "yaw_deg": 326.7,
+        "height": 4.2,
+        "crown": 5.25
+      },
+      {
+        "id": "tree_052",
+        "species": "olive",
+        "x": 1.54,
+        "y": 167.35,
+        "yaw_deg": 116.6,
+        "height": 4.16,
+        "crown": 4.72
+      },
+      {
+        "id": "tree_053",
+        "species": "pine",
+        "x": -2.95,
+        "y": 169.21,
+        "yaw_deg": 178.5
+      },
+      {
+        "id": "tree_054",
+        "species": "citrus",
+        "x": 10.69,
+        "y": 283.93,
+        "yaw_deg": 116.0,
+        "height": 3.48,
+        "crown": 3.41
+      },
+      {
+        "id": "tree_055",
+        "species": "date_palm",
+        "x": 13.86,
+        "y": 280.16,
+        "yaw_deg": 31.2,
+        "height": 10.67
+      },
+      {
+        "id": "tree_056",
+        "species": "cypress",
+        "x": 22.68,
+        "y": 299.03,
+        "yaw_deg": 248.7,
+        "height": 8.63,
+        "crown": 1.62
+      },
+      {
+        "id": "tree_057",
+        "species": "cypress",
+        "x": 3.94,
+        "y": 285.36,
+        "yaw_deg": 175.5,
+        "height": 14.6,
+        "crown": 2.59
+      },
+      {
+        "id": "tree_058",
+        "species": "olive",
+        "x": -222.1,
+        "y": 212.05,
+        "yaw_deg": 112.2,
+        "height": 3.54,
+        "crown": 4.67
+      },
+      {
+        "id": "tree_059",
+        "species": "olive",
+        "x": -240.68,
+        "y": 219.81,
+        "yaw_deg": 105.8,
+        "height": 5.5,
+        "crown": 5.39
+      },
+      {
+        "id": "tree_060",
+        "species": "olive",
+        "x": -222.27,
+        "y": 222.92,
+        "yaw_deg": 351.9,
+        "height": 4.44,
+        "crown": 5.98
+      },
+      {
+        "id": "tree_061",
+        "species": "date_palm",
+        "x": -244.22,
+        "y": 222.46,
+        "yaw_deg": 250.7,
+        "height": 7.1
+      },
+      {
+        "id": "tree_062",
+        "species": "olive",
+        "x": -126.22,
+        "y": 287.13,
+        "yaw_deg": 332.5,
+        "height": 5.82,
+        "crown": 4.22
+      },
+      {
+        "id": "tree_063",
+        "species": "cypress",
+        "x": -114.31,
+        "y": 280.69,
+        "yaw_deg": 41.1,
+        "height": 8.42,
+        "crown": 1.77
+      },
+      {
+        "id": "tree_064",
+        "species": "fan_palm",
+        "x": -106.36,
+        "y": 289.85,
+        "yaw_deg": 1.4
+      },
+      {
+        "id": "tree_065",
+        "species": "olive",
+        "x": -120.49,
+        "y": 278.33,
+        "yaw_deg": 230.7,
+        "height": 5.71,
+        "crown": 5.92
+      },
+      {
+        "id": "tree_066",
+        "species": "olive",
+        "x": -65.6,
+        "y": 273.97,
+        "yaw_deg": 273.4,
+        "height": 5.72,
+        "crown": 5.43
+      },
+      {
+        "id": "tree_067",
+        "species": "olive",
+        "x": -84.56,
+        "y": 275.04,
+        "yaw_deg": 25.6,
+        "height": 5.63,
+        "crown": 5.09
+      },
+      {
+        "id": "tree_068",
+        "species": "citrus",
+        "x": -84.22,
+        "y": 270.91,
+        "yaw_deg": 61.7,
+        "height": 3.79,
+        "crown": 3.89
+      },
+      {
+        "id": "tree_069",
+        "species": "pine",
+        "x": -81.01,
+        "y": 256.81,
+        "yaw_deg": 9.3
+      },
+      {
+        "id": "tree_070",
+        "species": "pine",
+        "x": -266.79,
+        "y": 180.1,
+        "yaw_deg": 268.3
+      },
+      {
+        "id": "tree_071",
+        "species": "citrus",
+        "x": -39.48,
+        "y": 148.84,
+        "yaw_deg": 32.9,
+        "height": 4.02,
+        "crown": 3.08
+      },
+      {
+        "id": "tree_072",
+        "species": "cypress",
+        "x": -48.62,
+        "y": 158.99,
+        "yaw_deg": 241.7,
+        "height": 11.81,
+        "crown": 1.52
+      },
+      {
+        "id": "tree_073",
+        "species": "olive",
+        "x": -36.26,
+        "y": 171.48,
+        "yaw_deg": 41.5,
+        "height": 4.49,
+        "crown": 3.68
+      },
+      {
+        "id": "tree_074",
+        "species": "olive",
+        "x": -41.32,
+        "y": 151.37,
+        "yaw_deg": 197.3,
+        "height": 5.48,
+        "crown": 5.74
+      },
+      {
+        "id": "tree_075",
+        "species": "cypress",
+        "x": -141.82,
+        "y": 140.36,
+        "yaw_deg": 343.2,
+        "height": 9.2,
+        "crown": 2.19
+      },
+      {
+        "id": "tree_076",
+        "species": "olive",
+        "x": 4.32,
+        "y": 230.71,
+        "yaw_deg": 90.0,
+        "height": 5.93,
+        "crown": 4.03
+      },
+      {
+        "id": "tree_077",
+        "species": "cypress",
+        "x": -223.07,
+        "y": 340.24,
+        "yaw_deg": 354.4,
+        "height": 11.99,
+        "crown": 1.69
+      },
+      {
+        "id": "tree_078",
+        "species": "citrus",
+        "x": -212.77,
+        "y": 310.35,
+        "yaw_deg": 339.0,
+        "height": 3.99,
+        "crown": 3.84
+      },
+      {
+        "id": "tree_079",
+        "species": "cypress",
+        "x": 31.83,
+        "y": 122.17,
+        "yaw_deg": 187.7,
+        "height": 10.01,
+        "crown": 1.99
+      },
+      {
+        "id": "tree_080",
+        "species": "cypress",
+        "x": 31.93,
+        "y": 146.48,
+        "yaw_deg": 183.7,
+        "height": 9.12,
+        "crown": 1.66
+      },
+      {
+        "id": "tree_081",
+        "species": "pine",
+        "x": -113.85,
+        "y": 239.42,
+        "yaw_deg": 296.6
+      },
+      {
+        "id": "tree_082",
+        "species": "cypress",
+        "x": 44.73,
+        "y": 260.33,
+        "yaw_deg": 66.3,
+        "height": 14.6,
+        "crown": 1.73
+      },
+      {
+        "id": "tree_083",
+        "species": "cypress",
+        "x": 60.33,
+        "y": 282.99,
+        "yaw_deg": 135.8,
+        "height": 14.4,
+        "crown": 2.09
+      },
+      {
+        "id": "tree_084",
+        "species": "olive",
+        "x": 45.7,
+        "y": 280.59,
+        "yaw_deg": 73.9,
+        "height": 5.78,
+        "crown": 5.71
+      },
+      {
+        "id": "tree_085",
+        "species": "pine",
+        "x": -9.89,
+        "y": 212.12,
+        "yaw_deg": 19.2
+      },
+      {
+        "id": "tree_086",
+        "species": "pine",
+        "x": -10.45,
+        "y": 219.54,
+        "yaw_deg": 13.3
+      },
+      {
+        "id": "tree_087",
+        "species": "citrus",
+        "x": 76.83,
+        "y": 208.42,
+        "yaw_deg": 284.0,
+        "height": 3.35,
+        "crown": 3.09
+      },
+      {
+        "id": "tree_088",
+        "species": "citrus",
+        "x": 61.93,
+        "y": 196.7,
+        "yaw_deg": 227.6,
+        "height": 4.12,
+        "crown": 3.14
+      },
+      {
+        "id": "tree_089",
+        "species": "citrus",
+        "x": 63.53,
+        "y": 191.81,
+        "yaw_deg": 45.4,
+        "height": 2.84,
+        "crown": 3.42
+      },
+      {
+        "id": "tree_090",
+        "species": "pine",
+        "x": 76.6,
+        "y": 192.04,
+        "yaw_deg": 153.9
+      },
+      {
+        "id": "tree_091",
+        "species": "olive",
+        "x": -179.93,
+        "y": 202.11,
+        "yaw_deg": 212.6,
+        "height": 4.92,
+        "crown": 5.72
+      },
+      {
+        "id": "tree_092",
+        "species": "citrus",
+        "x": -188.78,
+        "y": 213.99,
+        "yaw_deg": 130.8,
+        "height": 4.16,
+        "crown": 3.78
+      },
+      {
+        "id": "tree_093",
+        "species": "citrus",
+        "x": 58.31,
+        "y": 288.79,
+        "yaw_deg": 191.0,
+        "height": 4.01,
+        "crown": 3.13
+      },
+      {
+        "id": "tree_094",
+        "species": "olive",
+        "x": 76.24,
+        "y": 286.08,
+        "yaw_deg": 44.7,
+        "height": 5.92,
+        "crown": 3.59
+      },
+      {
+        "id": "tree_095",
+        "species": "date_palm",
+        "x": 86.79,
+        "y": 291.48,
+        "yaw_deg": 9.8,
+        "height": 6.79
+      },
+      {
+        "id": "tree_096",
+        "species": "fan_palm",
+        "x": 85.06,
+        "y": 305.5,
+        "yaw_deg": 87.5
+      },
+      {
+        "id": "tree_097",
+        "species": "date_palm",
+        "x": -214.06,
+        "y": 163.59,
+        "yaw_deg": 335.2,
+        "height": 8.45
+      },
+      {
+        "id": "tree_098",
+        "species": "olive",
+        "x": -224.55,
+        "y": 162.49,
+        "yaw_deg": 103.6,
+        "height": 4.79,
+        "crown": 3.8
+      },
+      {
+        "id": "tree_099",
+        "species": "olive",
+        "x": -227.31,
+        "y": 165.81,
+        "yaw_deg": 287.0,
+        "height": 4.3,
+        "crown": 5.81
+      },
+      {
+        "id": "tree_100",
+        "species": "date_palm",
+        "x": -219.88,
+        "y": 180.38,
+        "yaw_deg": 104.3,
+        "height": 6.42
+      },
+      {
+        "id": "tree_101",
+        "species": "fan_palm",
+        "x": -25.01,
+        "y": 129.76,
+        "yaw_deg": 112.8
+      },
+      {
+        "id": "tree_102",
+        "species": "citrus",
+        "x": -82.35,
+        "y": 301.34,
+        "yaw_deg": 219.8,
+        "height": 3.54,
+        "crown": 4.19
+      },
+      {
+        "id": "tree_103",
+        "species": "date_palm",
+        "x": -87.87,
+        "y": 305.43,
+        "yaw_deg": 223.8,
+        "height": 5.73
+      },
+      {
+        "id": "tree_104",
+        "species": "olive",
+        "x": -70.77,
+        "y": 303.23,
+        "yaw_deg": 173.4,
+        "height": 3.55,
+        "crown": 5.6
+      },
+      {
+        "id": "tree_105",
+        "species": "citrus",
+        "x": -53.93,
+        "y": 252.46,
+        "yaw_deg": 168.4,
+        "height": 3.17,
+        "crown": 3.79
+      },
+      {
+        "id": "tree_106",
+        "species": "cypress",
+        "x": -70.2,
+        "y": 230.22,
+        "yaw_deg": 288.1,
+        "height": 11.4,
+        "crown": 1.64
+      },
+      {
+        "id": "tree_107",
+        "species": "fan_palm",
+        "x": -62.43,
+        "y": 229.31,
+        "yaw_deg": 231.6
+      },
+      {
+        "id": "tree_108",
+        "species": "pine",
+        "x": -69.24,
+        "y": 251.84,
+        "yaw_deg": 280.8
+      },
+      {
+        "id": "tree_109",
+        "species": "olive",
+        "x": -67.88,
+        "y": 151.31,
+        "yaw_deg": 351.8,
+        "height": 4.19,
+        "crown": 4.98
+      },
+      {
+        "id": "tree_110",
+        "species": "date_palm",
+        "x": -4.45,
+        "y": 106.26,
+        "yaw_deg": 359.9,
+        "height": 8.22
+      },
+      {
+        "id": "tree_111",
+        "species": "olive",
+        "x": -5.01,
+        "y": 127.08,
+        "yaw_deg": 314.8,
+        "height": 4.05,
+        "crown": 5.67
+      },
+      {
+        "id": "tree_112",
+        "species": "fan_palm",
+        "x": 66.77,
+        "y": 248.88,
+        "yaw_deg": 271.8
+      },
+      {
+        "id": "tree_113",
+        "species": "fan_palm",
+        "x": 62.53,
+        "y": 258.13,
+        "yaw_deg": 259.3
+      },
+      {
+        "id": "tree_114",
+        "species": "olive",
+        "x": 53.74,
+        "y": 233.89,
+        "yaw_deg": 208.8,
+        "height": 4.49,
+        "crown": 6.26
+      },
+      {
+        "id": "tree_115",
+        "species": "citrus",
+        "x": 65.22,
+        "y": 253.97,
+        "yaw_deg": 210.9,
+        "height": 3.3,
+        "crown": 4.07
+      },
+      {
+        "id": "tree_116",
+        "species": "citrus",
+        "x": -29.58,
+        "y": 264.72,
+        "yaw_deg": 28.8,
+        "height": 3.98,
+        "crown": 2.99
+      },
+      {
+        "id": "tree_117",
+        "species": "citrus",
+        "x": -14.2,
+        "y": 284.88,
+        "yaw_deg": 272.0,
+        "height": 3.03,
+        "crown": 3.61
+      },
+      {
+        "id": "tree_118",
+        "species": "citrus",
+        "x": -4.19,
+        "y": 274.77,
+        "yaw_deg": 263.0,
+        "height": 4.08,
+        "crown": 2.9
+      },
+      {
+        "id": "tree_119",
+        "species": "olive",
+        "x": -30.88,
+        "y": 269.72,
+        "yaw_deg": 208.2,
+        "height": 5.04,
+        "crown": 6.08
+      },
+      {
+        "id": "tree_120",
+        "species": "date_palm",
+        "x": -137.71,
+        "y": 180.65,
+        "yaw_deg": 22.2,
+        "height": 9.62
+      },
+      {
+        "id": "tree_121",
+        "species": "citrus",
+        "x": -142.12,
+        "y": 202.81,
+        "yaw_deg": 2.7,
+        "height": 4.2,
+        "crown": 3.28
+      },
+      {
+        "id": "tree_122",
+        "species": "fan_palm",
+        "x": -135.52,
+        "y": 183.63,
+        "yaw_deg": 173.6
+      },
+      {
+        "id": "tree_123",
+        "species": "cypress",
+        "x": -134.87,
+        "y": 199.84,
+        "yaw_deg": 110.6,
+        "height": 12.87,
+        "crown": 2.08
+      },
+      {
+        "id": "tree_124",
+        "species": "cypress",
+        "x": -203.78,
+        "y": 190.21,
+        "yaw_deg": 129.0,
+        "height": 14.8,
+        "crown": 1.91
+      },
+      {
+        "id": "tree_125",
+        "species": "citrus",
+        "x": -203.18,
+        "y": 176.96,
+        "yaw_deg": 196.3,
+        "height": 4.32,
+        "crown": 3.98
+      },
+      {
+        "id": "tree_126",
+        "species": "date_palm",
+        "x": -182.61,
+        "y": 178.37,
+        "yaw_deg": 161.0,
+        "height": 9.6
+      },
+      {
+        "id": "tree_127",
+        "species": "olive",
+        "x": -205.91,
+        "y": 184.79,
+        "yaw_deg": 229.3,
+        "height": 5.35,
+        "crown": 5.22
+      },
+      {
+        "id": "tree_128",
+        "species": "date_palm",
+        "x": -194.16,
+        "y": 251.26,
+        "yaw_deg": 162.7,
+        "height": 5.26
+      },
+      {
+        "id": "tree_129",
+        "species": "fan_palm",
+        "x": -189.53,
+        "y": 230.97,
+        "yaw_deg": 33.2
+      }
+    ],
+    "groves": [
+      {
+        "id": "grove_001",
+        "species": "olive",
+        "polygon": [
+          [
+            99.7,
+            212.7
+          ],
+          [
+            216.6,
+            188.4
+          ],
+          [
+            225.9,
+            233.3
+          ],
+          [
+            109.0,
+            257.6
+          ]
+        ],
+        "spacing_m": 6.8,
+        "row_deg": -11.7,
+        "forest": false
+      },
+      {
+        "id": "grove_002",
+        "species": "citrus",
+        "polygon": [
+          [
+            -276.6,
+            36.1
+          ],
+          [
+            -203.3,
+            -38.5
+          ],
+          [
+            -164.5,
+            -0.4
+          ],
+          [
+            -237.8,
+            74.2
+          ]
+        ],
+        "spacing_m": 6.1,
+        "row_deg": -45.5,
+        "forest": false
+      },
+      {
+        "id": "grove_003",
+        "species": "citrus",
+        "polygon": [
+          [
+            30.2,
+            37.9
+          ],
+          [
+            -13.4,
+            -6.6
+          ],
+          [
+            -62.8,
+            41.8
+          ],
+          [
+            -19.2,
+            86.4
+          ],
+          [
+            -16.7,
+            75.2
+          ],
+          [
+            -18.5,
+            69.0
+          ],
+          [
+            -15.9,
+            63.5
+          ],
+          [
+            -12.1,
+            61.2
+          ],
+          [
+            -6.9,
+            61.2
+          ],
+          [
+            -2.6,
+            64.2
+          ],
+          [
+            -0.7,
+            68.2
+          ]
+        ],
+        "spacing_m": 7.0,
+        "row_deg": 45.6,
+        "forest": false
+      },
+      {
+        "id": "grove_004",
+        "species": "citrus",
+        "polygon": [
+          [
+            -285.4,
+            135.8
+          ],
+          [
+            -347.5,
+            96.4
+          ],
+          [
+            -410.5,
+            195.5
+          ],
+          [
+            -359.9,
+            227.7
+          ],
+          [
+            -332.4,
+            209.9
+          ]
+        ],
+        "spacing_m": 6.2,
+        "row_deg": -57.6,
+        "forest": false
+      },
+      {
+        "id": "grove_005",
+        "species": "pine",
+        "polygon": [
+          [
+            -379.2,
+            -72.8
+          ],
+          [
+            -334.4,
+            -107.5
+          ],
+          [
+            -292.3,
+            -53.0
+          ],
+          [
+            -337.1,
+            -18.3
+          ]
+        ],
+        "spacing_m": 7.0,
+        "row_deg": -37.7,
+        "forest": true
+      }
+    ]
+  },
+  "scatter": "galilee_summer",
+  "history": [],
+  "_comment": "Step 6, style 'moshav': the Step 5 settlement planted by synth/spec/vegetation.py (yard and street trees, groves, forest) with the wild ground cover. Generated once; edit freely."
+}

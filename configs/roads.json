@@ -1,0 +1,253 @@
+{
+  "_comment": "Road classes for scene specs (a spec road names its `class`; width/shoulder/grade come from here unless the road overrides them) and network styles for synth/spec/network.py. max_grade = steepest allowed longitudinal slope; profile_smooth_m = how strongly the vertical profile is smoothed; blend_m = how far cut/fill blends back into the terrain. min_radius_m = tightest allowed curve (main road is faired to it; 50 m = mountain-road switchback). A road that must climb in hairpins keeps 0.6 x its class radius, recorded as its own min_radius_m. Grade limits follow Galilee practice: village lanes and dirt tracks climb up to 17-18 %. corner_radius_m = kerb radius of the rounded corner where a road joins another (the smaller road's applies).",
+  "routing_res_m": 4.0,
+  "classes": {
+    "main": {
+      "kind": "road.asphalt",
+      "width": 7.0,
+      "shoulder": 1.5,
+      "max_grade": 0.08,
+      "smooth_m": 22,
+      "profile_smooth_m": 25,
+      "blend_m": 6,
+      "markings": true,
+      "min_radius_m": 50,
+      "corner_radius_m": 9.0
+    },
+    "street": {
+      "kind": "road.asphalt",
+      "width": 5.5,
+      "shoulder": 0.6,
+      "max_grade": 0.12,
+      "smooth_m": 8,
+      "profile_smooth_m": 12,
+      "blend_m": 4,
+      "markings": false,
+      "min_radius_m": 15,
+      "corner_radius_m": 6.0
+    },
+    "lane": {
+      "kind": "road.asphalt",
+      "width": 4.0,
+      "shoulder": 0.3,
+      "max_grade": 0.17,
+      "smooth_m": 5,
+      "profile_smooth_m": 8,
+      "blend_m": 3,
+      "markings": false,
+      "min_radius_m": 10,
+      "corner_radius_m": 4.0
+    },
+    "track": {
+      "kind": "road.dirt",
+      "width": 3.6,
+      "shoulder": 0.0,
+      "max_grade": 0.18,
+      "smooth_m": 5,
+      "profile_smooth_m": 8,
+      "blend_m": 3,
+      "markings": false,
+      "min_radius_m": 10,
+      "corner_radius_m": 4.0
+    }
+  },
+  "paths": {
+    "dirt": {
+      "kind": "path.footpath",
+      "width": [
+        0.7,
+        1.2
+      ]
+    },
+    "paved": {
+      "kind": "path.sidewalk",
+      "width": [
+        1.5,
+        2.2
+      ]
+    }
+  },
+  "networks": {
+    "_comment": "Settlement street layouts (synth/spec/network.py). contour: streets along the contours (count, spacing between them down the slope, length, follow = how strictly they follow the contour 0..1). connectors: cross streets linking neighbouring contour streets every `every_m`, plus dead-end alleys off the outer streets (alley_p, alley_m). culdesacs: moshav comb off each contour street (spacing, length, probability on the uphill / downhill side, turning-circle radius). access_count: roads joining the main road. tracks: `continue` = dirt tracks continuing from street ends, `field` = tracks of straight legs. frontage: building spacing along a street and setback from its edge; second_row_p = house behind a house. footpaths: count.",
+    "moshav": {
+      "contour": {
+        "count": 2,
+        "spacing_m": [
+          95,
+          125
+        ],
+        "length_m": [
+          300,
+          420
+        ],
+        "class": "street",
+        "follow": 0.9
+      },
+      "connectors": {
+        "every_m": [
+          170,
+          240
+        ],
+        "alley_p": 0.0,
+        "alley_m": [
+          20,
+          40
+        ]
+      },
+      "culdesacs": {
+        "class": "street",
+        "spacing_m": [
+          40,
+          52
+        ],
+        "length_m": [
+          70,
+          115
+        ],
+        "p_up": 0.85,
+        "p_down": 0.35,
+        "circle_r": 8.0
+      },
+      "access_count": 1,
+      "tracks": {
+        "continue": 2,
+        "field": 2,
+        "length_m": [
+          150,
+          280
+        ],
+        "leg_m": [
+          80,
+          150
+        ]
+      },
+      "frontage": {
+        "spacing_m": [
+          22,
+          30
+        ],
+        "setback_m": [
+          4,
+          7
+        ],
+        "second_row_p": 0.0
+      },
+      "footpaths": 5
+    },
+    "arab_village": {
+      "contour": {
+        "count": 5,
+        "spacing_m": [
+          34,
+          50
+        ],
+        "length_m": [
+          200,
+          330
+        ],
+        "class": "lane",
+        "follow": 0.95
+      },
+      "connectors": {
+        "every_m": [
+          55,
+          95
+        ],
+        "alley_p": 0.35,
+        "alley_m": [
+          20,
+          45
+        ]
+      },
+      "access_count": 2,
+      "tracks": {
+        "continue": 2,
+        "field": 2,
+        "length_m": [
+          120,
+          250
+        ],
+        "leg_m": [
+          70,
+          130
+        ]
+      },
+      "frontage": {
+        "spacing_m": [
+          13,
+          18
+        ],
+        "setback_m": [
+          1.0,
+          3.0
+        ],
+        "second_row_p": 0.5
+      },
+      "footpaths": 7
+    },
+    "town": {
+      "contour": {
+        "count": 4,
+        "spacing_m": [
+          65,
+          80
+        ],
+        "length_m": [
+          280,
+          380
+        ],
+        "class": "street",
+        "follow": 0.8
+      },
+      "connectors": {
+        "every_m": [
+          85,
+          110
+        ],
+        "alley_p": 0.0,
+        "alley_m": [
+          20,
+          40
+        ]
+      },
+      "access_count": 2,
+      "tracks": {
+        "continue": 1,
+        "field": 1,
+        "length_m": [
+          120,
+          220
+        ],
+        "leg_m": [
+          80,
+          140
+        ]
+      },
+      "frontage": {
+        "spacing_m": [
+          26,
+          38
+        ],
+        "setback_m": [
+          5,
+          8
+        ],
+        "second_row_p": 0.3
+      },
+      "footpaths": 4
+    }
+  },
+  "sections": {
+    "_comment": "Cross-sections a road may have (spec road `section`). two_lane: one carriageway, dashed centre line and edge lines. divided: two carriageways (each `lanes` lanes of `lane_m`) either side of a raised median (`median_m`, kerbs `kerb_h_m` high) that opens at junctions; total width = 2 x lanes x lane_m + median_m.",
+    "two_lane": {
+      "markings": true
+    },
+    "divided": {
+      "lanes": 2,
+      "lane_m": 3.25,
+      "median_m": 2.5,
+      "kerb_h_m": 0.18,
+      "markings": true
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "spec_version": 1,
+  "scene_id": "step2_terrain",
+  "seed": 2,
+  "region": {
+    "type": "dem",
+    "_comment": "Real terrain: Copernicus GLO-30 (30 m) over the Korazim / Rosh Pina AOI (configs/terrain.json). site_rank picks one of the ranked candidate sites (0 = best for a village: moderate slopes, some relief). Resolved coordinates are written back under 'resolved'.",
+    "source": "copernicus_glo30",
+    "aoi": "korazim",
+    "core_size_m": 1000,
+    "site_rank": 0,
+    "water_level_abs": -210.5
+  },
+  "environment": {
+    "season": "summer",
+    "date": "2025-06-15",
+    "local_time": "09:30",
+    "utc_offset_h": 3,
+    "haze_visibility_km": 40
+  },
+  "terrain_material": {
+    "_comment": "Natural cover = world-space noise (noise_m wavelength, coverage = area fraction) and slope; `splat` adds the planner's human-made channel (0 = road shoulders, 1 = trampled). Later layers lie on top. `adjust` = seasonal colour correction (hue 0.5 = none).",
+    "base": {
+      "role": "terrain.soil",
+      "adjust": {
+        "hue": 0.5,
+        "saturation": 0.9,
+        "value": 0.95
+      }
+    },
+    "layers": [
+      {
+        "role": "terrain.grass",
+        "noise_m": 28,
+        "coverage": 0.65,
+        "slope_max_deg": 32,
+        "adjust": {
+          "hue": 0.512,
+          "saturation": 0.72,
+          "value": 2.5
+        }
+      },
+      {
+        "role": "terrain.soil_sandy",
+        "noise_m": 80,
+        "coverage": 0.12,
+        "adjust": {
+          "hue": 0.5,
+          "saturation": 0.85,
+          "value": 0.95
+        }
+      },
+      {
+        "role": "terrain.gravel",
+        "noise_m": 18,
+        "coverage": 0.1,
+        "adjust": {
+          "hue": 0.5,
+          "saturation": 0.7,
+          "value": 0.95
+        }
+      },
+      {
+        "role": "terrain.dirt",
+        "coverage": 0.0,
+        "splat": 0,
+        "adjust": {
+          "hue": 0.5,
+          "saturation": 0.5,
+          "value": 1.25
+        }
+      },
+      {
+        "role": "terrain.trampled",
+        "coverage": 0.0,
+        "splat": 1,
+        "adjust": {
+          "hue": 0.5,
+          "saturation": 0.6,
+          "value": 1.5
+        }
+      },
+      {
+        "role": "terrain.rocky",
+        "noise_m": 25,
+        "coverage": 0.1,
+        "slope_deg": [
+          16,
+          30
+        ],
+        "adjust": {
+          "hue": 0.495,
+          "saturation": 0.35,
+          "value": 0.72
+        }
+      }
+    ]
+  },
+  "cameras": [
+    {
+      "id": "cam_nadir",
+      "target": [
+        0,
+        0
+      ],
+      "tilt_deg": 0,
+      "heading_deg": 0,
+      "gsd_m": 1.0,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_oblique",
+      "target": [
+        0,
+        0
+      ],
+      "tilt_deg": 45,
+      "heading_deg": 30,
+      "gsd_m": 0.45,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_horizon",
+      "target": [
+        0,
+        0
+      ],
+      "tilt_deg": 74,
+      "heading_deg": 200,
+      "gsd_m": 0.25,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    }
+  ],
+  "render": {
+    "samples": 64,
+    "adaptive_threshold": 0.01,
+    "denoise": false,
+    "max_bounces": 6,
+    "filter_width": 1.5,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "texture_tier": 1024
+  },
+  "post": {
+    "visibility_km": [
+      40,
+      50
+    ],
+    "psf_sigma_px": [
+      0.5,
+      0.6
+    ],
+    "noise": [
+      0.004,
+      0.006
+    ],
+    "vignette": [
+      0.05,
+      0.07
+    ],
+    "jpeg_quality": null
+  },
+  "entities": {
+    "roads": [],
+    "paths": [],
+    "buildings": [],
+    "trees": []
+  },
+  "scatter": {},
+  "history": []
+}

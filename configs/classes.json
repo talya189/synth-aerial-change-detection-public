@@ -1,0 +1,153 @@
+{
+  "_comment": "Semantic taxonomy. `kinds` are glob patterns matched against each object's kind (first match wins). Pixels with no object (sky) get `sky_class`.",
+  "default_class": 0,
+  "_instance_comment": "Kinds matching `instance_kinds` get a unique instance id per object; all other kinds (mass-scattered grass, shrubs, stones) share one id per kind and are 0 in instance masks ('stuff'). Blender's pass_index is limited to 32767.",
+  "instance_kinds": [
+    "building.*",
+    "veg.tree.*",
+    "veg.grove.*",
+    "veg.palm.*",
+    "veg.fan_palm",
+    "road.*",
+    "path.*",
+    "wall.*",
+    "terrain.*",
+    "water",
+    "prop.*"
+  ],
+  "sky_class": 8,
+  "ignore_class": 255,
+  "classes": [
+    {
+      "id": 0,
+      "name": "background",
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "kinds": [
+        "water"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "building",
+      "color": [
+        230,
+        25,
+        75
+      ],
+      "kinds": [
+        "building.*"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "asphalt_road",
+      "color": [
+        80,
+        80,
+        80
+      ],
+      "kinds": [
+        "road.asphalt"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "dirt_road",
+      "color": [
+        170,
+        110,
+        40
+      ],
+      "kinds": [
+        "road.dirt",
+        "road.gravel"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "path_sidewalk",
+      "color": [
+        255,
+        225,
+        25
+      ],
+      "kinds": [
+        "path.*"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "vegetation",
+      "color": [
+        60,
+        180,
+        75
+      ],
+      "kinds": [
+        "veg.*"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "bare_terrain",
+      "color": [
+        210,
+        190,
+        150
+      ],
+      "kinds": [
+        "terrain.*"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "rock",
+      "color": [
+        128,
+        128,
+        160
+      ],
+      "kinds": [
+        "rock.*"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "sky",
+      "color": [
+        135,
+        206,
+        235
+      ],
+      "kinds": []
+    },
+    {
+      "id": 9,
+      "name": "wall_fence",
+      "color": [
+        245,
+        130,
+        48
+      ],
+      "kinds": [
+        "wall.*"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "pole_street_furniture",
+      "color": [
+        0,
+        130,
+        200
+      ],
+      "kinds": [
+        "prop.*"
+      ]
+    }
+  ]
+}

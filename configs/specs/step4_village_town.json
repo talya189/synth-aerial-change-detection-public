@@ -1,0 +1,526 @@
+{
+  "spec_version": 1,
+  "scene_id": "step4_village_town",
+  "seed": 45,
+  "region": {
+    "type": "dem",
+    "_comment": "Real terrain: Copernicus GLO-30 (30 m) over the Korazim / Rosh Pina AOI (configs/terrain.json). site_rank picks one of the ranked candidate sites (0 = best for a village: moderate slopes, some relief). Resolved coordinates are written back under 'resolved'.",
+    "source": "copernicus_glo30",
+    "aoi": "korazim",
+    "core_size_m": 1000,
+    "site_rank": 0,
+    "water_level_abs": -210.5
+  },
+  "environment": {
+    "season": "summer",
+    "date": "2025-06-15",
+    "local_time": "09:30",
+    "utc_offset_h": 3,
+    "haze_visibility_km": 40
+  },
+  "terrain_material": "galilee_summer",
+  "cameras": [
+    {
+      "id": "cam_nadir",
+      "target": [
+        -95.2,
+        338.5
+      ],
+      "tilt_deg": 0,
+      "heading_deg": 0,
+      "gsd_m": 0.34,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_oblique",
+      "target": [
+        -95.2,
+        338.5
+      ],
+      "tilt_deg": 45,
+      "heading_deg": 30,
+      "gsd_m": 0.27,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_low",
+      "target": [
+        -95.2,
+        338.5
+      ],
+      "tilt_deg": 68,
+      "heading_deg": 200,
+      "gsd_m": 0.17,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    }
+  ],
+  "render": {
+    "samples": 64,
+    "adaptive_threshold": 0.01,
+    "denoise": false,
+    "max_bounces": 6,
+    "filter_width": 1.5,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "texture_tier": 1024
+  },
+  "post": {
+    "visibility_km": [
+      40,
+      50
+    ],
+    "psf_sigma_px": [
+      0.5,
+      0.6
+    ],
+    "noise": [
+      0.004,
+      0.006
+    ],
+    "vignette": [
+      0.05,
+      0.07
+    ],
+    "jpeg_quality": null
+  },
+  "entities": {
+    "roads": [],
+    "paths": [],
+    "buildings": [
+      {
+        "id": "bld_001",
+        "type": "tower",
+        "center": [
+          -45.0,
+          325.0
+        ],
+        "width": 26.5,
+        "depth": 23.8,
+        "yaw_deg": 51.2,
+        "floors": 12,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_002",
+        "type": "tower",
+        "center": [
+          -81.16,
+          348.01
+        ],
+        "width": 22.6,
+        "depth": 19.1,
+        "yaw_deg": 42.2,
+        "floors": 9,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_003",
+        "type": "midrise",
+        "center": [
+          -15.13,
+          303.39
+        ],
+        "width": 21.1,
+        "depth": 13.7,
+        "yaw_deg": 45.3,
+        "floors": 5,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_004",
+        "type": "midrise",
+        "center": [
+          -99.59,
+          377.82
+        ],
+        "width": 24.3,
+        "depth": 13.2,
+        "yaw_deg": 45.2,
+        "floors": 5,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_005",
+        "type": "midrise",
+        "center": [
+          -125.4,
+          394.5
+        ],
+        "width": 25.7,
+        "depth": 13.2,
+        "yaw_deg": 30.8,
+        "floors": 7,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_006",
+        "type": "apartment",
+        "center": [
+          -135.92,
+          427.81
+        ],
+        "width": 22.1,
+        "depth": 12.7,
+        "yaw_deg": -15.8,
+        "floors": 4,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_007",
+        "type": "villa",
+        "center": [
+          -167.64,
+          407.0
+        ],
+        "width": 14.1,
+        "depth": 10.6,
+        "yaw_deg": -73.9,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 8.9,
+          "depth": 7.3,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_008",
+        "type": "tower",
+        "center": [
+          -5.43,
+          263.75
+        ],
+        "width": 29.9,
+        "depth": 23.7,
+        "yaw_deg": 38.7,
+        "floors": 28,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_009",
+        "type": "tower",
+        "center": [
+          -198.07,
+          401.49
+        ],
+        "width": 29.6,
+        "depth": 18.4,
+        "yaw_deg": -76.5,
+        "floors": 14,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_010",
+        "type": "public",
+        "center": [
+          16.14,
+          227.85
+        ],
+        "width": 33.4,
+        "depth": 13.9,
+        "yaw_deg": 31.8,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_011",
+        "type": "house",
+        "center": [
+          -57.83,
+          287.55
+        ],
+        "width": 9.3,
+        "depth": 10.2,
+        "yaw_deg": 52.9,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "left",
+          "width": 5.1,
+          "depth": 5.7,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_012",
+        "type": "villa",
+        "center": [
+          -235.21,
+          398.63
+        ],
+        "width": 12.3,
+        "depth": 10.0,
+        "yaw_deg": 79.8,
+        "floors": 2,
+        "roof": "tiled",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 6.9,
+          "depth": 6.5,
+          "floors": 2
+        },
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_013",
+        "type": "house",
+        "center": [
+          -72.29,
+          264.32
+        ],
+        "width": 10.8,
+        "depth": 9.5,
+        "yaw_deg": 3.3,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_014",
+        "type": "midrise",
+        "center": [
+          45.19,
+          253.57
+        ],
+        "width": 19.6,
+        "depth": 16.0,
+        "yaw_deg": -63.2,
+        "floors": 5,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_015",
+        "type": "public",
+        "center": [
+          -74.75,
+          231.23
+        ],
+        "width": 28.5,
+        "depth": 17.5,
+        "yaw_deg": 3.0,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "left",
+          "width": 15.3,
+          "depth": 8.4,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_016",
+        "type": "apartment",
+        "center": [
+          -159.48,
+          379.36
+        ],
+        "width": 21.0,
+        "depth": 12.5,
+        "yaw_deg": -28.1,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_017",
+        "type": "house",
+        "center": [
+          -22.19,
+          220.25
+        ],
+        "width": 11.2,
+        "depth": 12.7,
+        "yaw_deg": 38.5,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "left",
+          "width": 6.7,
+          "depth": 7.2,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_018",
+        "type": "apartment",
+        "center": [
+          -98.96,
+          430.66
+        ],
+        "width": 18.6,
+        "depth": 11.0,
+        "yaw_deg": 69.6,
+        "floors": 4,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_019",
+        "type": "house",
+        "center": [
+          -78.61,
+          451.62
+        ],
+        "width": 8.6,
+        "depth": 11.4,
+        "yaw_deg": -25.4,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_020",
+        "type": "midrise",
+        "center": [
+          -170.07,
+          343.49
+        ],
+        "width": 19.2,
+        "depth": 12.9,
+        "yaw_deg": -2.8,
+        "floors": 8,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_021",
+        "type": "house",
+        "center": [
+          -44.57,
+          200.04
+        ],
+        "width": 11.1,
+        "depth": 10.7,
+        "yaw_deg": 39.0,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_022",
+        "type": "apartment",
+        "center": [
+          -76.3,
+          412.63
+        ],
+        "width": 17.1,
+        "depth": 12.1,
+        "yaw_deg": -36.3,
+        "floors": 3,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_023",
+        "type": "house",
+        "center": [
+          -139.56,
+          342.66
+        ],
+        "width": 12.1,
+        "depth": 10.3,
+        "yaw_deg": -166.6,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_024",
+        "type": "midrise",
+        "center": [
+          -243.49,
+          431.91
+        ],
+        "width": 25.8,
+        "depth": 12.5,
+        "yaw_deg": 75.1,
+        "floors": 5,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      }
+    ],
+    "trees": []
+  },
+  "scatter": "galilee_summer",
+  "history": [],
+  "_comment": "Step 4 village, style 'town': the Step 3 site plus 24 buildings placed by synth/spec/placement.py. Generated once; edit freely. Village centre [-95.2, 338.5], ground 25.9 m."
+}

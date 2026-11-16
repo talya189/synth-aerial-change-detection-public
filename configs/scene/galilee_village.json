@@ -1,0 +1,514 @@
+{
+  "name": "galilee_village",
+  "description": "Small hillside village on a basalt plateau above an escarpment (Korazim / Jordan gorge area). Dry-season land cover.",
+  "missing_asset_policy": "error",
+  "terrain": {
+    "source": "copernicus_glo30",
+    "aoi": "korazim",
+    "core_size_m": 1000,
+    "centre_latlon": null
+  },
+  "occupancy_res_m": 0.5,
+  "splat_res_m": 0.5,
+  "roads": {
+    "routing_res_m": 4.0,
+    "main": {
+      "kind": "asphalt",
+      "width": 7.0,
+      "shoulder": 1.5,
+      "max_grade": 0.08,
+      "smooth_m": 22,
+      "profile_smooth_m": 25,
+      "blend_m": 6
+    },
+    "street": {
+      "kind": "asphalt",
+      "width": 5.5,
+      "shoulder": 0.8,
+      "max_grade": 0.11,
+      "smooth_m": 6,
+      "profile_smooth_m": 12,
+      "blend_m": 4,
+      "count": 2,
+      "length_m": [
+        150,
+        230
+      ],
+      "village_offset_m": [
+        60,
+        140
+      ]
+    },
+    "track": {
+      "kind": "dirt",
+      "width": 3.6,
+      "shoulder": 0.0,
+      "max_grade": 0.15,
+      "smooth_m": 5,
+      "profile_smooth_m": 8,
+      "blend_m": 3,
+      "count": 2,
+      "length_m": [
+        180,
+        320
+      ]
+    },
+    "footpath": {
+      "kind": "footpath",
+      "width": [
+        0.7,
+        1.1
+      ],
+      "count": 4
+    }
+  },
+  "buildings": {
+    "target_count": [
+      8,
+      12
+    ],
+    "min_count": 5,
+    "frontage_spacing_m": [
+      17,
+      24
+    ],
+    "setback_m": [
+      2.5,
+      5.0
+    ],
+    "width_m": [
+      8,
+      14
+    ],
+    "depth_m": [
+      9,
+      14
+    ],
+    "annex_p": 0.35,
+    "max_slope_deg": 18,
+    "floors_p": {
+      "1": 0.35,
+      "2": 0.45,
+      "3": 0.2
+    },
+    "floor_height_m": [
+      2.9,
+      3.2
+    ],
+    "roof_tiled_p": 0.1,
+    "parapet_m": [
+      0.5,
+      1.1
+    ],
+    "expandable_p": 0.35,
+    "wall_material_p": {
+      "wall.stucco": 0.7,
+      "wall.stone": 0.3
+    },
+    "stucco_tints": [
+      [
+        0.96,
+        0.93,
+        0.86
+      ],
+      [
+        0.92,
+        0.88,
+        0.8
+      ],
+      [
+        0.98,
+        0.97,
+        0.94
+      ],
+      [
+        0.9,
+        0.86,
+        0.78
+      ],
+      [
+        0.86,
+        0.85,
+        0.82
+      ],
+      [
+        0.95,
+        0.9,
+        0.82
+      ]
+    ],
+    "yard_wall_p": 0.7,
+    "yard_wall_height_m": [
+      1.3,
+      1.9
+    ],
+    "rooftop": {
+      "solar_heaters": [
+        1,
+        3
+      ],
+      "water_tanks": [
+        0,
+        3
+      ],
+      "ac_units": [
+        0,
+        4
+      ],
+      "dish_p": 0.5,
+      "stairwell_p": 0.7
+    }
+  },
+  "vegetation": {
+    "trees": {
+      "pine": {
+        "role": "veg.aleppo_pine",
+        "kind": "veg.tree.pine",
+        "parent_density": 3e-05,
+        "children": 40,
+        "sigma_m": 30,
+        "scale": [
+          0.6,
+          1.0
+        ],
+        "min_dist_m": 5.0,
+        "yard_p": 0.2,
+        "slope_deg": [
+          3,
+          30
+        ],
+        "max_count": 220,
+        "twig_keep": 0.3
+      }
+    },
+    "fan_palm": {
+      "role": "veg.fan_palm",
+      "per_parcel": [
+        0,
+        2
+      ],
+      "scale": [
+        0.9,
+        1.4
+      ]
+    },
+    "date_palm": {
+      "role": "atlas.date_palm_frond",
+      "trunk_role": "model.palm_trunk",
+      "street_spacing_m": [
+        11,
+        16
+      ],
+      "street_p": 0.35,
+      "yard_p": 0.45,
+      "height_m": [
+        5,
+        11
+      ]
+    }
+  },
+  "rocks": {},
+  "terraces": {
+    "slope_deg": [
+      7,
+      24
+    ],
+    "distance_from_village_m": [
+      40,
+      320
+    ],
+    "zone_noise_m": 90,
+    "coverage": 0.45,
+    "step_m": [
+      1.2,
+      1.9
+    ],
+    "bench_keep_slope": 0.15,
+    "min_wall_m": 8
+  },
+  "fields": {
+    "wall_p": 0.65,
+    "count": [
+      5,
+      9
+    ],
+    "distance_from_village_m": [
+      60,
+      320
+    ],
+    "length_m": [
+      50,
+      120
+    ],
+    "width_m": [
+      35,
+      80
+    ],
+    "balk_m": 5,
+    "max_slope_deg": 7,
+    "states": {
+      "stubble": 0.5,
+      "ploughed": 0.3,
+      "fallow": 0.2
+    },
+    "edge_stones_per_m": 0.25
+  },
+  "terrain_material": {
+    "_comment": "Natural cover = world-space noise (noise_m wavelength, coverage = area fraction) and slope; `splat` adds the planner's human-made channel (0 = road shoulders, 1 = trampled). Later layers lie on top. `adjust` = seasonal colour correction (hue 0.5 = none).",
+    "base": {
+      "role": "terrain.soil",
+      "adjust": {
+        "hue": 0.5,
+        "saturation": 0.9,
+        "value": 0.95
+      }
+    },
+    "layers": [
+      {
+        "role": "terrain.grass",
+        "noise_m": 28,
+        "coverage": 0.65,
+        "slope_max_deg": 32,
+        "adjust": {
+          "hue": 0.512,
+          "saturation": 0.72,
+          "value": 2.5
+        }
+      },
+      {
+        "role": "terrain.soil_sandy",
+        "noise_m": 80,
+        "coverage": 0.12,
+        "adjust": {
+          "hue": 0.5,
+          "saturation": 0.85,
+          "value": 0.95
+        }
+      },
+      {
+        "role": "terrain.gravel",
+        "noise_m": 18,
+        "coverage": 0.1,
+        "adjust": {
+          "hue": 0.5,
+          "saturation": 0.7,
+          "value": 0.95
+        }
+      },
+      {
+        "role": "terrain.dirt",
+        "coverage": 0.0,
+        "splat": 0,
+        "adjust": {
+          "hue": 0.5,
+          "saturation": 0.5,
+          "value": 1.25
+        }
+      },
+      {
+        "role": "terrain.trampled",
+        "coverage": 0.0,
+        "splat": 1,
+        "adjust": {
+          "hue": 0.5,
+          "saturation": 0.6,
+          "value": 1.5
+        }
+      },
+      {
+        "role": "terrain.rocky",
+        "noise_m": 25,
+        "coverage": 0.1,
+        "slope_deg": [
+          16,
+          30
+        ],
+        "adjust": {
+          "hue": 0.495,
+          "saturation": 0.35,
+          "value": 0.72
+        }
+      }
+    ]
+  },
+  "sun": {
+    "date_range": [
+      "05-01",
+      "10-15"
+    ],
+    "local_hours": [
+      8.5,
+      14.5
+    ],
+    "utc_offset_h": 3
+  },
+  "camera": {
+    "sensor_width_mm": 36.0,
+    "focal_mm": 50.0,
+    "resolution": [
+      2048,
+      2048
+    ],
+    "views": [
+      {
+        "name": "nadir",
+        "tilt_deg": 0,
+        "gsd_m": 0.25,
+        "heading_deg": null
+      },
+      {
+        "name": "oblique45",
+        "tilt_deg": 45,
+        "gsd_m": 0.2,
+        "heading_deg": null
+      },
+      {
+        "name": "low_oblique",
+        "tilt_deg": 72,
+        "gsd_m": 0.12,
+        "heading_deg": null
+      }
+    ],
+    "attitude_jitter_deg": 0.7
+  },
+  "render": {
+    "samples": 128,
+    "adaptive_threshold": 0.01,
+    "denoise": false,
+    "max_bounces": 6,
+    "filter_width": 1.5,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.15,
+    "texture_tier": 1024
+  },
+  "post": {
+    "visibility_km": [
+      30,
+      70
+    ],
+    "psf_sigma_px": [
+      0.45,
+      0.75
+    ],
+    "noise": [
+      0.004,
+      0.009
+    ],
+    "vignette": [
+      0.04,
+      0.1
+    ],
+    "jpeg_quality": null
+  },
+  "_scatter_comment": "Geometry Nodes scatter systems (SYN_Scatter in the template). Each entry becomes one object whose modifier inputs are these values; edit them in Blender's modifier panel or here.",
+  "scatter": {
+    "dry_grass": {
+      "role": "veg.dry_grass",
+      "kind": "veg.dry_grass",
+      "Density": 0.03,
+      "Min Distance": 0.3,
+      "Cluster Size": 18,
+      "Coverage": 0.55,
+      "Slope Min": 0,
+      "Slope Max": 32,
+      "Wet Boost": 1.0,
+      "Scale Min": 1.0,
+      "Scale Max": 1.8,
+      "Align": 0.5,
+      "Sink": 0.03
+    },
+    "dead_shrub": {
+      "role": "veg.dead_shrub",
+      "kind": "veg.dead_shrub",
+      "Density": 0.035,
+      "Min Distance": 0.9,
+      "Cluster Size": 25,
+      "Coverage": 0.45,
+      "Slope Min": 3,
+      "Slope Max": 38,
+      "Wet Boost": 0.8,
+      "Scale Min": 1.5,
+      "Scale Max": 3.2,
+      "Align": 0.5,
+      "Sink": 0.04,
+      "Live Fraction": 0.55,
+      "Live Tint": [
+        0.55,
+        0.78,
+        0.42,
+        1.0
+      ]
+    },
+    "wadi_shrub": {
+      "role": "veg.dead_shrub",
+      "kind": "veg.dead_shrub",
+      "Density": 0.12,
+      "Min Distance": 1.0,
+      "Cluster Size": 10,
+      "Coverage": 0.6,
+      "Slope Min": 0,
+      "Slope Max": 40,
+      "Wet Min": 0.6,
+      "Wet Boost": 1.0,
+      "Scale Min": 2.0,
+      "Scale Max": 3.6,
+      "Align": 0.4,
+      "Sink": 0.04,
+      "Live Fraction": 0.85,
+      "Live Tint": [
+        0.5,
+        0.74,
+        0.38,
+        1.0
+      ]
+    },
+    "basalt": {
+      "role": "rock.small_dark",
+      "kind": "rock.small_dark",
+      "Density": 0.18,
+      "Min Distance": 0.8,
+      "Cluster Size": 20,
+      "Coverage": 0.45,
+      "Slope Min": 0,
+      "Slope Max": 60,
+      "Slope Gain": 0.8,
+      "Scale Min": 1.3,
+      "Scale Max": 3.5,
+      "Power Law": 1.2,
+      "Align": 1.0,
+      "Sink": 0.06
+    },
+    "boulder": {
+      "role": "rock.small_dark",
+      "kind": "rock.small_dark",
+      "Density": 0.012,
+      "Min Distance": 2.0,
+      "Cluster Size": 30,
+      "Coverage": 0.35,
+      "Slope Min": 2,
+      "Slope Max": 60,
+      "Slope Gain": 1.0,
+      "Scale Min": 2.0,
+      "Scale Max": 4.0,
+      "Power Law": 1.5,
+      "Align": 1.0,
+      "Sink": 0.08
+    },
+    "slab": {
+      "role": "rock.outcrop",
+      "kind": "rock.outcrop",
+      "Density": 0.01,
+      "Min Distance": 2.5,
+      "Cluster Size": 30,
+      "Coverage": 0.35,
+      "Slope Min": 14,
+      "Slope Max": 60,
+      "Slope Gain": 1.0,
+      "Scale Min": 0.8,
+      "Scale Max": 1.8,
+      "Align": 1.0,
+      "Sink": 0.05
+    }
+  }
+}

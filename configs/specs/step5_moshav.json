@@ -1,0 +1,2334 @@
+{
+  "spec_version": 1,
+  "scene_id": "step5_moshav",
+  "seed": 51,
+  "region": {
+    "type": "dem",
+    "_comment": "Real terrain: Copernicus GLO-30 (30 m) over the Korazim / Rosh Pina AOI (configs/terrain.json). site_rank picks one of the ranked candidate sites (0 = best for a village: moderate slopes, some relief). Resolved coordinates are written back under 'resolved'.",
+    "source": "copernicus_glo30",
+    "aoi": "korazim",
+    "core_size_m": 1000,
+    "site_rank": 0,
+    "water_level_abs": -210.5
+  },
+  "environment": {
+    "season": "summer",
+    "date": "2025-06-15",
+    "local_time": "09:30",
+    "utc_offset_h": 3,
+    "haze_visibility_km": 40
+  },
+  "terrain_material": "galilee_summer",
+  "cameras": [
+    {
+      "id": "cam_nadir",
+      "target": [
+        -120.7,
+        241.5
+      ],
+      "tilt_deg": 0,
+      "heading_deg": 0,
+      "gsd_m": 0.5,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_oblique",
+      "target": [
+        -120.7,
+        241.5
+      ],
+      "tilt_deg": 45,
+      "heading_deg": 30,
+      "gsd_m": 0.4,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    },
+    {
+      "id": "cam_street",
+      "target": [
+        -120.7,
+        241.5
+      ],
+      "tilt_deg": 62,
+      "heading_deg": 200,
+      "gsd_m": 0.2,
+      "resolution": [
+        1024,
+        1024
+      ],
+      "focal_mm": 50,
+      "sensor_width_mm": 36
+    }
+  ],
+  "render": {
+    "samples": 64,
+    "adaptive_threshold": 0.01,
+    "denoise": false,
+    "max_bounces": 6,
+    "filter_width": 1.5,
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "texture_tier": 1024
+  },
+  "post": {
+    "visibility_km": [
+      40,
+      50
+    ],
+    "psf_sigma_px": [
+      0.5,
+      0.6
+    ],
+    "noise": [
+      0.004,
+      0.006
+    ],
+    "vignette": [
+      0.05,
+      0.07
+    ],
+    "jpeg_quality": null
+  },
+  "entities": {
+    "roads": [
+      {
+        "id": "road_001",
+        "class": "main",
+        "centerline": [
+          [
+            -25.64,
+            443.65
+          ],
+          [
+            -11.29,
+            425.67
+          ],
+          [
+            0.77,
+            410.99
+          ],
+          [
+            12.44,
+            397.29
+          ],
+          [
+            23.08,
+            385.34
+          ],
+          [
+            33.31,
+            374.37
+          ],
+          [
+            43.84,
+            363.69
+          ],
+          [
+            53.97,
+            354.02
+          ],
+          [
+            64.42,
+            344.71
+          ],
+          [
+            74.44,
+            336.43
+          ],
+          [
+            84.79,
+            328.57
+          ],
+          [
+            94.65,
+            321.73
+          ],
+          [
+            104.82,
+            315.35
+          ],
+          [
+            115.28,
+            309.48
+          ],
+          [
+            125.14,
+            304.61
+          ],
+          [
+            130.62,
+            302.16
+          ],
+          [
+            136.17,
+            299.88
+          ],
+          [
+            146.51,
+            296.13
+          ],
+          [
+            157.04,
+            292.97
+          ],
+          [
+            166.76,
+            290.62
+          ],
+          [
+            176.59,
+            288.78
+          ],
+          [
+            186.5,
+            287.45
+          ],
+          [
+            196.46,
+            286.62
+          ],
+          [
+            206.46,
+            286.27
+          ],
+          [
+            217.45,
+            286.41
+          ],
+          [
+            228.44,
+            287.05
+          ],
+          [
+            238.39,
+            288.03
+          ],
+          [
+            248.3,
+            289.36
+          ],
+          [
+            258.17,
+            290.98
+          ],
+          [
+            268.97,
+            293.05
+          ],
+          [
+            278.74,
+            295.16
+          ],
+          [
+            289.46,
+            297.66
+          ],
+          [
+            333.12,
+            308.52
+          ],
+          [
+            342.88,
+            310.71
+          ],
+          [
+            351.71,
+            312.48
+          ],
+          [
+            360.58,
+            313.95
+          ],
+          [
+            369.52,
+            315.05
+          ],
+          [
+            377.5,
+            315.59
+          ],
+          [
+            384.49,
+            315.65
+          ],
+          [
+            388.49,
+            315.47
+          ],
+          [
+            392.47,
+            315.11
+          ],
+          [
+            396.43,
+            314.56
+          ],
+          [
+            400.36,
+            313.79
+          ],
+          [
+            404.23,
+            312.78
+          ],
+          [
+            407.09,
+            311.86
+          ],
+          [
+            410.81,
+            310.41
+          ],
+          [
+            413.53,
+            309.15
+          ],
+          [
+            417.04,
+            307.23
+          ],
+          [
+            419.58,
+            305.63
+          ],
+          [
+            422.01,
+            303.87
+          ],
+          [
+            425.1,
+            301.33
+          ],
+          [
+            427.28,
+            299.28
+          ],
+          [
+            430.03,
+            296.37
+          ],
+          [
+            432.58,
+            293.29
+          ],
+          [
+            434.93,
+            290.06
+          ],
+          [
+            437.62,
+            285.84
+          ],
+          [
+            440.05,
+            281.47
+          ],
+          [
+            442.65,
+            276.07
+          ],
+          [
+            444.95,
+            270.52
+          ],
+          [
+            446.98,
+            264.88
+          ],
+          [
+            449.08,
+            258.2
+          ],
+          [
+            450.91,
+            251.45
+          ],
+          [
+            452.75,
+            243.66
+          ],
+          [
+            454.35,
+            235.82
+          ],
+          [
+            455.93,
+            226.96
+          ],
+          [
+            457.32,
+            218.07
+          ],
+          [
+            458.68,
+            208.16
+          ],
+          [
+            461.42,
+            184.32
+          ],
+          [
+            464.13,
+            155.45
+          ],
+          [
+            467.18,
+            117.57
+          ],
+          [
+            469.83,
+            79.66
+          ],
+          [
+            471.81,
+            45.72
+          ],
+          [
+            473.24,
+            13.75
+          ],
+          [
+            474.07,
+            -12.23
+          ],
+          [
+            474.66,
+            -40.23
+          ],
+          [
+            475.52,
+            -124.22
+          ],
+          [
+            475.96,
+            -152.22
+          ],
+          [
+            476.67,
+            -179.21
+          ],
+          [
+            477.63,
+            -203.19
+          ],
+          [
+            479.04,
+            -228.15
+          ],
+          [
+            480.91,
+            -253.08
+          ],
+          [
+            483.19,
+            -276.97
+          ],
+          [
+            486.0,
+            -301.03
+          ]
+        ]
+      },
+      {
+        "id": "road_002",
+        "class": "street",
+        "centerline": [
+          [
+            -244.33,
+            326.12
+          ],
+          [
+            -235.65,
+            319.37
+          ],
+          [
+            -218.91,
+            308.42
+          ],
+          [
+            -200.89,
+            295.81
+          ],
+          [
+            -180.75,
+            284.73
+          ],
+          [
+            -166.95,
+            276.63
+          ],
+          [
+            -159.81,
+            273.02
+          ],
+          [
+            -153.28,
+            270.52
+          ],
+          [
+            -146.5,
+            268.78
+          ],
+          [
+            -139.55,
+            268.01
+          ],
+          [
+            -134.56,
+            268.22
+          ],
+          [
+            -128.67,
+            269.33
+          ],
+          [
+            -107.08,
+            277.22
+          ],
+          [
+            -95.39,
+            279.9
+          ],
+          [
+            -81.44,
+            280.99
+          ],
+          [
+            -58.45,
+            280.54
+          ],
+          [
+            -48.53,
+            281.68
+          ],
+          [
+            -42.74,
+            283.24
+          ],
+          [
+            -37.13,
+            285.36
+          ],
+          [
+            -7.52,
+            299.92
+          ],
+          [
+            -1.05,
+            302.59
+          ],
+          [
+            5.62,
+            304.7
+          ],
+          [
+            11.48,
+            305.95
+          ],
+          [
+            17.43,
+            306.71
+          ],
+          [
+            43.41,
+            307.83
+          ],
+          [
+            56.33,
+            309.19
+          ],
+          [
+            71.99,
+            312.42
+          ],
+          [
+            84.48,
+            316.64
+          ]
+        ]
+      },
+      {
+        "id": "road_003",
+        "class": "street",
+        "centerline": [
+          [
+            -246.26,
+            263.65
+          ],
+          [
+            -232.84,
+            243.76
+          ],
+          [
+            -223.79,
+            231.8
+          ],
+          [
+            -209.27,
+            215.28
+          ],
+          [
+            -197.75,
+            204.18
+          ],
+          [
+            -190.77,
+            198.5
+          ],
+          [
+            -183.48,
+            193.22
+          ],
+          [
+            -167.26,
+            183.36
+          ],
+          [
+            -155.42,
+            178.01
+          ],
+          [
+            -149.67,
+            176.32
+          ],
+          [
+            -143.76,
+            175.28
+          ],
+          [
+            -133.78,
+            174.89
+          ],
+          [
+            -122.84,
+            176.03
+          ],
+          [
+            -113.07,
+            178.12
+          ],
+          [
+            -92.84,
+            183.76
+          ],
+          [
+            -82.97,
+            185.22
+          ],
+          [
+            -74.99,
+            184.73
+          ],
+          [
+            -60.32,
+            181.64
+          ],
+          [
+            -40.52,
+            178.85
+          ],
+          [
+            -30.53,
+            178.94
+          ],
+          [
+            -18.68,
+            180.75
+          ],
+          [
+            -6.12,
+            184.09
+          ],
+          [
+            6.07,
+            188.59
+          ],
+          [
+            16.9,
+            193.75
+          ],
+          [
+            34.32,
+            203.57
+          ],
+          [
+            42.35,
+            207.63
+          ],
+          [
+            77.82,
+            221.91
+          ]
+        ]
+      },
+      {
+        "id": "road_004",
+        "class": "street",
+        "centerline": [
+          [
+            -224.29,
+            311.94
+          ],
+          [
+            -273.56,
+            236.62
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_006",
+        "class": "street",
+        "centerline": [
+          [
+            -145.53,
+            268.67
+          ],
+          [
+            -154.45,
+            188.16
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_007",
+        "class": "street",
+        "centerline": [
+          [
+            -98.97,
+            279.08
+          ],
+          [
+            -80.2,
+            197.2
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_008",
+        "class": "street",
+        "centerline": [
+          [
+            -98.97,
+            279.08
+          ],
+          [
+            -116.4,
+            355.11
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_009",
+        "class": "street",
+        "centerline": [
+          [
+            -52.04,
+            281.28
+          ],
+          [
+            -42.11,
+            194.85
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_010",
+        "class": "street",
+        "centerline": [
+          [
+            -8.89,
+            299.25
+          ],
+          [
+            37.39,
+            205.12
+          ]
+        ],
+        "connects": "road_002",
+        "connects_end": "road_003"
+      },
+      {
+        "id": "road_011",
+        "class": "street",
+        "centerline": [
+          [
+            36.54,
+            307.53
+          ],
+          [
+            39.77,
+            232.6
+          ]
+        ],
+        "connects": "road_002",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_012",
+        "class": "street",
+        "centerline": [
+          [
+            -229.93,
+            239.91
+          ],
+          [
+            -301.7,
+            185.6
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_013",
+        "class": "street",
+        "centerline": [
+          [
+            -201.26,
+            207.56
+          ],
+          [
+            -261.62,
+            144.91
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_014",
+        "class": "street",
+        "centerline": [
+          [
+            -201.26,
+            207.56
+          ],
+          [
+            -145.94,
+            264.97
+          ]
+        ],
+        "connects": "road_003",
+        "connects_end": "road_006"
+      },
+      {
+        "id": "road_015",
+        "class": "street",
+        "centerline": [
+          [
+            -164.36,
+            182.05
+          ],
+          [
+            -196.48,
+            110.97
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_016",
+        "class": "street",
+        "centerline": [
+          [
+            -121.51,
+            176.32
+          ],
+          [
+            -101.42,
+            82.44
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_017",
+        "class": "street",
+        "centerline": [
+          [
+            -121.51,
+            176.32
+          ],
+          [
+            -141.16,
+            268.19
+          ]
+        ],
+        "connects": "road_003",
+        "connects_end": "road_002"
+      },
+      {
+        "id": "road_018",
+        "class": "street",
+        "centerline": [
+          [
+            -76.35,
+            184.81
+          ],
+          [
+            -82.6,
+            83.01
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_019",
+        "class": "street",
+        "centerline": [
+          [
+            -26.27,
+            179.59
+          ],
+          [
+            -9.51,
+            69.86
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_020",
+        "class": "street",
+        "centerline": [
+          [
+            -26.27,
+            179.59
+          ],
+          [
+            -40.77,
+            274.49
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_021",
+        "class": "street",
+        "centerline": [
+          [
+            18.47,
+            194.63
+          ],
+          [
+            75.92,
+            92.71
+          ]
+        ],
+        "connects": "road_003",
+        "end_cap": 8.0
+      },
+      {
+        "id": "road_022",
+        "class": "street",
+        "centerline": [
+          [
+            -102.11,
+            278.36
+          ],
+          [
+            -88.21,
+            184.44
+          ]
+        ],
+        "connects": "road_002",
+        "connects_end": "road_003"
+      },
+      {
+        "id": "road_023",
+        "class": "street",
+        "centerline": [
+          [
+            64.42,
+            344.71
+          ],
+          [
+            55.92,
+            334.88
+          ],
+          [
+            52.8,
+            332.39
+          ],
+          [
+            48.14,
+            330.65
+          ],
+          [
+            36.23,
+            329.25
+          ],
+          [
+            34.36,
+            328.56
+          ],
+          [
+            32.0,
+            326.73
+          ],
+          [
+            28.12,
+            322.17
+          ],
+          [
+            24.91,
+            315.97
+          ],
+          [
+            24.14,
+            310.05
+          ],
+          [
+            24.38,
+            308.08
+          ],
+          [
+            24.99,
+            307.04
+          ]
+        ],
+        "connects": "road_001",
+        "connects_end": "road_002"
+      },
+      {
+        "id": "road_024",
+        "class": "track",
+        "centerline": [
+          [
+            -244.33,
+            326.12
+          ],
+          [
+            -253.13,
+            334.26
+          ],
+          [
+            -263.5,
+            345.1
+          ],
+          [
+            -280.7,
+            361.83
+          ],
+          [
+            -295.23,
+            376.99
+          ],
+          [
+            -301.07,
+            383.83
+          ],
+          [
+            -306.04,
+            391.33
+          ],
+          [
+            -309.73,
+            399.52
+          ],
+          [
+            -311.42,
+            405.28
+          ],
+          [
+            -312.46,
+            411.19
+          ],
+          [
+            -313.74,
+            426.13
+          ],
+          [
+            -314.64,
+            447.1
+          ],
+          [
+            -316.08,
+            462.03
+          ]
+        ],
+        "connects": "road_002"
+      },
+      {
+        "id": "road_026",
+        "class": "track",
+        "centerline": [
+          [
+            -187.4,
+            131.06
+          ],
+          [
+            -248.4,
+            158.63
+          ]
+        ],
+        "connects": "road_015",
+        "connects_end": "road_013"
+      },
+      {
+        "id": "road_027",
+        "class": "track",
+        "centerline": [
+          [
+            -244.47,
+            281.08
+          ],
+          [
+            -339.88,
+            343.49
+          ]
+        ],
+        "connects": "road_004"
+      }
+    ],
+    "paths": [
+      {
+        "id": "path_001",
+        "surface": "dirt",
+        "width": 1.15,
+        "centerline": [
+          [
+            -16.26,
+            114.26
+          ],
+          [
+            -18.06,
+            115.99
+          ],
+          [
+            -21.81,
+            119.3
+          ],
+          [
+            -22.97,
+            120.24
+          ],
+          [
+            -24.2,
+            121.1
+          ],
+          [
+            -26.38,
+            122.31
+          ],
+          [
+            -26.79,
+            122.63
+          ],
+          [
+            -29.2,
+            123.32
+          ],
+          [
+            -30.69,
+            123.51
+          ],
+          [
+            -31.69,
+            123.48
+          ],
+          [
+            -32.67,
+            123.32
+          ],
+          [
+            -37.01,
+            122.11
+          ],
+          [
+            -39.47,
+            121.68
+          ],
+          [
+            -42.46,
+            121.55
+          ],
+          [
+            -44.46,
+            121.62
+          ],
+          [
+            -49.44,
+            122.01
+          ],
+          [
+            -50.94,
+            122.02
+          ],
+          [
+            -52.44,
+            121.92
+          ],
+          [
+            -54.42,
+            121.62
+          ],
+          [
+            -59.32,
+            120.64
+          ],
+          [
+            -61.3,
+            120.36
+          ],
+          [
+            -63.29,
+            120.2
+          ],
+          [
+            -69.29,
+            120.01
+          ],
+          [
+            -74.76,
+            119.43
+          ],
+          [
+            -76.23,
+            119.14
+          ],
+          [
+            -79.89,
+            118.05
+          ]
+        ]
+      },
+      {
+        "id": "path_002",
+        "surface": "dirt",
+        "width": 1.11,
+        "centerline": [
+          [
+            37.67,
+            271.84
+          ],
+          [
+            36.29,
+            271.27
+          ],
+          [
+            34.35,
+            270.76
+          ],
+          [
+            33.37,
+            270.56
+          ],
+          [
+            29.89,
+            270.19
+          ],
+          [
+            28.42,
+            269.94
+          ],
+          [
+            26.52,
+            269.31
+          ],
+          [
+            25.18,
+            268.64
+          ],
+          [
+            20.45,
+            265.83
+          ],
+          [
+            17.61,
+            263.79
+          ],
+          [
+            15.75,
+            262.12
+          ],
+          [
+            13.45,
+            259.48
+          ],
+          [
+            12.13,
+            258.13
+          ]
+        ]
+      },
+      {
+        "id": "path_003",
+        "surface": "dirt",
+        "width": 1.09,
+        "centerline": [
+          [
+            -285.84,
+            198.33
+          ],
+          [
+            -285.23,
+            199.7
+          ],
+          [
+            -284.91,
+            200.64
+          ],
+          [
+            -284.21,
+            203.56
+          ],
+          [
+            -283.75,
+            204.99
+          ],
+          [
+            -281.61,
+            210.05
+          ],
+          [
+            -281.14,
+            211.48
+          ],
+          [
+            -280.82,
+            212.94
+          ],
+          [
+            -280.33,
+            216.91
+          ],
+          [
+            -279.8,
+            219.86
+          ],
+          [
+            -279.04,
+            222.76
+          ],
+          [
+            -277.89,
+            226.6
+          ],
+          [
+            -277.24,
+            228.49
+          ],
+          [
+            -275.37,
+            233.12
+          ],
+          [
+            -274.06,
+            235.88
+          ]
+        ]
+      },
+      {
+        "id": "path_004",
+        "surface": "dirt",
+        "width": 0.74,
+        "centerline": [
+          [
+            -14.36,
+            104.0
+          ],
+          [
+            -16.86,
+            104.0
+          ],
+          [
+            -21.86,
+            103.8
+          ],
+          [
+            -25.85,
+            104.04
+          ],
+          [
+            -27.85,
+            104.0
+          ],
+          [
+            -29.83,
+            103.71
+          ],
+          [
+            -33.75,
+            102.91
+          ],
+          [
+            -37.21,
+            102.39
+          ],
+          [
+            -39.69,
+            102.13
+          ],
+          [
+            -41.69,
+            102.13
+          ],
+          [
+            -47.16,
+            102.7
+          ],
+          [
+            -49.63,
+            103.1
+          ],
+          [
+            -51.57,
+            103.59
+          ],
+          [
+            -57.81,
+            105.41
+          ],
+          [
+            -59.26,
+            105.77
+          ],
+          [
+            -61.23,
+            106.13
+          ],
+          [
+            -63.22,
+            106.27
+          ],
+          [
+            -69.21,
+            105.88
+          ],
+          [
+            -72.21,
+            105.97
+          ],
+          [
+            -75.17,
+            106.4
+          ],
+          [
+            -80.0,
+            107.69
+          ],
+          [
+            -81.91,
+            107.99
+          ]
+        ]
+      },
+      {
+        "id": "path_005",
+        "surface": "dirt",
+        "width": 0.72,
+        "centerline": [
+          [
+            -103.68,
+            300.16
+          ],
+          [
+            -102.34,
+            300.85
+          ],
+          [
+            -101.06,
+            301.63
+          ],
+          [
+            -98.29,
+            303.77
+          ],
+          [
+            -94.99,
+            306.03
+          ],
+          [
+            -91.91,
+            308.57
+          ],
+          [
+            -90.27,
+            309.72
+          ],
+          [
+            -85.84,
+            312.04
+          ],
+          [
+            -82.85,
+            313.85
+          ],
+          [
+            -81.53,
+            314.56
+          ],
+          [
+            -76.5,
+            316.79
+          ],
+          [
+            -72.49,
+            318.82
+          ],
+          [
+            -70.76,
+            319.83
+          ],
+          [
+            -66.53,
+            322.5
+          ],
+          [
+            -62.09,
+            324.8
+          ],
+          [
+            -60.39,
+            325.84
+          ],
+          [
+            -58.8,
+            327.06
+          ],
+          [
+            -54.32,
+            331.04
+          ],
+          [
+            -50.41,
+            334.92
+          ],
+          [
+            -48.55,
+            336.59
+          ],
+          [
+            -44.62,
+            339.68
+          ],
+          [
+            -42.96,
+            340.78
+          ],
+          [
+            -39.54,
+            342.86
+          ],
+          [
+            -37.12,
+            344.62
+          ],
+          [
+            -35.22,
+            346.26
+          ],
+          [
+            -31.22,
+            350.02
+          ],
+          [
+            -27.74,
+            352.88
+          ],
+          [
+            -23.96,
+            356.16
+          ],
+          [
+            -22.39,
+            357.39
+          ],
+          [
+            -20.28,
+            358.73
+          ],
+          [
+            -14.93,
+            361.44
+          ],
+          [
+            -10.23,
+            364.29
+          ],
+          [
+            -2.67,
+            368.18
+          ],
+          [
+            4.1,
+            372.44
+          ],
+          [
+            6.57,
+            374.14
+          ],
+          [
+            10.55,
+            377.16
+          ],
+          [
+            12.47,
+            378.77
+          ],
+          [
+            15.95,
+            381.95
+          ]
+        ]
+      }
+    ],
+    "buildings": [
+      {
+        "id": "bld_001",
+        "type": "villa",
+        "center": [
+          -20.44,
+          242.21
+        ],
+        "width": 12.9,
+        "depth": 11.2,
+        "yaw_deg": -81.3,
+        "floors": 2,
+        "roof": "tiled",
+        "wall": "wall.stone",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_002",
+        "type": "house",
+        "center": [
+          45.17,
+          345.36
+        ],
+        "width": 8.9,
+        "depth": 11.3,
+        "yaw_deg": 38.1,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": true
+      },
+      {
+        "id": "bld_003",
+        "type": "house",
+        "center": [
+          -11.85,
+          171.65
+        ],
+        "width": 9.3,
+        "depth": 10.1,
+        "yaw_deg": -81.2,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "right",
+          "width": 5.3,
+          "depth": 5.4,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_004",
+        "type": "house",
+        "center": [
+          10.28,
+          293.21
+        ],
+        "width": 9.5,
+        "depth": 12.8,
+        "yaw_deg": -63.6,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_005",
+        "type": "water_tower",
+        "center": [
+          -196.57,
+          149.64
+        ],
+        "width": 11.9,
+        "depth": 11.9,
+        "yaw_deg": -23.1,
+        "floors": 1,
+        "roof": "tank",
+        "wall": "wall.concrete",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_006",
+        "type": "moshav_house",
+        "center": [
+          -231.3,
+          220.92
+        ],
+        "width": 10.1,
+        "depth": 10.4,
+        "yaw_deg": -141.3,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_007",
+        "type": "moshav_house",
+        "center": [
+          -116.5,
+          288.37
+        ],
+        "width": 11.1,
+        "depth": 9.9,
+        "yaw_deg": 20.9,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_008",
+        "type": "moshav_house",
+        "center": [
+          -77.01,
+          267.94
+        ],
+        "width": 9.9,
+        "depth": 8.4,
+        "yaw_deg": 179.4,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.white",
+        "annex": {
+          "side": "right",
+          "width": 5.3,
+          "depth": 5.1,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_009",
+        "type": "villa",
+        "center": [
+          -257.48,
+          169.27
+        ],
+        "width": 15.3,
+        "depth": 11.5,
+        "yaw_deg": 46.3,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_010",
+        "type": "villa",
+        "center": [
+          -38.75,
+          162.36
+        ],
+        "width": 12.2,
+        "depth": 12.5,
+        "yaw_deg": 99.5,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_011",
+        "type": "villa",
+        "center": [
+          -133.36,
+          157.75
+        ],
+        "width": 14.3,
+        "depth": 12.2,
+        "yaw_deg": 102.7,
+        "floors": 2,
+        "roof": "tiled",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "left",
+          "width": 8.5,
+          "depth": 9.1,
+          "floors": 2
+        },
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_012",
+        "type": "shed",
+        "center": [
+          -246.71,
+          346.84
+        ],
+        "width": 21.1,
+        "depth": 14.5,
+        "yaw_deg": -46.9,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.block",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_013",
+        "type": "shed",
+        "center": [
+          -262.93,
+          325.58
+        ],
+        "width": 20.8,
+        "depth": 12.4,
+        "yaw_deg": 135.1,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.concrete",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_014",
+        "type": "water_tower",
+        "center": [
+          -276.55,
+          372.39
+        ],
+        "width": 8.0,
+        "depth": 8.0,
+        "yaw_deg": -46.7,
+        "floors": 2,
+        "roof": "tank",
+        "wall": "wall.concrete",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_015",
+        "type": "coop",
+        "center": [
+          -293.21,
+          294.06
+        ],
+        "width": 60.9,
+        "depth": 14.6,
+        "yaw_deg": 147.1,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_016",
+        "type": "coop",
+        "center": [
+          -307.91,
+          271.34
+        ],
+        "width": 60.9,
+        "depth": 14.6,
+        "yaw_deg": 147.1,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_017",
+        "type": "coop",
+        "center": [
+          -322.61,
+          248.62
+        ],
+        "width": 60.9,
+        "depth": 14.6,
+        "yaw_deg": 147.1,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_018",
+        "type": "coop",
+        "center": [
+          -337.3,
+          225.9
+        ],
+        "width": 60.9,
+        "depth": 14.6,
+        "yaw_deg": 147.1,
+        "floors": 1,
+        "roof": "gable_metal",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_019",
+        "type": "moshav_house",
+        "center": [
+          11.27,
+          230.76
+        ],
+        "width": 9.4,
+        "depth": 8.6,
+        "yaw_deg": 115.0,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 5.5,
+          "depth": 3.5,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_020",
+        "type": "greenhouse",
+        "center": [
+          -292.57,
+          435.17
+        ],
+        "width": 36.9,
+        "depth": 30.0,
+        "yaw_deg": -87.7,
+        "floors": 1,
+        "roof": "tunnel",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_021",
+        "type": "moshav_house",
+        "center": [
+          -223.3,
+          328.04
+        ],
+        "width": 9.0,
+        "depth": 8.1,
+        "yaw_deg": -32.1,
+        "floors": 2,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 5.2,
+          "depth": 5.1,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_022",
+        "type": "moshav_house",
+        "center": [
+          -198.88,
+          311.27
+        ],
+        "width": 11.3,
+        "depth": 8.3,
+        "yaw_deg": -34.5,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 5.2,
+          "depth": 4.5,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_023",
+        "type": "house",
+        "center": [
+          38.75,
+          133.78
+        ],
+        "width": 11.0,
+        "depth": 9.4,
+        "yaw_deg": 120.0,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_024",
+        "type": "house",
+        "center": [
+          -121.08,
+          245.86
+        ],
+        "width": 9.3,
+        "depth": 11.0,
+        "yaw_deg": -79.6,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": true
+      },
+      {
+        "id": "bld_025",
+        "type": "house",
+        "center": [
+          51.11,
+          270.45
+        ],
+        "width": 10.8,
+        "depth": 10.8,
+        "yaw_deg": -88.0,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": true
+      },
+      {
+        "id": "bld_026",
+        "type": "moshav_house",
+        "center": [
+          -17.81,
+          219.22
+        ],
+        "width": 12.4,
+        "depth": 8.7,
+        "yaw_deg": -82.1,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "right",
+          "width": 6.0,
+          "depth": 4.6,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_027",
+        "type": "house",
+        "center": [
+          68.53,
+          203.03
+        ],
+        "width": 9.8,
+        "depth": 9.9,
+        "yaw_deg": -157.1,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_028",
+        "type": "moshav_house",
+        "center": [
+          -183.76,
+          209.09
+        ],
+        "width": 12.5,
+        "depth": 8.2,
+        "yaw_deg": -131.9,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.stucco",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_029",
+        "type": "villa",
+        "center": [
+          74.5,
+          299.8
+        ],
+        "width": 12.3,
+        "depth": 10.5,
+        "yaw_deg": -168.2,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "annex": {
+          "side": "right",
+          "width": 7.6,
+          "depth": 7.9,
+          "floors": 2
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_030",
+        "type": "moshav_house",
+        "center": [
+          -219.19,
+          169.75
+        ],
+        "width": 9.1,
+        "depth": 10.1,
+        "yaw_deg": -134.3,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_031",
+        "type": "moshav_house",
+        "center": [
+          -31.15,
+          115.42
+        ],
+        "width": 10.9,
+        "depth": 9.6,
+        "yaw_deg": 99.3,
+        "floors": 2,
+        "roof": "tiled_gable",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 4.7,
+          "depth": 6.0,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_032",
+        "type": "moshav_house",
+        "center": [
+          -89.01,
+          293.02
+        ],
+        "width": 11.5,
+        "depth": 10.1,
+        "yaw_deg": 4.9,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "right",
+          "width": 6.3,
+          "depth": 5.8,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_033",
+        "type": "house",
+        "center": [
+          -62.6,
+          242.13
+        ],
+        "width": 9.2,
+        "depth": 11.7,
+        "yaw_deg": 97.1,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_034",
+        "type": "house",
+        "center": [
+          -65.74,
+          142.05
+        ],
+        "width": 10.3,
+        "depth": 11.4,
+        "yaw_deg": -93.4,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "right",
+          "width": 3.9,
+          "depth": 5.7,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_035",
+        "type": "house",
+        "center": [
+          -1.72,
+          115.01
+        ],
+        "width": 8.8,
+        "depth": 12.4,
+        "yaw_deg": -82.0,
+        "floors": 1,
+        "roof": "tiled",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "back",
+          "width": 4.3,
+          "depth": 5.1,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_036",
+        "type": "villa",
+        "center": [
+          53.33,
+          248.42
+        ],
+        "width": 15.5,
+        "depth": 12.0,
+        "yaw_deg": -90.9,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.white",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_037",
+        "type": "villa",
+        "center": [
+          -23.71,
+          276.6
+        ],
+        "width": 12.7,
+        "depth": 12.2,
+        "yaw_deg": -152.4,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.white",
+        "annex": {
+          "side": "left",
+          "width": 8.9,
+          "depth": 7.5,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_038",
+        "type": "house",
+        "center": [
+          -141.92,
+          190.16
+        ],
+        "width": 8.8,
+        "depth": 11.7,
+        "yaw_deg": -1.2,
+        "floors": 1,
+        "roof": "flat",
+        "wall": "wall.stone",
+        "balcony": false,
+        "expandable": false
+      },
+      {
+        "id": "bld_039",
+        "type": "house",
+        "center": [
+          -193.97,
+          184.96
+        ],
+        "width": 9.9,
+        "depth": 9.7,
+        "yaw_deg": 145.6,
+        "floors": 2,
+        "roof": "flat",
+        "wall": "wall.stucco",
+        "balcony": true,
+        "expandable": false
+      },
+      {
+        "id": "bld_040",
+        "type": "moshav_house",
+        "center": [
+          -185.28,
+          241.98
+        ],
+        "width": 12.4,
+        "depth": 9.6,
+        "yaw_deg": 46.0,
+        "floors": 1,
+        "roof": "tiled_gable",
+        "wall": "wall.stucco",
+        "annex": {
+          "side": "right",
+          "width": 6.2,
+          "depth": 5.6,
+          "floors": 1
+        },
+        "balcony": false,
+        "expandable": false
+      }
+    ],
+    "trees": []
+  },
+  "scatter": "galilee_summer",
+  "history": [],
+  "vegetation": false,
+  "_comment": "Step 5, style 'moshav': road network (synth/spec/network.py), 40 buildings along the streets, 5 footpaths; no vegetation. Generated once; edit freely."
+}

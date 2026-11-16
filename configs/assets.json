@@ -1,0 +1,2479 @@
+{
+  "assets": {
+    "arid_gravel_ground_wkfneic_4k": {
+      "status": "ok",
+      "source": "../assets/arid_gravel_ground_wkfneic_4k.zip",
+      "path": "cache/assets/arid_gravel_ground_wkfneic_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/arid_gravel_ground_wkfneic_4k/1024/Arid_Gravel_Ground_wkfneic_4K_AO.jpg",
+          "2048": "cache/tex/arid_gravel_ground_wkfneic_4k/2048/Arid_Gravel_Ground_wkfneic_4K_AO.jpg",
+          "full": "cache/assets/arid_gravel_ground_wkfneic_4k/Arid_Gravel_Ground_wkfneic_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/arid_gravel_ground_wkfneic_4k/1024/Arid_Gravel_Ground_wkfneic_4K_BaseColor.jpg",
+          "2048": "cache/tex/arid_gravel_ground_wkfneic_4k/2048/Arid_Gravel_Ground_wkfneic_4K_BaseColor.jpg",
+          "full": "cache/assets/arid_gravel_ground_wkfneic_4k/Arid_Gravel_Ground_wkfneic_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/arid_gravel_ground_wkfneic_4k/1024/Arid_Gravel_Ground_wkfneic_4K_Displacement.jpg",
+          "2048": "cache/tex/arid_gravel_ground_wkfneic_4k/2048/Arid_Gravel_Ground_wkfneic_4K_Displacement.jpg",
+          "full": "cache/assets/arid_gravel_ground_wkfneic_4k/Arid_Gravel_Ground_wkfneic_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/arid_gravel_ground_wkfneic_4k/1024/Arid_Gravel_Ground_wkfneic_4K_Gloss.jpg",
+          "2048": "cache/tex/arid_gravel_ground_wkfneic_4k/2048/Arid_Gravel_Ground_wkfneic_4K_Gloss.jpg",
+          "full": "cache/assets/arid_gravel_ground_wkfneic_4k/Arid_Gravel_Ground_wkfneic_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/arid_gravel_ground_wkfneic_4k/1024/Arid_Gravel_Ground_wkfneic_4K_Normal.jpg",
+          "2048": "cache/tex/arid_gravel_ground_wkfneic_4k/2048/Arid_Gravel_Ground_wkfneic_4K_Normal.jpg",
+          "full": "cache/assets/arid_gravel_ground_wkfneic_4k/Arid_Gravel_Ground_wkfneic_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/arid_gravel_ground_wkfneic_4k/1024/Arid_Gravel_Ground_wkfneic_4K_Roughness.jpg",
+          "2048": "cache/tex/arid_gravel_ground_wkfneic_4k/2048/Arid_Gravel_Ground_wkfneic_4K_Roughness.jpg",
+          "full": "cache/assets/arid_gravel_ground_wkfneic_4k/Arid_Gravel_Ground_wkfneic_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:wkfneic",
+      "source_size_bytes": 129859416,
+      "megascans_id": "wkfneic",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "sand",
+        "desert"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "terrain.gravel"
+      ],
+      "height_m": 0.021
+    },
+    "asphalt_surface_rmqlqkp0_4k": {
+      "status": "ok",
+      "source": "../assets/asphalt_surface_rmqlqkp0_4k.zip",
+      "path": "cache/assets/asphalt_surface_rmqlqkp0_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/asphalt_surface_rmqlqkp0_4k/1024/Asphalt_Surface_rmqlqkp0_4K_AO.jpg",
+          "2048": "cache/tex/asphalt_surface_rmqlqkp0_4k/2048/Asphalt_Surface_rmqlqkp0_4K_AO.jpg",
+          "full": "cache/assets/asphalt_surface_rmqlqkp0_4k/Asphalt_Surface_rmqlqkp0_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/asphalt_surface_rmqlqkp0_4k/1024/Asphalt_Surface_rmqlqkp0_4K_BaseColor.jpg",
+          "2048": "cache/tex/asphalt_surface_rmqlqkp0_4k/2048/Asphalt_Surface_rmqlqkp0_4K_BaseColor.jpg",
+          "full": "cache/assets/asphalt_surface_rmqlqkp0_4k/Asphalt_Surface_rmqlqkp0_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/asphalt_surface_rmqlqkp0_4k/1024/Asphalt_Surface_rmqlqkp0_4K_Displacement.jpg",
+          "2048": "cache/tex/asphalt_surface_rmqlqkp0_4k/2048/Asphalt_Surface_rmqlqkp0_4K_Displacement.jpg",
+          "full": "cache/assets/asphalt_surface_rmqlqkp0_4k/Asphalt_Surface_rmqlqkp0_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/asphalt_surface_rmqlqkp0_4k/1024/Asphalt_Surface_rmqlqkp0_4K_Gloss.jpg",
+          "2048": "cache/tex/asphalt_surface_rmqlqkp0_4k/2048/Asphalt_Surface_rmqlqkp0_4K_Gloss.jpg",
+          "full": "cache/assets/asphalt_surface_rmqlqkp0_4k/Asphalt_Surface_rmqlqkp0_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/asphalt_surface_rmqlqkp0_4k/1024/Asphalt_Surface_rmqlqkp0_4K_Normal.jpg",
+          "2048": "cache/tex/asphalt_surface_rmqlqkp0_4k/2048/Asphalt_Surface_rmqlqkp0_4K_Normal.jpg",
+          "full": "cache/assets/asphalt_surface_rmqlqkp0_4k/Asphalt_Surface_rmqlqkp0_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/asphalt_surface_rmqlqkp0_4k/1024/Asphalt_Surface_rmqlqkp0_4K_Roughness.jpg",
+          "2048": "cache/tex/asphalt_surface_rmqlqkp0_4k/2048/Asphalt_Surface_rmqlqkp0_4K_Roughness.jpg",
+          "full": "cache/assets/asphalt_surface_rmqlqkp0_4k/Asphalt_Surface_rmqlqkp0_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:rmqlqkp0",
+      "source_size_bytes": 38890497,
+      "megascans_id": "rmqlqkp0",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "road"
+      ],
+      "average_color": "#574D44",
+      "real_size_m": [
+        0.42,
+        0.42
+      ],
+      "tileable": true,
+      "roles": [
+        "road.asphalt"
+      ],
+      "height_m": 0.045
+    },
+    "bright_desert_sand_sjzkfega_4k": {
+      "status": "ok",
+      "source": "../assets/bright_desert_sand_sjzkfega_4k.zip",
+      "path": "cache/assets/bright_desert_sand_sjzkfega_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/bright_desert_sand_sjzkfega_4k/1024/Bright_Desert_Sand_sjzkfega_4K_AO.jpg",
+          "2048": "cache/tex/bright_desert_sand_sjzkfega_4k/2048/Bright_Desert_Sand_sjzkfega_4K_AO.jpg",
+          "full": "cache/assets/bright_desert_sand_sjzkfega_4k/Bright_Desert_Sand_sjzkfega_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/bright_desert_sand_sjzkfega_4k/1024/Bright_Desert_Sand_sjzkfega_4K_BaseColor.jpg",
+          "2048": "cache/tex/bright_desert_sand_sjzkfega_4k/2048/Bright_Desert_Sand_sjzkfega_4K_BaseColor.jpg",
+          "full": "cache/assets/bright_desert_sand_sjzkfega_4k/Bright_Desert_Sand_sjzkfega_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/bright_desert_sand_sjzkfega_4k/1024/Bright_Desert_Sand_sjzkfega_4K_Displacement.jpg",
+          "2048": "cache/tex/bright_desert_sand_sjzkfega_4k/2048/Bright_Desert_Sand_sjzkfega_4K_Displacement.jpg",
+          "full": "cache/assets/bright_desert_sand_sjzkfega_4k/Bright_Desert_Sand_sjzkfega_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/bright_desert_sand_sjzkfega_4k/1024/Bright_Desert_Sand_sjzkfega_4K_Gloss.jpg",
+          "2048": "cache/tex/bright_desert_sand_sjzkfega_4k/2048/Bright_Desert_Sand_sjzkfega_4K_Gloss.jpg",
+          "full": "cache/assets/bright_desert_sand_sjzkfega_4k/Bright_Desert_Sand_sjzkfega_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/bright_desert_sand_sjzkfega_4k/1024/Bright_Desert_Sand_sjzkfega_4K_Normal.jpg",
+          "2048": "cache/tex/bright_desert_sand_sjzkfega_4k/2048/Bright_Desert_Sand_sjzkfega_4K_Normal.jpg",
+          "full": "cache/assets/bright_desert_sand_sjzkfega_4k/Bright_Desert_Sand_sjzkfega_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/bright_desert_sand_sjzkfega_4k/1024/Bright_Desert_Sand_sjzkfega_4K_Roughness.jpg",
+          "2048": "cache/tex/bright_desert_sand_sjzkfega_4k/2048/Bright_Desert_Sand_sjzkfega_4K_Roughness.jpg",
+          "full": "cache/assets/bright_desert_sand_sjzkfega_4k/Bright_Desert_Sand_sjzkfega_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:sjzkfega",
+      "source_size_bytes": 110240338,
+      "megascans_id": "sjzkfega",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "sand",
+        "fine"
+      ],
+      "average_color": "#B8A585",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "terrain.sand"
+      ],
+      "height_m": 0.042
+    },
+    "concrete_barrier_sepsb_mid": {
+      "status": "ok",
+      "source": "../assets/concrete_barrier_sepsb_mid.zip",
+      "path": "cache/assets/concrete_barrier_sepsb_mid",
+      "models": [
+        "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/concrete_barrier_sepsb_mid/1024/Concrete_Barrier_sepsb_Mid_2K_AO.jpg",
+          "2048": "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid_2K_AO.jpg",
+          "full": "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/concrete_barrier_sepsb_mid/1024/Concrete_Barrier_sepsb_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/concrete_barrier_sepsb_mid/1024/Concrete_Barrier_sepsb_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/concrete_barrier_sepsb_mid/1024/Concrete_Barrier_sepsb_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid_2K_Normal.jpg",
+          "full": "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/concrete_barrier_sepsb_mid/1024/Concrete_Barrier_sepsb_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/concrete_barrier_sepsb_mid/Concrete_Barrier_sepsb_Mid_2K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:sepsb",
+      "source_size_bytes": 8704089,
+      "megascans_id": "sepsb",
+      "kind": "3D asset",
+      "categories": [
+        "3d",
+        "structure",
+        "cement"
+      ],
+      "average_color": "#2A2219",
+      "dims_m": [
+        3.04,
+        0.46,
+        0.79
+      ],
+      "roles": [
+        "prop.barrier"
+      ]
+    },
+    "concrete_block_wall_ugsifevlw_4k": {
+      "status": "corrupt"
+    },
+    "concrete_pavement_wjwkbdv_4k": {
+      "status": "ok",
+      "source": "../assets/concrete_pavement_wjwkbdv_4k.zip",
+      "path": "cache/assets/concrete_pavement_wjwkbdv_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/concrete_pavement_wjwkbdv_4k/1024/Concrete_Pavement_wjwkbdv_4K_AO.jpg",
+          "2048": "cache/tex/concrete_pavement_wjwkbdv_4k/2048/Concrete_Pavement_wjwkbdv_4K_AO.jpg",
+          "full": "cache/assets/concrete_pavement_wjwkbdv_4k/Concrete_Pavement_wjwkbdv_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/concrete_pavement_wjwkbdv_4k/1024/Concrete_Pavement_wjwkbdv_4K_BaseColor.jpg",
+          "2048": "cache/tex/concrete_pavement_wjwkbdv_4k/2048/Concrete_Pavement_wjwkbdv_4K_BaseColor.jpg",
+          "full": "cache/assets/concrete_pavement_wjwkbdv_4k/Concrete_Pavement_wjwkbdv_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/concrete_pavement_wjwkbdv_4k/1024/Concrete_Pavement_wjwkbdv_4K_Displacement.jpg",
+          "2048": "cache/tex/concrete_pavement_wjwkbdv_4k/2048/Concrete_Pavement_wjwkbdv_4K_Displacement.jpg",
+          "full": "cache/assets/concrete_pavement_wjwkbdv_4k/Concrete_Pavement_wjwkbdv_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/concrete_pavement_wjwkbdv_4k/1024/Concrete_Pavement_wjwkbdv_4K_Gloss.jpg",
+          "2048": "cache/tex/concrete_pavement_wjwkbdv_4k/2048/Concrete_Pavement_wjwkbdv_4K_Gloss.jpg",
+          "full": "cache/assets/concrete_pavement_wjwkbdv_4k/Concrete_Pavement_wjwkbdv_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/concrete_pavement_wjwkbdv_4k/1024/Concrete_Pavement_wjwkbdv_4K_Normal.jpg",
+          "2048": "cache/tex/concrete_pavement_wjwkbdv_4k/2048/Concrete_Pavement_wjwkbdv_4K_Normal.jpg",
+          "full": "cache/assets/concrete_pavement_wjwkbdv_4k/Concrete_Pavement_wjwkbdv_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/concrete_pavement_wjwkbdv_4k/1024/Concrete_Pavement_wjwkbdv_4K_Roughness.jpg",
+          "2048": "cache/tex/concrete_pavement_wjwkbdv_4k/2048/Concrete_Pavement_wjwkbdv_4K_Roughness.jpg",
+          "full": "cache/assets/concrete_pavement_wjwkbdv_4k/Concrete_Pavement_wjwkbdv_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:wjwkbdv",
+      "source_size_bytes": 106321191,
+      "megascans_id": "wjwkbdv",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "concrete",
+        "rough"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "path.sidewalk",
+        "yard.paving"
+      ],
+      "height_m": 0.013
+    },
+    "concrete_rubble_pile_ujriaadga_mid": {
+      "status": "ok",
+      "source": "../assets/concrete_rubble_pile_ujriaadga_mid.zip",
+      "path": "cache/assets/concrete_rubble_pile_ujriaadga_mid",
+      "models": [
+        "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/concrete_rubble_pile_ujriaadga_mid/1024/Concrete_Rubble_Pile_ujriaadga_Mid_2K_AO.jpg",
+          "2048": "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid_2K_AO.jpg",
+          "full": "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/concrete_rubble_pile_ujriaadga_mid/1024/Concrete_Rubble_Pile_ujriaadga_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/concrete_rubble_pile_ujriaadga_mid/1024/Concrete_Rubble_Pile_ujriaadga_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/concrete_rubble_pile_ujriaadga_mid/1024/Concrete_Rubble_Pile_ujriaadga_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid_2K_Normal.jpg",
+          "full": "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/concrete_rubble_pile_ujriaadga_mid/1024/Concrete_Rubble_Pile_ujriaadga_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/concrete_rubble_pile_ujriaadga_mid/Concrete_Rubble_Pile_ujriaadga_Mid_2K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:ujriaadga",
+      "source_size_bytes": 16246096,
+      "megascans_id": "ujriaadga",
+      "kind": "3D asset",
+      "categories": [
+        "3d"
+      ],
+      "average_color": "#746F66",
+      "dims_m": [
+        2.67,
+        2.23,
+        0.23
+      ],
+      "roles": [
+        "prop.rubble"
+      ]
+    },
+    "date_palm_pjyjk2_4k": {
+      "status": "ok",
+      "source": "../assets/date_palm_pjyjk2_4k.zip",
+      "path": "cache/assets/date_palm_pjyjk2_4k",
+      "models": [],
+      "maps": {
+        "base_color": {
+          "1024": "cache/tex/date_palm_pjyjk2_4k/1024/Date_Palm_pjyjK2_4K_BaseColor.jpg",
+          "2048": "cache/tex/date_palm_pjyjk2_4k/2048/Date_Palm_pjyjK2_4K_BaseColor.jpg",
+          "full": "cache/assets/date_palm_pjyjk2_4k/Date_Palm_pjyjK2_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/date_palm_pjyjk2_4k/1024/Date_Palm_pjyjK2_4K_Displacement.jpg",
+          "2048": "cache/tex/date_palm_pjyjk2_4k/2048/Date_Palm_pjyjK2_4K_Displacement.jpg",
+          "full": "cache/assets/date_palm_pjyjk2_4k/Date_Palm_pjyjK2_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/date_palm_pjyjk2_4k/1024/Date_Palm_pjyjK2_4K_Gloss.jpg",
+          "2048": "cache/tex/date_palm_pjyjk2_4k/2048/Date_Palm_pjyjK2_4K_Gloss.jpg",
+          "full": "cache/assets/date_palm_pjyjk2_4k/Date_Palm_pjyjK2_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/date_palm_pjyjk2_4k/1024/Date_Palm_pjyjK2_4K_Normal.jpg",
+          "2048": "cache/tex/date_palm_pjyjk2_4k/2048/Date_Palm_pjyjK2_4K_Normal.jpg",
+          "full": "cache/assets/date_palm_pjyjk2_4k/Date_Palm_pjyjK2_4K_Normal.jpg"
+        },
+        "opacity": {
+          "1024": "cache/tex/date_palm_pjyjk2_4k/1024/Date_Palm_pjyjK2_4K_Opacity.jpg",
+          "2048": "cache/tex/date_palm_pjyjk2_4k/2048/Date_Palm_pjyjK2_4K_Opacity.jpg",
+          "full": "cache/assets/date_palm_pjyjk2_4k/Date_Palm_pjyjK2_4K_Opacity.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/date_palm_pjyjk2_4k/1024/Date_Palm_pjyjK2_4K_Roughness.jpg",
+          "2048": "cache/tex/date_palm_pjyjk2_4k/2048/Date_Palm_pjyjK2_4K_Roughness.jpg",
+          "full": "cache/assets/date_palm_pjyjk2_4k/Date_Palm_pjyjK2_4K_Roughness.jpg"
+        },
+        "translucency": {
+          "1024": "cache/tex/date_palm_pjyjk2_4k/1024/Date_Palm_pjyjK2_4K_Translucency.jpg",
+          "2048": "cache/tex/date_palm_pjyjk2_4k/2048/Date_Palm_pjyjK2_4K_Translucency.jpg",
+          "full": "cache/assets/date_palm_pjyjk2_4k/Date_Palm_pjyjK2_4K_Translucency.jpg"
+        }
+      },
+      "non_color_maps": [
+        "gloss",
+        "height",
+        "normal",
+        "opacity",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:pjyjK2",
+      "source_size_bytes": 8033776,
+      "megascans_id": "pjyjK2",
+      "kind": "atlas",
+      "categories": [
+        "atlas",
+        "tree",
+        "leaf"
+      ],
+      "average_color": "#808080",
+      "real_size_m": [
+        1.0,
+        1.0
+      ],
+      "tileable": false,
+      "roles": [
+        "atlas.date_palm_frond"
+      ],
+      "height_m": 0.006
+    },
+    "dead_shrubs_vdknafgha_mid": {
+      "status": "ok",
+      "source": "../assets/dead_shrubs_vdknafgha_mid.zip",
+      "path": "cache/assets/dead_shrubs_vdknafgha_mid",
+      "models": [
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarA_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarA_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarA_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarA_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarB_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarB_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarB_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarB_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarC_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarC_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarC_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarC_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarD_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarD_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarD_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarD_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarE_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarE_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarE_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarE_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarF_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarF_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarF_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarF_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarG_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarG_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarG_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarG_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarH_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarH_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarH_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_vdknafgha_VarH_LOD3.fbx"
+      ],
+      "maps": {
+        "base_color": {
+          "1024": "cache/tex/dead_shrubs_vdknafgha_mid/1024/Dead_Shrubs_vdknafgha_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/dead_shrubs_vdknafgha_mid/1024/Dead_Shrubs_vdknafgha_Mid_2K_Displacement.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Displacement.jpg",
+          "full": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/dead_shrubs_vdknafgha_mid/1024/Dead_Shrubs_vdknafgha_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/dead_shrubs_vdknafgha_mid/1024/Dead_Shrubs_vdknafgha_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Normal.jpg",
+          "full": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Normal.jpg"
+        },
+        "opacity": {
+          "1024": "cache/tex/dead_shrubs_vdknafgha_mid/1024/Dead_Shrubs_vdknafgha_Mid_2K_Opacity.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Opacity.jpg",
+          "full": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Opacity.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/dead_shrubs_vdknafgha_mid/1024/Dead_Shrubs_vdknafgha_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Roughness.jpg"
+        },
+        "translucency": {
+          "1024": "cache/tex/dead_shrubs_vdknafgha_mid/1024/Dead_Shrubs_vdknafgha_Mid_2K_Translucency.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Translucency.jpg",
+          "full": "cache/assets/dead_shrubs_vdknafgha_mid/Dead_Shrubs_vdknafgha_Mid_2K_Translucency.jpg"
+        }
+      },
+      "non_color_maps": [
+        "gloss",
+        "height",
+        "normal",
+        "opacity",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:vdknafgha",
+      "source_size_bytes": 12997127,
+      "megascans_id": "vdknafgha",
+      "kind": "3D plant",
+      "categories": [
+        "3dplant",
+        "shrub"
+      ],
+      "average_color": "#000000",
+      "roles": [
+        "veg.dead_shrub"
+      ]
+    },
+    "dead_shrubs_vdknbbuha_mid": {
+      "status": "ok",
+      "source": "../assets/dead_shrubs_vdknbbuha_mid.zip",
+      "path": "cache/assets/dead_shrubs_vdknbbuha_mid",
+      "models": [
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarA_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarA_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarA_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarA_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarB_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarB_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarB_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarB_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarC_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarC_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarC_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarC_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarD_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarD_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarD_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarD_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarE_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarE_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarE_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarE_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarF_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarF_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarF_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarF_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarG_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarG_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarG_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarG_LOD3.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarH_LOD0.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarH_LOD1.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarH_LOD2.fbx",
+        "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_vdknbbuha_VarH_LOD3.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/dead_shrubs_vdknbbuha_mid/1024/Dead_Shrubs_vdknbbuha_Mid_2K_AO.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_AO.jpg",
+          "full": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/dead_shrubs_vdknbbuha_mid/1024/Dead_Shrubs_vdknbbuha_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/dead_shrubs_vdknbbuha_mid/1024/Dead_Shrubs_vdknbbuha_Mid_2K_Displacement.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Displacement.jpg",
+          "full": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/dead_shrubs_vdknbbuha_mid/1024/Dead_Shrubs_vdknbbuha_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/dead_shrubs_vdknbbuha_mid/1024/Dead_Shrubs_vdknbbuha_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Normal.jpg",
+          "full": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Normal.jpg"
+        },
+        "opacity": {
+          "1024": "cache/tex/dead_shrubs_vdknbbuha_mid/1024/Dead_Shrubs_vdknbbuha_Mid_2K_Opacity.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Opacity.jpg",
+          "full": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Opacity.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/dead_shrubs_vdknbbuha_mid/1024/Dead_Shrubs_vdknbbuha_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Roughness.jpg"
+        },
+        "translucency": {
+          "1024": "cache/tex/dead_shrubs_vdknbbuha_mid/1024/Dead_Shrubs_vdknbbuha_Mid_2K_Translucency.jpg",
+          "2048": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Translucency.jpg",
+          "full": "cache/assets/dead_shrubs_vdknbbuha_mid/Dead_Shrubs_vdknbbuha_Mid_2K_Translucency.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "opacity",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:vdknbbuha",
+      "source_size_bytes": 10513052,
+      "megascans_id": "vdknbbuha",
+      "kind": "3D plant",
+      "categories": [
+        "3dplant",
+        "shrub"
+      ],
+      "average_color": "#000000",
+      "roles": [
+        "veg.dead_shrub"
+      ]
+    },
+    "desert_soil_scatter_tl0gedmka_4k": {
+      "status": "ok",
+      "source": "../assets/desert_soil_scatter_tl0gedmka_4k.zip",
+      "path": "cache/assets/desert_soil_scatter_tl0gedmka_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/desert_soil_scatter_tl0gedmka_4k/1024/Desert_Soil_Scatter_tl0gedmka_4K_AO.jpg",
+          "2048": "cache/tex/desert_soil_scatter_tl0gedmka_4k/2048/Desert_Soil_Scatter_tl0gedmka_4K_AO.jpg",
+          "full": "cache/assets/desert_soil_scatter_tl0gedmka_4k/Desert_Soil_Scatter_tl0gedmka_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/desert_soil_scatter_tl0gedmka_4k/1024/Desert_Soil_Scatter_tl0gedmka_4K_BaseColor.jpg",
+          "2048": "cache/tex/desert_soil_scatter_tl0gedmka_4k/2048/Desert_Soil_Scatter_tl0gedmka_4K_BaseColor.jpg",
+          "full": "cache/assets/desert_soil_scatter_tl0gedmka_4k/Desert_Soil_Scatter_tl0gedmka_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/desert_soil_scatter_tl0gedmka_4k/1024/Desert_Soil_Scatter_tl0gedmka_4K_Displacement.jpg",
+          "2048": "cache/tex/desert_soil_scatter_tl0gedmka_4k/2048/Desert_Soil_Scatter_tl0gedmka_4K_Displacement.jpg",
+          "full": "cache/assets/desert_soil_scatter_tl0gedmka_4k/Desert_Soil_Scatter_tl0gedmka_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/desert_soil_scatter_tl0gedmka_4k/1024/Desert_Soil_Scatter_tl0gedmka_4K_Gloss.jpg",
+          "2048": "cache/tex/desert_soil_scatter_tl0gedmka_4k/2048/Desert_Soil_Scatter_tl0gedmka_4K_Gloss.jpg",
+          "full": "cache/assets/desert_soil_scatter_tl0gedmka_4k/Desert_Soil_Scatter_tl0gedmka_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/desert_soil_scatter_tl0gedmka_4k/1024/Desert_Soil_Scatter_tl0gedmka_4K_Normal.jpg",
+          "2048": "cache/tex/desert_soil_scatter_tl0gedmka_4k/2048/Desert_Soil_Scatter_tl0gedmka_4K_Normal.jpg",
+          "full": "cache/assets/desert_soil_scatter_tl0gedmka_4k/Desert_Soil_Scatter_tl0gedmka_4K_Normal.jpg"
+        },
+        "opacity": {
+          "1024": "cache/tex/desert_soil_scatter_tl0gedmka_4k/1024/Desert_Soil_Scatter_tl0gedmka_4K_Opacity.jpg",
+          "2048": "cache/tex/desert_soil_scatter_tl0gedmka_4k/2048/Desert_Soil_Scatter_tl0gedmka_4K_Opacity.jpg",
+          "full": "cache/assets/desert_soil_scatter_tl0gedmka_4k/Desert_Soil_Scatter_tl0gedmka_4K_Opacity.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/desert_soil_scatter_tl0gedmka_4k/1024/Desert_Soil_Scatter_tl0gedmka_4K_Roughness.jpg",
+          "2048": "cache/tex/desert_soil_scatter_tl0gedmka_4k/2048/Desert_Soil_Scatter_tl0gedmka_4K_Roughness.jpg",
+          "full": "cache/assets/desert_soil_scatter_tl0gedmka_4k/Desert_Soil_Scatter_tl0gedmka_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "opacity",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:tl0gedmka",
+      "source_size_bytes": 30204733,
+      "megascans_id": "tl0gedmka",
+      "kind": "decal",
+      "categories": [
+        "atlas",
+        "debris",
+        "nature"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        1.0,
+        1.0
+      ],
+      "tileable": false,
+      "roles": [
+        "decal.soil_scatter"
+      ],
+      "height_m": 0.004
+    },
+    "dirt_ground_xdhhdgq_4k": {
+      "status": "ok",
+      "source": "../assets/dirt_ground_xdhhdgq_4k.zip",
+      "path": "cache/assets/dirt_ground_xdhhdgq_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/dirt_ground_xdhhdgq_4k/1024/Dirt_Ground_xdhhdgq_4K_AO.jpg",
+          "2048": "cache/tex/dirt_ground_xdhhdgq_4k/2048/Dirt_Ground_xdhhdgq_4K_AO.jpg",
+          "full": "cache/assets/dirt_ground_xdhhdgq_4k/Dirt_Ground_xdhhdgq_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/dirt_ground_xdhhdgq_4k/1024/Dirt_Ground_xdhhdgq_4K_BaseColor.jpg",
+          "2048": "cache/tex/dirt_ground_xdhhdgq_4k/2048/Dirt_Ground_xdhhdgq_4K_BaseColor.jpg",
+          "full": "cache/assets/dirt_ground_xdhhdgq_4k/Dirt_Ground_xdhhdgq_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/dirt_ground_xdhhdgq_4k/1024/Dirt_Ground_xdhhdgq_4K_Displacement.jpg",
+          "2048": "cache/tex/dirt_ground_xdhhdgq_4k/2048/Dirt_Ground_xdhhdgq_4K_Displacement.jpg",
+          "full": "cache/assets/dirt_ground_xdhhdgq_4k/Dirt_Ground_xdhhdgq_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/dirt_ground_xdhhdgq_4k/1024/Dirt_Ground_xdhhdgq_4K_Gloss.jpg",
+          "2048": "cache/tex/dirt_ground_xdhhdgq_4k/2048/Dirt_Ground_xdhhdgq_4K_Gloss.jpg",
+          "full": "cache/assets/dirt_ground_xdhhdgq_4k/Dirt_Ground_xdhhdgq_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/dirt_ground_xdhhdgq_4k/1024/Dirt_Ground_xdhhdgq_4K_Normal.jpg",
+          "2048": "cache/tex/dirt_ground_xdhhdgq_4k/2048/Dirt_Ground_xdhhdgq_4K_Normal.jpg",
+          "full": "cache/assets/dirt_ground_xdhhdgq_4k/Dirt_Ground_xdhhdgq_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/dirt_ground_xdhhdgq_4k/1024/Dirt_Ground_xdhhdgq_4K_Roughness.jpg",
+          "2048": "cache/tex/dirt_ground_xdhhdgq_4k/2048/Dirt_Ground_xdhhdgq_4K_Roughness.jpg",
+          "full": "cache/assets/dirt_ground_xdhhdgq_4k/Dirt_Ground_xdhhdgq_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:xdhhdgq",
+      "source_size_bytes": 97895837,
+      "megascans_id": "xdhhdgq",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "gravel",
+        "natural"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "terrain.dirt",
+        "road.dirt"
+      ],
+      "height_m": 0.02
+    },
+    "dirt_road_omdgn0_4k": {
+      "status": "ok",
+      "source": "../assets/dirt_road_omdgn0_4k.zip",
+      "path": "cache/assets/dirt_road_omdgn0_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/dirt_road_omdgn0_4k/1024/Dirt_Road_omDgN0_4K_AO.jpg",
+          "2048": "cache/tex/dirt_road_omdgn0_4k/2048/Dirt_Road_omDgN0_4K_AO.jpg",
+          "full": "cache/assets/dirt_road_omdgn0_4k/Dirt_Road_omDgN0_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/dirt_road_omdgn0_4k/1024/Dirt_Road_omDgN0_4K_BaseColor.jpg",
+          "2048": "cache/tex/dirt_road_omdgn0_4k/2048/Dirt_Road_omDgN0_4K_BaseColor.jpg",
+          "full": "cache/assets/dirt_road_omdgn0_4k/Dirt_Road_omDgN0_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/dirt_road_omdgn0_4k/1024/Dirt_Road_omDgN0_4K_Displacement.jpg",
+          "2048": "cache/tex/dirt_road_omdgn0_4k/2048/Dirt_Road_omDgN0_4K_Displacement.jpg",
+          "full": "cache/assets/dirt_road_omdgn0_4k/Dirt_Road_omDgN0_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/dirt_road_omdgn0_4k/1024/Dirt_Road_omDgN0_4K_Gloss.jpg",
+          "2048": "cache/tex/dirt_road_omdgn0_4k/2048/Dirt_Road_omDgN0_4K_Gloss.jpg",
+          "full": "cache/assets/dirt_road_omdgn0_4k/Dirt_Road_omDgN0_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/dirt_road_omdgn0_4k/1024/Dirt_Road_omDgN0_4K_Normal.jpg",
+          "2048": "cache/tex/dirt_road_omdgn0_4k/2048/Dirt_Road_omDgN0_4K_Normal.jpg",
+          "full": "cache/assets/dirt_road_omdgn0_4k/Dirt_Road_omDgN0_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/dirt_road_omdgn0_4k/1024/Dirt_Road_omDgN0_4K_Roughness.jpg",
+          "2048": "cache/tex/dirt_road_omdgn0_4k/2048/Dirt_Road_omDgN0_4K_Roughness.jpg",
+          "full": "cache/assets/dirt_road_omdgn0_4k/Dirt_Road_omDgN0_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:omDgN0",
+      "source_size_bytes": 57215631,
+      "megascans_id": "omDgN0",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "asphalt",
+        "dried"
+      ],
+      "average_color": "#BEA277",
+      "real_size_m": [
+        0.74,
+        0.74
+      ],
+      "tileable": true,
+      "roles": [
+        "road.dirt_alt",
+        "terrain.dust"
+      ],
+      "height_m": 0.039
+    },
+    "dry_grass_tbbqejqr_mid": {
+      "status": "ok",
+      "source": "../assets/dry_grass_tbbqejqr_mid.zip",
+      "path": "cache/assets/dry_grass_tbbqejqr_mid",
+      "models": [
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarA_LOD0.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarA_LOD1.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarA_LOD2.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarB_LOD0.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarB_LOD1.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarB_LOD2.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarC_LOD0.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarC_LOD1.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarC_LOD2.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarD_LOD0.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarD_LOD1.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarD_LOD2.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarE_LOD0.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarE_LOD1.fbx",
+        "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_tbbqejqr_VarE_LOD2.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/dry_grass_tbbqejqr_mid/1024/Dry_Grass_tbbqejqr_Mid_2K_AO.jpg",
+          "2048": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_AO.jpg",
+          "full": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/dry_grass_tbbqejqr_mid/1024/Dry_Grass_tbbqejqr_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/dry_grass_tbbqejqr_mid/1024/Dry_Grass_tbbqejqr_Mid_2K_Displacement.jpg",
+          "2048": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Displacement.jpg",
+          "full": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/dry_grass_tbbqejqr_mid/1024/Dry_Grass_tbbqejqr_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/dry_grass_tbbqejqr_mid/1024/Dry_Grass_tbbqejqr_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Normal.jpg",
+          "full": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Normal.jpg"
+        },
+        "opacity": {
+          "1024": "cache/tex/dry_grass_tbbqejqr_mid/1024/Dry_Grass_tbbqejqr_Mid_2K_Opacity.jpg",
+          "2048": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Opacity.jpg",
+          "full": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Opacity.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/dry_grass_tbbqejqr_mid/1024/Dry_Grass_tbbqejqr_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Roughness.jpg"
+        },
+        "translucency": {
+          "1024": "cache/tex/dry_grass_tbbqejqr_mid/1024/Dry_Grass_tbbqejqr_Mid_2K_Translucency.jpg",
+          "2048": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Translucency.jpg",
+          "full": "cache/assets/dry_grass_tbbqejqr_mid/Dry_Grass_tbbqejqr_Mid_2K_Translucency.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "opacity",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:tbbqejqr",
+      "source_size_bytes": 9476687,
+      "megascans_id": "tbbqejqr",
+      "kind": "3D plant",
+      "categories": [
+        "3dplant",
+        "plants",
+        "3d"
+      ],
+      "average_color": "#000000",
+      "roles": [
+        "veg.dry_grass"
+      ]
+    },
+    "dry_soil_ground_umsndibcw_4k": {
+      "status": "ok",
+      "source": "../assets/dry_soil_ground_umsndibcw_4k.zip",
+      "path": "cache/assets/dry_soil_ground_umsndibcw_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/dry_soil_ground_umsndibcw_4k/1024/Dry_Soil_Ground_umsndibcw_4K_AO.jpg",
+          "2048": "cache/tex/dry_soil_ground_umsndibcw_4k/2048/Dry_Soil_Ground_umsndibcw_4K_AO.jpg",
+          "full": "cache/assets/dry_soil_ground_umsndibcw_4k/Dry_Soil_Ground_umsndibcw_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/dry_soil_ground_umsndibcw_4k/1024/Dry_Soil_Ground_umsndibcw_4K_BaseColor.jpg",
+          "2048": "cache/tex/dry_soil_ground_umsndibcw_4k/2048/Dry_Soil_Ground_umsndibcw_4K_BaseColor.jpg",
+          "full": "cache/assets/dry_soil_ground_umsndibcw_4k/Dry_Soil_Ground_umsndibcw_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/dry_soil_ground_umsndibcw_4k/1024/Dry_Soil_Ground_umsndibcw_4K_Displacement.jpg",
+          "2048": "cache/tex/dry_soil_ground_umsndibcw_4k/2048/Dry_Soil_Ground_umsndibcw_4K_Displacement.jpg",
+          "full": "cache/assets/dry_soil_ground_umsndibcw_4k/Dry_Soil_Ground_umsndibcw_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/dry_soil_ground_umsndibcw_4k/1024/Dry_Soil_Ground_umsndibcw_4K_Gloss.jpg",
+          "2048": "cache/tex/dry_soil_ground_umsndibcw_4k/2048/Dry_Soil_Ground_umsndibcw_4K_Gloss.jpg",
+          "full": "cache/assets/dry_soil_ground_umsndibcw_4k/Dry_Soil_Ground_umsndibcw_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/dry_soil_ground_umsndibcw_4k/1024/Dry_Soil_Ground_umsndibcw_4K_Normal.jpg",
+          "2048": "cache/tex/dry_soil_ground_umsndibcw_4k/2048/Dry_Soil_Ground_umsndibcw_4K_Normal.jpg",
+          "full": "cache/assets/dry_soil_ground_umsndibcw_4k/Dry_Soil_Ground_umsndibcw_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/dry_soil_ground_umsndibcw_4k/1024/Dry_Soil_Ground_umsndibcw_4K_Roughness.jpg",
+          "2048": "cache/tex/dry_soil_ground_umsndibcw_4k/2048/Dry_Soil_Ground_umsndibcw_4K_Roughness.jpg",
+          "full": "cache/assets/dry_soil_ground_umsndibcw_4k/Dry_Soil_Ground_umsndibcw_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:umsndibcw",
+      "source_size_bytes": 137472233,
+      "megascans_id": "umsndibcw",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "soil",
+        "clay"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "terrain.soil"
+      ],
+      "height_m": 0.052
+    },
+    "dusty_concrete_floor_ugtkadmg_4k": {
+      "status": "ok",
+      "source": "../assets/dusty_concrete_floor_ugtkadmg_4k.zip",
+      "path": "cache/assets/dusty_concrete_floor_ugtkadmg_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/1024/Dusty_Concrete_Floor_ugtkadmg_4K_AO.jpg",
+          "2048": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/2048/Dusty_Concrete_Floor_ugtkadmg_4K_AO.jpg",
+          "full": "cache/assets/dusty_concrete_floor_ugtkadmg_4k/Dusty_Concrete_Floor_ugtkadmg_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/1024/Dusty_Concrete_Floor_ugtkadmg_4K_BaseColor.jpg",
+          "2048": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/2048/Dusty_Concrete_Floor_ugtkadmg_4K_BaseColor.jpg",
+          "full": "cache/assets/dusty_concrete_floor_ugtkadmg_4k/Dusty_Concrete_Floor_ugtkadmg_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/1024/Dusty_Concrete_Floor_ugtkadmg_4K_Displacement.jpg",
+          "2048": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/2048/Dusty_Concrete_Floor_ugtkadmg_4K_Displacement.jpg",
+          "full": "cache/assets/dusty_concrete_floor_ugtkadmg_4k/Dusty_Concrete_Floor_ugtkadmg_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/1024/Dusty_Concrete_Floor_ugtkadmg_4K_Gloss.jpg",
+          "2048": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/2048/Dusty_Concrete_Floor_ugtkadmg_4K_Gloss.jpg",
+          "full": "cache/assets/dusty_concrete_floor_ugtkadmg_4k/Dusty_Concrete_Floor_ugtkadmg_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/1024/Dusty_Concrete_Floor_ugtkadmg_4K_Normal.jpg",
+          "2048": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/2048/Dusty_Concrete_Floor_ugtkadmg_4K_Normal.jpg",
+          "full": "cache/assets/dusty_concrete_floor_ugtkadmg_4k/Dusty_Concrete_Floor_ugtkadmg_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/1024/Dusty_Concrete_Floor_ugtkadmg_4K_Roughness.jpg",
+          "2048": "cache/tex/dusty_concrete_floor_ugtkadmg_4k/2048/Dusty_Concrete_Floor_ugtkadmg_4K_Roughness.jpg",
+          "full": "cache/assets/dusty_concrete_floor_ugtkadmg_4k/Dusty_Concrete_Floor_ugtkadmg_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:ugtkadmg",
+      "source_size_bytes": 79692822,
+      "megascans_id": "ugtkadmg",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "concrete",
+        "rough"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "roof.flat"
+      ],
+      "height_m": 0.005
+    },
+    "dusty_rough_asphalt_vbhnaejn_4k": {
+      "status": "ok",
+      "source": "../assets/dusty_rough_asphalt_vbhnaejn_4k.zip",
+      "path": "cache/assets/dusty_rough_asphalt_vbhnaejn_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/1024/Dusty_Rough_Asphalt_vbhnaejn_4K_AO.jpg",
+          "2048": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/2048/Dusty_Rough_Asphalt_vbhnaejn_4K_AO.jpg",
+          "full": "cache/assets/dusty_rough_asphalt_vbhnaejn_4k/Dusty_Rough_Asphalt_vbhnaejn_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/1024/Dusty_Rough_Asphalt_vbhnaejn_4K_BaseColor.jpg",
+          "2048": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/2048/Dusty_Rough_Asphalt_vbhnaejn_4K_BaseColor.jpg",
+          "full": "cache/assets/dusty_rough_asphalt_vbhnaejn_4k/Dusty_Rough_Asphalt_vbhnaejn_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/1024/Dusty_Rough_Asphalt_vbhnaejn_4K_Displacement.jpg",
+          "2048": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/2048/Dusty_Rough_Asphalt_vbhnaejn_4K_Displacement.jpg",
+          "full": "cache/assets/dusty_rough_asphalt_vbhnaejn_4k/Dusty_Rough_Asphalt_vbhnaejn_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/1024/Dusty_Rough_Asphalt_vbhnaejn_4K_Gloss.jpg",
+          "2048": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/2048/Dusty_Rough_Asphalt_vbhnaejn_4K_Gloss.jpg",
+          "full": "cache/assets/dusty_rough_asphalt_vbhnaejn_4k/Dusty_Rough_Asphalt_vbhnaejn_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/1024/Dusty_Rough_Asphalt_vbhnaejn_4K_Normal.jpg",
+          "2048": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/2048/Dusty_Rough_Asphalt_vbhnaejn_4K_Normal.jpg",
+          "full": "cache/assets/dusty_rough_asphalt_vbhnaejn_4k/Dusty_Rough_Asphalt_vbhnaejn_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/1024/Dusty_Rough_Asphalt_vbhnaejn_4K_Roughness.jpg",
+          "2048": "cache/tex/dusty_rough_asphalt_vbhnaejn_4k/2048/Dusty_Rough_Asphalt_vbhnaejn_4K_Roughness.jpg",
+          "full": "cache/assets/dusty_rough_asphalt_vbhnaejn_4k/Dusty_Rough_Asphalt_vbhnaejn_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:vbhnaejn",
+      "source_size_bytes": 110132819,
+      "megascans_id": "vbhnaejn",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "asphalt",
+        "rough"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "road.asphalt_alt"
+      ],
+      "height_m": 0.013
+    },
+    "fan_palm_sesmj_mid": {
+      "status": "ok",
+      "source": "../assets/fan_palm_sesmj_mid.zip",
+      "path": "cache/assets/fan_palm_sesmj_mid",
+      "models": [
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarA_LOD0.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarA_LOD1.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarA_LOD2.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarB_LOD0.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarB_LOD1.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarB_LOD2.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarC_LOD0.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarC_LOD1.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarC_LOD2.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarD_LOD0.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarD_LOD1.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarD_LOD2.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarE_LOD0.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarE_LOD1.fbx",
+        "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_sesmJ_VarE_LOD2.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/fan_palm_sesmj_mid/1024/Fan_Palm_sesmJ_Mid_2K_AO.jpg",
+          "2048": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_AO.jpg",
+          "full": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/fan_palm_sesmj_mid/1024/Fan_Palm_sesmJ_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/fan_palm_sesmj_mid/1024/Fan_Palm_sesmJ_Mid_2K_Displacement.jpg",
+          "2048": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Displacement.jpg",
+          "full": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/fan_palm_sesmj_mid/1024/Fan_Palm_sesmJ_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/fan_palm_sesmj_mid/1024/Fan_Palm_sesmJ_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Normal.jpg",
+          "full": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Normal.jpg"
+        },
+        "opacity": {
+          "1024": "cache/tex/fan_palm_sesmj_mid/1024/Fan_Palm_sesmJ_Mid_2K_Opacity.jpg",
+          "2048": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Opacity.jpg",
+          "full": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Opacity.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/fan_palm_sesmj_mid/1024/Fan_Palm_sesmJ_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Roughness.jpg"
+        },
+        "translucency": {
+          "1024": "cache/tex/fan_palm_sesmj_mid/1024/Fan_Palm_sesmJ_Mid_2K_Translucency.jpg",
+          "2048": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Translucency.jpg",
+          "full": "cache/assets/fan_palm_sesmj_mid/Fan_Palm_sesmJ_Mid_2K_Translucency.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "opacity",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:sesmJ",
+      "source_size_bytes": 12241927,
+      "megascans_id": "sesmJ",
+      "kind": "3D plant",
+      "categories": [
+        "3dplant",
+        "plants",
+        "3d"
+      ],
+      "average_color": "#000000",
+      "roles": [
+        "veg.fan_palm"
+      ]
+    },
+    "gravel_ground_xbnefgl_4k": {
+      "status": "ok",
+      "source": "../assets/gravel_ground_xbnefgl_4k.zip",
+      "path": "cache/assets/gravel_ground_xbnefgl_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/gravel_ground_xbnefgl_4k/1024/Gravel_Ground_xbnefgl_4K_AO.jpg",
+          "2048": "cache/tex/gravel_ground_xbnefgl_4k/2048/Gravel_Ground_xbnefgl_4K_AO.jpg",
+          "full": "cache/assets/gravel_ground_xbnefgl_4k/Gravel_Ground_xbnefgl_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/gravel_ground_xbnefgl_4k/1024/Gravel_Ground_xbnefgl_4K_BaseColor.jpg",
+          "2048": "cache/tex/gravel_ground_xbnefgl_4k/2048/Gravel_Ground_xbnefgl_4K_BaseColor.jpg",
+          "full": "cache/assets/gravel_ground_xbnefgl_4k/Gravel_Ground_xbnefgl_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/gravel_ground_xbnefgl_4k/1024/Gravel_Ground_xbnefgl_4K_Displacement.jpg",
+          "2048": "cache/tex/gravel_ground_xbnefgl_4k/2048/Gravel_Ground_xbnefgl_4K_Displacement.jpg",
+          "full": "cache/assets/gravel_ground_xbnefgl_4k/Gravel_Ground_xbnefgl_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/gravel_ground_xbnefgl_4k/1024/Gravel_Ground_xbnefgl_4K_Gloss.jpg",
+          "2048": "cache/tex/gravel_ground_xbnefgl_4k/2048/Gravel_Ground_xbnefgl_4K_Gloss.jpg",
+          "full": "cache/assets/gravel_ground_xbnefgl_4k/Gravel_Ground_xbnefgl_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/gravel_ground_xbnefgl_4k/1024/Gravel_Ground_xbnefgl_4K_Normal.jpg",
+          "2048": "cache/tex/gravel_ground_xbnefgl_4k/2048/Gravel_Ground_xbnefgl_4K_Normal.jpg",
+          "full": "cache/assets/gravel_ground_xbnefgl_4k/Gravel_Ground_xbnefgl_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/gravel_ground_xbnefgl_4k/1024/Gravel_Ground_xbnefgl_4K_Roughness.jpg",
+          "2048": "cache/tex/gravel_ground_xbnefgl_4k/2048/Gravel_Ground_xbnefgl_4K_Roughness.jpg",
+          "full": "cache/assets/gravel_ground_xbnefgl_4k/Gravel_Ground_xbnefgl_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:xbnefgl",
+      "source_size_bytes": 154490743,
+      "megascans_id": "xbnefgl",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "gravel",
+        "natural"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "terrain.gravel",
+        "road.shoulder"
+      ],
+      "height_m": 0.013
+    },
+    "gravel_ground_xdutads_4k": {
+      "status": "ok",
+      "source": "../assets/gravel_ground_xdutads_4k.zip",
+      "path": "cache/assets/gravel_ground_xdutads_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/gravel_ground_xdutads_4k/1024/Gravel_Ground_xdutads_4K_AO.jpg",
+          "2048": "cache/tex/gravel_ground_xdutads_4k/2048/Gravel_Ground_xdutads_4K_AO.jpg",
+          "full": "cache/assets/gravel_ground_xdutads_4k/Gravel_Ground_xdutads_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/gravel_ground_xdutads_4k/1024/Gravel_Ground_xdutads_4K_BaseColor.jpg",
+          "2048": "cache/tex/gravel_ground_xdutads_4k/2048/Gravel_Ground_xdutads_4K_BaseColor.jpg",
+          "full": "cache/assets/gravel_ground_xdutads_4k/Gravel_Ground_xdutads_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/gravel_ground_xdutads_4k/1024/Gravel_Ground_xdutads_4K_Displacement.jpg",
+          "2048": "cache/tex/gravel_ground_xdutads_4k/2048/Gravel_Ground_xdutads_4K_Displacement.jpg",
+          "full": "cache/assets/gravel_ground_xdutads_4k/Gravel_Ground_xdutads_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/gravel_ground_xdutads_4k/1024/Gravel_Ground_xdutads_4K_Gloss.jpg",
+          "2048": "cache/tex/gravel_ground_xdutads_4k/2048/Gravel_Ground_xdutads_4K_Gloss.jpg",
+          "full": "cache/assets/gravel_ground_xdutads_4k/Gravel_Ground_xdutads_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/gravel_ground_xdutads_4k/1024/Gravel_Ground_xdutads_4K_Normal.jpg",
+          "2048": "cache/tex/gravel_ground_xdutads_4k/2048/Gravel_Ground_xdutads_4K_Normal.jpg",
+          "full": "cache/assets/gravel_ground_xdutads_4k/Gravel_Ground_xdutads_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/gravel_ground_xdutads_4k/1024/Gravel_Ground_xdutads_4K_Roughness.jpg",
+          "2048": "cache/tex/gravel_ground_xdutads_4k/2048/Gravel_Ground_xdutads_4K_Roughness.jpg",
+          "full": "cache/assets/gravel_ground_xdutads_4k/Gravel_Ground_xdutads_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:xdutads",
+      "source_size_bytes": 139588790,
+      "megascans_id": "xdutads",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "soil",
+        "sandy"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "terrain.soil_sandy"
+      ],
+      "height_m": 0.038
+    },
+    "icelandic_porous_rocks_skxqf_mid": {
+      "status": "ok",
+      "source": "../assets/icelandic_porous_rocks_skxqf_mid.zip",
+      "path": "cache/assets/icelandic_porous_rocks_skxqf_mid",
+      "models": [
+        "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/icelandic_porous_rocks_skxqf_mid/1024/Icelandic_Porous_Rocks_skxqf_Mid_2K_AO.jpg",
+          "2048": "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid_2K_AO.jpg",
+          "full": "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/icelandic_porous_rocks_skxqf_mid/1024/Icelandic_Porous_Rocks_skxqf_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/icelandic_porous_rocks_skxqf_mid/1024/Icelandic_Porous_Rocks_skxqf_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/icelandic_porous_rocks_skxqf_mid/1024/Icelandic_Porous_Rocks_skxqf_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid_2K_Normal.jpg",
+          "full": "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/icelandic_porous_rocks_skxqf_mid/1024/Icelandic_Porous_Rocks_skxqf_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/icelandic_porous_rocks_skxqf_mid/Icelandic_Porous_Rocks_skxqf_Mid_2K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:skxqf",
+      "source_size_bytes": 13729311,
+      "megascans_id": "skxqf",
+      "kind": "3D asset",
+      "categories": [
+        "3d",
+        "rock",
+        "jagged",
+        "lava",
+        "rough"
+      ],
+      "average_color": "#81796E",
+      "dims_m": [
+        0.27,
+        0.38,
+        0.21
+      ],
+      "roles": [
+        "rock.small_dark"
+      ]
+    },
+    "limestone_rocks_ubvsaf3da_mid": {
+      "status": "ok",
+      "source": "../assets/limestone_rocks_ubvsaf3da_mid.zip",
+      "path": "cache/assets/limestone_rocks_ubvsaf3da_mid",
+      "models": [
+        "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/limestone_rocks_ubvsaf3da_mid/1024/Limestone_Rocks_ubvsaf3da_Mid_2K_AO.jpg",
+          "2048": "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid_2K_AO.jpg",
+          "full": "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/limestone_rocks_ubvsaf3da_mid/1024/Limestone_Rocks_ubvsaf3da_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/limestone_rocks_ubvsaf3da_mid/1024/Limestone_Rocks_ubvsaf3da_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/limestone_rocks_ubvsaf3da_mid/1024/Limestone_Rocks_ubvsaf3da_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid_2K_Normal.jpg",
+          "full": "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/limestone_rocks_ubvsaf3da_mid/1024/Limestone_Rocks_ubvsaf3da_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/limestone_rocks_ubvsaf3da_mid/Limestone_Rocks_ubvsaf3da_Mid_2K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:ubvsaf3da",
+      "source_size_bytes": 15611418,
+      "megascans_id": "ubvsaf3da",
+      "kind": "3D asset",
+      "categories": [
+        "3d",
+        "rock",
+        "cliffs"
+      ],
+      "average_color": "#483123",
+      "dims_m": [
+        1.74,
+        1.39,
+        0.12
+      ],
+      "roles": [
+        "rock.outcrop"
+      ]
+    },
+    "limestone_rubble_ubxbejwda_mid": {
+      "status": "corrupt"
+    },
+    "modular_building_flat_roof_kit_vdjkbg1dw_mid": {
+      "status": "ok",
+      "source": "../assets/modular_building_flat_roof_kit_vdjkbg1dw_mid.zip",
+      "path": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid",
+      "models": [
+        "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/modular_building_flat_roof_kit_vdjkbg1dw_mid/1024/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_AO.jpg",
+          "2048": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_AO.jpg",
+          "full": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/modular_building_flat_roof_kit_vdjkbg1dw_mid/1024/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/modular_building_flat_roof_kit_vdjkbg1dw_mid/1024/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/modular_building_flat_roof_kit_vdjkbg1dw_mid/1024/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_Normal.jpg",
+          "full": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/modular_building_flat_roof_kit_vdjkbg1dw_mid/1024/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/modular_building_flat_roof_kit_vdjkbg1dw_mid/Modular_Building_Flat_Roof_Kit_vdjkbg1dw_Mid_2K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:vdjkbg1dw",
+      "source_size_bytes": 7801428,
+      "megascans_id": "vdjkbg1dw",
+      "kind": "3D asset",
+      "categories": [
+        "3d",
+        "building",
+        "combined"
+      ],
+      "average_color": "#917873",
+      "dims_m": [
+        3.0,
+        3.01,
+        0.14
+      ],
+      "roles": [
+        "kit.flat_roof"
+      ]
+    },
+    "palm_tree_trunk_ue1ifg0fa_mid": {
+      "status": "ok",
+      "source": "../assets/palm_tree_trunk_ue1ifg0fa_mid.zip",
+      "path": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid",
+      "models": [
+        "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/palm_tree_trunk_ue1ifg0fa_mid/1024/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_AO.jpg",
+          "2048": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_AO.jpg",
+          "full": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/palm_tree_trunk_ue1ifg0fa_mid/1024/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/palm_tree_trunk_ue1ifg0fa_mid/1024/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/palm_tree_trunk_ue1ifg0fa_mid/1024/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_Normal.jpg",
+          "full": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/palm_tree_trunk_ue1ifg0fa_mid/1024/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/palm_tree_trunk_ue1ifg0fa_mid/Palm_Tree_Trunk_ue1ifg0fa_Mid_2K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:ue1ifg0fa",
+      "source_size_bytes": 15667256,
+      "megascans_id": "ue1ifg0fa",
+      "kind": "3D asset",
+      "categories": [
+        "3d",
+        "tree"
+      ],
+      "average_color": "#77695D",
+      "dims_m": [
+        0.85,
+        0.81,
+        2.28
+      ],
+      "roles": [
+        "model.palm_trunk"
+      ]
+    },
+    "plastic_drum_vgyiciqaw_mid": {
+      "status": "ok",
+      "source": "../assets/plastic_drum_vgyiciqaw_mid.zip",
+      "path": "cache/assets/plastic_drum_vgyiciqaw_mid",
+      "models": [
+        "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/plastic_drum_vgyiciqaw_mid/1024/Plastic_Drum_vgyiciqaw_Mid_2K_AO.jpg",
+          "2048": "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid_2K_AO.jpg",
+          "full": "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/plastic_drum_vgyiciqaw_mid/1024/Plastic_Drum_vgyiciqaw_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/plastic_drum_vgyiciqaw_mid/1024/Plastic_Drum_vgyiciqaw_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/plastic_drum_vgyiciqaw_mid/1024/Plastic_Drum_vgyiciqaw_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid_2K_Normal.jpg",
+          "full": "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/plastic_drum_vgyiciqaw_mid/1024/Plastic_Drum_vgyiciqaw_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/plastic_drum_vgyiciqaw_mid/Plastic_Drum_vgyiciqaw_Mid_2K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:vgyiciqaw",
+      "source_size_bytes": 9869420,
+      "megascans_id": "vgyiciqaw",
+      "kind": "3D asset",
+      "categories": [
+        "3d",
+        "industrial",
+        "storage"
+      ],
+      "average_color": "#3B6180",
+      "dims_m": [
+        0.48,
+        0.48,
+        0.64
+      ],
+      "roles": [
+        "prop.drum"
+      ]
+    },
+    "rocky_ground_vjdqcba_4k": {
+      "status": "ok",
+      "source": "../assets/rocky_ground_vjdqcba_4k.zip",
+      "path": "cache/assets/rocky_ground_vjdqcba_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/rocky_ground_vjdqcba_4k/1024/Rocky_Ground_vjdqcba_4K_AO.jpg",
+          "2048": "cache/tex/rocky_ground_vjdqcba_4k/2048/Rocky_Ground_vjdqcba_4K_AO.jpg",
+          "full": "cache/assets/rocky_ground_vjdqcba_4k/Rocky_Ground_vjdqcba_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/rocky_ground_vjdqcba_4k/1024/Rocky_Ground_vjdqcba_4K_BaseColor.jpg",
+          "2048": "cache/tex/rocky_ground_vjdqcba_4k/2048/Rocky_Ground_vjdqcba_4K_BaseColor.jpg",
+          "full": "cache/assets/rocky_ground_vjdqcba_4k/Rocky_Ground_vjdqcba_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/rocky_ground_vjdqcba_4k/1024/Rocky_Ground_vjdqcba_4K_Displacement.jpg",
+          "2048": "cache/tex/rocky_ground_vjdqcba_4k/2048/Rocky_Ground_vjdqcba_4K_Displacement.jpg",
+          "full": "cache/assets/rocky_ground_vjdqcba_4k/Rocky_Ground_vjdqcba_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/rocky_ground_vjdqcba_4k/1024/Rocky_Ground_vjdqcba_4K_Gloss.jpg",
+          "2048": "cache/tex/rocky_ground_vjdqcba_4k/2048/Rocky_Ground_vjdqcba_4K_Gloss.jpg",
+          "full": "cache/assets/rocky_ground_vjdqcba_4k/Rocky_Ground_vjdqcba_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/rocky_ground_vjdqcba_4k/1024/Rocky_Ground_vjdqcba_4K_Normal.jpg",
+          "2048": "cache/tex/rocky_ground_vjdqcba_4k/2048/Rocky_Ground_vjdqcba_4K_Normal.jpg",
+          "full": "cache/assets/rocky_ground_vjdqcba_4k/Rocky_Ground_vjdqcba_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/rocky_ground_vjdqcba_4k/1024/Rocky_Ground_vjdqcba_4K_Roughness.jpg",
+          "2048": "cache/tex/rocky_ground_vjdqcba_4k/2048/Rocky_Ground_vjdqcba_4K_Roughness.jpg",
+          "full": "cache/assets/rocky_ground_vjdqcba_4k/Rocky_Ground_vjdqcba_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:vjdqcba",
+      "source_size_bytes": 118178317,
+      "megascans_id": "vjdqcba",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "rock",
+        "forest"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "terrain.rocky"
+      ],
+      "height_m": 0.075
+    },
+    "roof_tiles_tmdkacdfw_4k": {
+      "status": "ok",
+      "source": "../assets/roof_tiles_tmdkacdfw_4k.zip",
+      "path": "cache/assets/roof_tiles_tmdkacdfw_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/roof_tiles_tmdkacdfw_4k/1024/Roof_Tiles_tmdkacdfw_4K_AO.jpg",
+          "2048": "cache/tex/roof_tiles_tmdkacdfw_4k/2048/Roof_Tiles_tmdkacdfw_4K_AO.jpg",
+          "full": "cache/assets/roof_tiles_tmdkacdfw_4k/Roof_Tiles_tmdkacdfw_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/roof_tiles_tmdkacdfw_4k/1024/Roof_Tiles_tmdkacdfw_4K_BaseColor.jpg",
+          "2048": "cache/tex/roof_tiles_tmdkacdfw_4k/2048/Roof_Tiles_tmdkacdfw_4K_BaseColor.jpg",
+          "full": "cache/assets/roof_tiles_tmdkacdfw_4k/Roof_Tiles_tmdkacdfw_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/roof_tiles_tmdkacdfw_4k/1024/Roof_Tiles_tmdkacdfw_4K_Displacement.jpg",
+          "2048": "cache/tex/roof_tiles_tmdkacdfw_4k/2048/Roof_Tiles_tmdkacdfw_4K_Displacement.jpg",
+          "full": "cache/assets/roof_tiles_tmdkacdfw_4k/Roof_Tiles_tmdkacdfw_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/roof_tiles_tmdkacdfw_4k/1024/Roof_Tiles_tmdkacdfw_4K_Gloss.jpg",
+          "2048": "cache/tex/roof_tiles_tmdkacdfw_4k/2048/Roof_Tiles_tmdkacdfw_4K_Gloss.jpg",
+          "full": "cache/assets/roof_tiles_tmdkacdfw_4k/Roof_Tiles_tmdkacdfw_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/roof_tiles_tmdkacdfw_4k/1024/Roof_Tiles_tmdkacdfw_4K_Normal.jpg",
+          "2048": "cache/tex/roof_tiles_tmdkacdfw_4k/2048/Roof_Tiles_tmdkacdfw_4K_Normal.jpg",
+          "full": "cache/assets/roof_tiles_tmdkacdfw_4k/Roof_Tiles_tmdkacdfw_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/roof_tiles_tmdkacdfw_4k/1024/Roof_Tiles_tmdkacdfw_4K_Roughness.jpg",
+          "2048": "cache/tex/roof_tiles_tmdkacdfw_4k/2048/Roof_Tiles_tmdkacdfw_4K_Roughness.jpg",
+          "full": "cache/assets/roof_tiles_tmdkacdfw_4k/Roof_Tiles_tmdkacdfw_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:tmdkacdfw",
+      "source_size_bytes": 60912023,
+      "megascans_id": "tmdkacdfw",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "roof"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        1.0,
+        1.0
+      ],
+      "tileable": true,
+      "roles": [
+        "roof.tiles"
+      ],
+      "height_m": 0.089
+    },
+    "rough_concrete_ogip20_4k": {
+      "status": "ok",
+      "source": "../assets/rough_concrete_ogip20_4k.zip",
+      "path": "cache/assets/rough_concrete_ogip20_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/rough_concrete_ogip20_4k/1024/Rough_Concrete_ogip20_4K_AO.jpg",
+          "2048": "cache/tex/rough_concrete_ogip20_4k/2048/Rough_Concrete_ogip20_4K_AO.jpg",
+          "full": "cache/assets/rough_concrete_ogip20_4k/Rough_Concrete_ogip20_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/rough_concrete_ogip20_4k/1024/Rough_Concrete_ogip20_4K_BaseColor.jpg",
+          "2048": "cache/tex/rough_concrete_ogip20_4k/2048/Rough_Concrete_ogip20_4K_BaseColor.jpg",
+          "full": "cache/assets/rough_concrete_ogip20_4k/Rough_Concrete_ogip20_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/rough_concrete_ogip20_4k/1024/Rough_Concrete_ogip20_4K_Displacement.jpg",
+          "2048": "cache/tex/rough_concrete_ogip20_4k/2048/Rough_Concrete_ogip20_4K_Displacement.jpg",
+          "full": "cache/assets/rough_concrete_ogip20_4k/Rough_Concrete_ogip20_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/rough_concrete_ogip20_4k/1024/Rough_Concrete_ogip20_4K_Gloss.jpg",
+          "2048": "cache/tex/rough_concrete_ogip20_4k/2048/Rough_Concrete_ogip20_4K_Gloss.jpg",
+          "full": "cache/assets/rough_concrete_ogip20_4k/Rough_Concrete_ogip20_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/rough_concrete_ogip20_4k/1024/Rough_Concrete_ogip20_4K_Normal.jpg",
+          "2048": "cache/tex/rough_concrete_ogip20_4k/2048/Rough_Concrete_ogip20_4K_Normal.jpg",
+          "full": "cache/assets/rough_concrete_ogip20_4k/Rough_Concrete_ogip20_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/rough_concrete_ogip20_4k/1024/Rough_Concrete_ogip20_4K_Roughness.jpg",
+          "2048": "cache/tex/rough_concrete_ogip20_4k/2048/Rough_Concrete_ogip20_4K_Roughness.jpg",
+          "full": "cache/assets/rough_concrete_ogip20_4k/Rough_Concrete_ogip20_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:ogip20",
+      "source_size_bytes": 36023988,
+      "megascans_id": "ogip20",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "concrete",
+        "rough",
+        "bare"
+      ],
+      "average_color": "#A79B80",
+      "real_size_m": [
+        1.0,
+        1.0
+      ],
+      "tileable": true,
+      "roles": [
+        "wall.concrete",
+        "roof.flat_alt"
+      ],
+      "height_m": 0.031
+    },
+    "sandstone_rock_vd5rdhd_mid": {
+      "status": "ok",
+      "source": "../assets/sandstone_rock_vd5rdhd_mid.zip",
+      "path": "cache/assets/sandstone_rock_vd5rdhd_mid",
+      "models": [
+        "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/sandstone_rock_vd5rdhd_mid/1024/Sandstone_Rock_vd5rdhd_Mid_2K_AO.jpg",
+          "2048": "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid_2K_AO.jpg",
+          "full": "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/sandstone_rock_vd5rdhd_mid/1024/Sandstone_Rock_vd5rdhd_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/sandstone_rock_vd5rdhd_mid/1024/Sandstone_Rock_vd5rdhd_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/sandstone_rock_vd5rdhd_mid/1024/Sandstone_Rock_vd5rdhd_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid_2K_Normal.jpg",
+          "full": "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/sandstone_rock_vd5rdhd_mid/1024/Sandstone_Rock_vd5rdhd_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/sandstone_rock_vd5rdhd_mid/Sandstone_Rock_vd5rdhd_Mid_2K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:vd5rdhd",
+      "source_size_bytes": 15413196,
+      "megascans_id": "vd5rdhd",
+      "kind": "3D asset",
+      "categories": [
+        "3d",
+        "nature",
+        "rock",
+        "boulder"
+      ],
+      "average_color": "#83776A",
+      "dims_m": [
+        0.28,
+        0.29,
+        0.12
+      ],
+      "roles": [
+        "rock.small"
+      ]
+    },
+    "sandstone_rocky_ground_sgxug_mid": {
+      "status": "ok",
+      "source": "../assets/sandstone_rocky_ground_sgxug_mid.zip",
+      "path": "cache/assets/sandstone_rocky_ground_sgxug_mid",
+      "models": [
+        "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/sandstone_rocky_ground_sgxug_mid/1024/Sandstone_Rocky_Ground_sgxug_Mid_2K_AO.jpg",
+          "2048": "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid_2K_AO.jpg",
+          "full": "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/sandstone_rocky_ground_sgxug_mid/1024/Sandstone_Rocky_Ground_sgxug_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/sandstone_rocky_ground_sgxug_mid/1024/Sandstone_Rocky_Ground_sgxug_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/sandstone_rocky_ground_sgxug_mid/1024/Sandstone_Rocky_Ground_sgxug_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid_2K_Normal.jpg",
+          "full": "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/sandstone_rocky_ground_sgxug_mid/1024/Sandstone_Rocky_Ground_sgxug_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/sandstone_rocky_ground_sgxug_mid/Sandstone_Rocky_Ground_sgxug_Mid_2K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:sgxug",
+      "source_size_bytes": 20291812,
+      "megascans_id": "sgxug",
+      "kind": "3D asset",
+      "categories": [
+        "3d",
+        "rock",
+        "sandstone"
+      ],
+      "average_color": "#C68766",
+      "dims_m": [
+        0.56,
+        0.56,
+        0.07
+      ],
+      "roles": [
+        "rock.flat"
+      ]
+    },
+    "stone_wall_vmghfd3o_4k": {
+      "status": "ok",
+      "source": "../assets/stone_wall_vmghfd3o_4k.zip",
+      "path": "cache/assets/stone_wall_vmghfd3o_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/stone_wall_vmghfd3o_4k/1024/Stone_Wall_vmghfd3o_4K_AO.jpg",
+          "2048": "cache/tex/stone_wall_vmghfd3o_4k/2048/Stone_Wall_vmghfd3o_4K_AO.jpg",
+          "full": "cache/assets/stone_wall_vmghfd3o_4k/Stone_Wall_vmghfd3o_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/stone_wall_vmghfd3o_4k/1024/Stone_Wall_vmghfd3o_4K_BaseColor.jpg",
+          "2048": "cache/tex/stone_wall_vmghfd3o_4k/2048/Stone_Wall_vmghfd3o_4K_BaseColor.jpg",
+          "full": "cache/assets/stone_wall_vmghfd3o_4k/Stone_Wall_vmghfd3o_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/stone_wall_vmghfd3o_4k/1024/Stone_Wall_vmghfd3o_4K_Displacement.jpg",
+          "2048": "cache/tex/stone_wall_vmghfd3o_4k/2048/Stone_Wall_vmghfd3o_4K_Displacement.jpg",
+          "full": "cache/assets/stone_wall_vmghfd3o_4k/Stone_Wall_vmghfd3o_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/stone_wall_vmghfd3o_4k/1024/Stone_Wall_vmghfd3o_4K_Gloss.jpg",
+          "2048": "cache/tex/stone_wall_vmghfd3o_4k/2048/Stone_Wall_vmghfd3o_4K_Gloss.jpg",
+          "full": "cache/assets/stone_wall_vmghfd3o_4k/Stone_Wall_vmghfd3o_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/stone_wall_vmghfd3o_4k/1024/Stone_Wall_vmghfd3o_4K_Normal.jpg",
+          "2048": "cache/tex/stone_wall_vmghfd3o_4k/2048/Stone_Wall_vmghfd3o_4K_Normal.jpg",
+          "full": "cache/assets/stone_wall_vmghfd3o_4k/Stone_Wall_vmghfd3o_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/stone_wall_vmghfd3o_4k/1024/Stone_Wall_vmghfd3o_4K_Roughness.jpg",
+          "2048": "cache/tex/stone_wall_vmghfd3o_4k/2048/Stone_Wall_vmghfd3o_4K_Roughness.jpg",
+          "full": "cache/assets/stone_wall_vmghfd3o_4k/Stone_Wall_vmghfd3o_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:vmghfd3o",
+      "source_size_bytes": 132815369,
+      "megascans_id": "vmghfd3o",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "stone",
+        "wall"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.7,
+        2.7
+      ],
+      "tileable": true,
+      "roles": [
+        "wall.stone",
+        "terrace.wall"
+      ],
+      "height_m": 0.066
+    },
+    "stucco_wall_th5keedew_4k": {
+      "status": "ok",
+      "source": "../assets/stucco_wall_th5keedew_4k.zip",
+      "path": "cache/assets/stucco_wall_th5keedew_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/stucco_wall_th5keedew_4k/1024/Stucco_Wall_th5keedew_4K_AO.jpg",
+          "2048": "cache/tex/stucco_wall_th5keedew_4k/2048/Stucco_Wall_th5keedew_4K_AO.jpg",
+          "full": "cache/assets/stucco_wall_th5keedew_4k/Stucco_Wall_th5keedew_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/stucco_wall_th5keedew_4k/1024/Stucco_Wall_th5keedew_4K_BaseColor.jpg",
+          "2048": "cache/tex/stucco_wall_th5keedew_4k/2048/Stucco_Wall_th5keedew_4K_BaseColor.jpg",
+          "full": "cache/assets/stucco_wall_th5keedew_4k/Stucco_Wall_th5keedew_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/stucco_wall_th5keedew_4k/1024/Stucco_Wall_th5keedew_4K_Displacement.jpg",
+          "2048": "cache/tex/stucco_wall_th5keedew_4k/2048/Stucco_Wall_th5keedew_4K_Displacement.jpg",
+          "full": "cache/assets/stucco_wall_th5keedew_4k/Stucco_Wall_th5keedew_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/stucco_wall_th5keedew_4k/1024/Stucco_Wall_th5keedew_4K_Gloss.jpg",
+          "2048": "cache/tex/stucco_wall_th5keedew_4k/2048/Stucco_Wall_th5keedew_4K_Gloss.jpg",
+          "full": "cache/assets/stucco_wall_th5keedew_4k/Stucco_Wall_th5keedew_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/stucco_wall_th5keedew_4k/1024/Stucco_Wall_th5keedew_4K_Normal.jpg",
+          "2048": "cache/tex/stucco_wall_th5keedew_4k/2048/Stucco_Wall_th5keedew_4K_Normal.jpg",
+          "full": "cache/assets/stucco_wall_th5keedew_4k/Stucco_Wall_th5keedew_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/stucco_wall_th5keedew_4k/1024/Stucco_Wall_th5keedew_4K_Roughness.jpg",
+          "2048": "cache/tex/stucco_wall_th5keedew_4k/2048/Stucco_Wall_th5keedew_4K_Roughness.jpg",
+          "full": "cache/assets/stucco_wall_th5keedew_4k/Stucco_Wall_th5keedew_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:th5keedew",
+      "source_size_bytes": 128731302,
+      "megascans_id": "th5keedew",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "Wall",
+        "Stucco"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": false,
+      "roles": [
+        "wall.stucco"
+      ],
+      "height_m": 0.004
+    },
+    "trampled_forest_path_ub4jdihkw_4k": {
+      "status": "ok",
+      "source": "../assets/trampled_forest_path_ub4jdihkw_4k.zip",
+      "path": "cache/assets/trampled_forest_path_ub4jdihkw_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/trampled_forest_path_ub4jdihkw_4k/1024/Trampled_Forest_Path_ub4jdihkw_4K_AO.jpg",
+          "2048": "cache/tex/trampled_forest_path_ub4jdihkw_4k/2048/Trampled_Forest_Path_ub4jdihkw_4K_AO.jpg",
+          "full": "cache/assets/trampled_forest_path_ub4jdihkw_4k/Trampled_Forest_Path_ub4jdihkw_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/trampled_forest_path_ub4jdihkw_4k/1024/Trampled_Forest_Path_ub4jdihkw_4K_BaseColor.jpg",
+          "2048": "cache/tex/trampled_forest_path_ub4jdihkw_4k/2048/Trampled_Forest_Path_ub4jdihkw_4K_BaseColor.jpg",
+          "full": "cache/assets/trampled_forest_path_ub4jdihkw_4k/Trampled_Forest_Path_ub4jdihkw_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/trampled_forest_path_ub4jdihkw_4k/1024/Trampled_Forest_Path_ub4jdihkw_4K_Displacement.jpg",
+          "2048": "cache/tex/trampled_forest_path_ub4jdihkw_4k/2048/Trampled_Forest_Path_ub4jdihkw_4K_Displacement.jpg",
+          "full": "cache/assets/trampled_forest_path_ub4jdihkw_4k/Trampled_Forest_Path_ub4jdihkw_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/trampled_forest_path_ub4jdihkw_4k/1024/Trampled_Forest_Path_ub4jdihkw_4K_Gloss.jpg",
+          "2048": "cache/tex/trampled_forest_path_ub4jdihkw_4k/2048/Trampled_Forest_Path_ub4jdihkw_4K_Gloss.jpg",
+          "full": "cache/assets/trampled_forest_path_ub4jdihkw_4k/Trampled_Forest_Path_ub4jdihkw_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/trampled_forest_path_ub4jdihkw_4k/1024/Trampled_Forest_Path_ub4jdihkw_4K_Normal.jpg",
+          "2048": "cache/tex/trampled_forest_path_ub4jdihkw_4k/2048/Trampled_Forest_Path_ub4jdihkw_4K_Normal.jpg",
+          "full": "cache/assets/trampled_forest_path_ub4jdihkw_4k/Trampled_Forest_Path_ub4jdihkw_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/trampled_forest_path_ub4jdihkw_4k/1024/Trampled_Forest_Path_ub4jdihkw_4K_Roughness.jpg",
+          "2048": "cache/tex/trampled_forest_path_ub4jdihkw_4k/2048/Trampled_Forest_Path_ub4jdihkw_4K_Roughness.jpg",
+          "full": "cache/assets/trampled_forest_path_ub4jdihkw_4k/Trampled_Forest_Path_ub4jdihkw_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:ub4jdihkw",
+      "source_size_bytes": 152613739,
+      "megascans_id": "ub4jdihkw",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "soil",
+        "rough"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "path.dirt_alt",
+        "terrain.dry_grass"
+      ],
+      "height_m": 0.03
+    },
+    "trampled_sandy_soil_ubinaeukw_4k": {
+      "status": "ok",
+      "source": "../assets/trampled_sandy_soil_ubinaeukw_4k.zip",
+      "path": "cache/assets/trampled_sandy_soil_ubinaeukw_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/1024/Trampled_Sandy_Soil_ubinaeukw_4K_AO.jpg",
+          "2048": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/2048/Trampled_Sandy_Soil_ubinaeukw_4K_AO.jpg",
+          "full": "cache/assets/trampled_sandy_soil_ubinaeukw_4k/Trampled_Sandy_Soil_ubinaeukw_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/1024/Trampled_Sandy_Soil_ubinaeukw_4K_BaseColor.jpg",
+          "2048": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/2048/Trampled_Sandy_Soil_ubinaeukw_4K_BaseColor.jpg",
+          "full": "cache/assets/trampled_sandy_soil_ubinaeukw_4k/Trampled_Sandy_Soil_ubinaeukw_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/1024/Trampled_Sandy_Soil_ubinaeukw_4K_Displacement.jpg",
+          "2048": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/2048/Trampled_Sandy_Soil_ubinaeukw_4K_Displacement.jpg",
+          "full": "cache/assets/trampled_sandy_soil_ubinaeukw_4k/Trampled_Sandy_Soil_ubinaeukw_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/1024/Trampled_Sandy_Soil_ubinaeukw_4K_Gloss.jpg",
+          "2048": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/2048/Trampled_Sandy_Soil_ubinaeukw_4K_Gloss.jpg",
+          "full": "cache/assets/trampled_sandy_soil_ubinaeukw_4k/Trampled_Sandy_Soil_ubinaeukw_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/1024/Trampled_Sandy_Soil_ubinaeukw_4K_Normal.jpg",
+          "2048": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/2048/Trampled_Sandy_Soil_ubinaeukw_4K_Normal.jpg",
+          "full": "cache/assets/trampled_sandy_soil_ubinaeukw_4k/Trampled_Sandy_Soil_ubinaeukw_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/1024/Trampled_Sandy_Soil_ubinaeukw_4K_Roughness.jpg",
+          "2048": "cache/tex/trampled_sandy_soil_ubinaeukw_4k/2048/Trampled_Sandy_Soil_ubinaeukw_4K_Roughness.jpg",
+          "full": "cache/assets/trampled_sandy_soil_ubinaeukw_4k/Trampled_Sandy_Soil_ubinaeukw_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:ubinaeukw",
+      "source_size_bytes": 124109271,
+      "megascans_id": "ubinaeukw",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "sand",
+        "coarse"
+      ],
+      "average_color": "#000000",
+      "real_size_m": [
+        2.0,
+        2.0
+      ],
+      "tileable": true,
+      "roles": [
+        "terrain.trampled",
+        "path.dirt"
+      ],
+      "height_m": 0.037
+    },
+    "tree_aleppo_pine_01_usd": {
+      "status": "ok",
+      "source": "../assets/tree_aleppo_pine_01_usd.zip",
+      "path": "cache/assets/tree_aleppo_pine_01_usd",
+      "models": [
+        "cache/assets/tree_aleppo_pine_01_usd/AleppoPine_Branches.usd",
+        "cache/assets/tree_aleppo_pine_01_usd/Tree_Aleppo_Pine_01_A.usd",
+        "cache/assets/tree_aleppo_pine_01_usd/Tree_Aleppo_Pine_01_B.usd",
+        "cache/assets/tree_aleppo_pine_01_usd/Tree_Aleppo_Pine_01_C.usd",
+        "cache/assets/tree_aleppo_pine_01_usd/Tree_Aleppo_Pine_01_D.usd"
+      ],
+      "maps": {},
+      "non_color_maps": [],
+      "normal_convention": "opengl",
+      "version": "megascans:None",
+      "source_size_bytes": 8393827,
+      "roles": [
+        "veg.aleppo_pine"
+      ]
+    },
+    "unfinished_building_mid": {
+      "status": "ok",
+      "source": "../assets/unfinished_building_mid.zip",
+      "path": "cache/assets/unfinished_building_mid",
+      "models": [
+        "cache/assets/unfinished_building_mid/riuvL/riuvL.fbx",
+        "cache/assets/unfinished_building_mid/rjgmQ/rjgmQ.fbx",
+        "cache/assets/unfinished_building_mid/tfxteboda/tfxteboda.fbx",
+        "cache/assets/unfinished_building_mid/tgdtfg0da/tgdtfg0da.fbx",
+        "cache/assets/unfinished_building_mid/tl0kcdmiw/tl0kcdmiw.fbx",
+        "cache/assets/unfinished_building_mid/tl0mbbihw/tl0mbbihw.fbx",
+        "cache/assets/unfinished_building_mid/tl1gdgyhw/tl1gdgyhw.fbx",
+        "cache/assets/unfinished_building_mid/tmclbcpiw/tmclbcpiw.fbx",
+        "cache/assets/unfinished_building_mid/tmclcaeiw/tmclcaeiw.fbx",
+        "cache/assets/unfinished_building_mid/tmjgderjw/tmjgderjw.fbx",
+        "cache/assets/unfinished_building_mid/uc1iccejw/uc1iccejw.fbx",
+        "cache/assets/unfinished_building_mid/uc1jagbjw/uc1jagbjw.fbx",
+        "cache/assets/unfinished_building_mid/uc1jagnjw/uc1jagnjw.fbx",
+        "cache/assets/unfinished_building_mid/uizhacnga/uizhacnga.fbx",
+        "cache/assets/unfinished_building_mid/uiznce1ga/uiznce1ga.fbx",
+        "cache/assets/unfinished_building_mid/ujcgdgifa/ujcgdgifa.fbx",
+        "cache/assets/unfinished_building_mid/ujikdbrva/ujikdbrva.fbx",
+        "cache/assets/unfinished_building_mid/ujjleixga/ujjleixga.fbx",
+        "cache/assets/unfinished_building_mid/ujjmecwba/ujjmecwba.fbx",
+        "cache/assets/unfinished_building_mid/ujkgddqva/ujkgddqva.fbx",
+        "cache/assets/unfinished_building_mid/ujlkbd1ga/ujlkbd1ga.fbx",
+        "cache/assets/unfinished_building_mid/ujonbdmfa/ujonbdmfa.fbx",
+        "cache/assets/unfinished_building_mid/ujoqec3ga/ujoqec3ga.fbx",
+        "cache/assets/unfinished_building_mid/ujriaadga/ujriaadga.fbx",
+        "cache/assets/unfinished_building_mid/ujymbbdba/ujymbbdba.fbx",
+        "cache/assets/unfinished_building_mid/ujzjee0va/ujzjee0va.fbx",
+        "cache/assets/unfinished_building_mid/ukigcctfa/ukigcctfa.fbx",
+        "cache/assets/unfinished_building_mid/ukmifdmva/ukmifdmva.fbx",
+        "cache/assets/unfinished_building_mid/uknjfevga/uknjfevga.fbx",
+        "cache/assets/unfinished_building_mid/uknlcbaqx/uknlcbaqx.fbx",
+        "cache/assets/unfinished_building_mid/ukxkbesqa/ukxkbesqa.fbx",
+        "cache/assets/unfinished_building_mid/vgyidebaw/vgyidebaw.fbx",
+        "cache/assets/unfinished_building_mid/vh1icei/vh1icei.fbx",
+        "cache/assets/unfinished_building_mid/vidkbho/vidkbho.fbx",
+        "cache/assets/unfinished_building_mid/vjwnfiz/vjwnfiz.fbx",
+        "cache/assets/unfinished_building_mid/vjwtbd1/vjwtbd1.fbx",
+        "cache/assets/unfinished_building_mid/vk2sdis/vk2sdis.fbx",
+        "cache/assets/unfinished_building_mid/vk2vcdl/vk2vcdl.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/unfinished_building_mid/1024/riuvL_2K_AO.jpg",
+          "2048": "cache/assets/unfinished_building_mid/riuvL/riuvL_2K_AO.jpg",
+          "full": "cache/assets/unfinished_building_mid/riuvL/riuvL_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/unfinished_building_mid/1024/riuvL_2K_BaseColor.jpg",
+          "2048": "cache/assets/unfinished_building_mid/riuvL/riuvL_2K_BaseColor.jpg",
+          "full": "cache/assets/unfinished_building_mid/riuvL/riuvL_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/unfinished_building_mid/1024/riuvL_2K_Gloss.jpg",
+          "2048": "cache/assets/unfinished_building_mid/riuvL/riuvL_2K_Gloss.jpg",
+          "full": "cache/assets/unfinished_building_mid/riuvL/riuvL_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/unfinished_building_mid/1024/riuvL_2K_Normal.jpg",
+          "2048": "cache/assets/unfinished_building_mid/riuvL/riuvL_2K_Normal.jpg",
+          "full": "cache/assets/unfinished_building_mid/riuvL/riuvL_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/unfinished_building_mid/1024/riuvL_2K_Roughness.jpg",
+          "2048": "cache/assets/unfinished_building_mid/riuvL/riuvL_2K_Roughness.jpg",
+          "full": "cache/assets/unfinished_building_mid/riuvL/riuvL_2K_Roughness.jpg"
+        },
+        "opacity": {
+          "1024": "cache/tex/unfinished_building_mid/1024/tdfdfebc_2K_Opacity.jpg",
+          "2048": "cache/assets/unfinished_building_mid/tdfdfebc/tdfdfebc_2K_Opacity.jpg",
+          "full": "cache/assets/unfinished_building_mid/tdfdfebc/tdfdfebc_2K_Opacity.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/unfinished_building_mid/1024/uc2jcdgg_2K_Displacement.jpg",
+          "2048": "cache/assets/unfinished_building_mid/uc2jcdgg/uc2jcdgg_2K_Displacement.jpg",
+          "full": "cache/assets/unfinished_building_mid/uc2jcdgg/uc2jcdgg_2K_Displacement.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "opacity",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:None",
+      "source_size_bytes": 214735896,
+      "roles": [
+        "kit.unfinished_building"
+      ]
+    },
+    "wild_grass_sbykqdp0_4k": {
+      "status": "ok",
+      "source": "../assets/wild_grass_sbykqdp0_4k.zip",
+      "path": "cache/assets/wild_grass_sbykqdp0_4k",
+      "models": [],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/wild_grass_sbykqdp0_4k/1024/Wild_Grass_sbykqdp0_4K_AO.jpg",
+          "2048": "cache/tex/wild_grass_sbykqdp0_4k/2048/Wild_Grass_sbykqdp0_4K_AO.jpg",
+          "full": "cache/assets/wild_grass_sbykqdp0_4k/Wild_Grass_sbykqdp0_4K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/wild_grass_sbykqdp0_4k/1024/Wild_Grass_sbykqdp0_4K_BaseColor.jpg",
+          "2048": "cache/tex/wild_grass_sbykqdp0_4k/2048/Wild_Grass_sbykqdp0_4K_BaseColor.jpg",
+          "full": "cache/assets/wild_grass_sbykqdp0_4k/Wild_Grass_sbykqdp0_4K_BaseColor.jpg"
+        },
+        "height": {
+          "1024": "cache/tex/wild_grass_sbykqdp0_4k/1024/Wild_Grass_sbykqdp0_4K_Displacement.jpg",
+          "2048": "cache/tex/wild_grass_sbykqdp0_4k/2048/Wild_Grass_sbykqdp0_4K_Displacement.jpg",
+          "full": "cache/assets/wild_grass_sbykqdp0_4k/Wild_Grass_sbykqdp0_4K_Displacement.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/wild_grass_sbykqdp0_4k/1024/Wild_Grass_sbykqdp0_4K_Gloss.jpg",
+          "2048": "cache/tex/wild_grass_sbykqdp0_4k/2048/Wild_Grass_sbykqdp0_4K_Gloss.jpg",
+          "full": "cache/assets/wild_grass_sbykqdp0_4k/Wild_Grass_sbykqdp0_4K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/wild_grass_sbykqdp0_4k/1024/Wild_Grass_sbykqdp0_4K_Normal.jpg",
+          "2048": "cache/tex/wild_grass_sbykqdp0_4k/2048/Wild_Grass_sbykqdp0_4K_Normal.jpg",
+          "full": "cache/assets/wild_grass_sbykqdp0_4k/Wild_Grass_sbykqdp0_4K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/wild_grass_sbykqdp0_4k/1024/Wild_Grass_sbykqdp0_4K_Roughness.jpg",
+          "2048": "cache/tex/wild_grass_sbykqdp0_4k/2048/Wild_Grass_sbykqdp0_4K_Roughness.jpg",
+          "full": "cache/assets/wild_grass_sbykqdp0_4k/Wild_Grass_sbykqdp0_4K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "height",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:sbykqdp0",
+      "source_size_bytes": 41372262,
+      "megascans_id": "sbykqdp0",
+      "kind": "surface",
+      "categories": [
+        "surface",
+        "grass",
+        "wild"
+      ],
+      "average_color": "#483A20",
+      "real_size_m": [
+        0.41,
+        0.41
+      ],
+      "tileable": true,
+      "roles": [
+        "terrain.grass"
+      ],
+      "height_m": 0.063
+    },
+    "wooden_pallet_vh1icei_mid": {
+      "status": "ok",
+      "source": "../assets/wooden_pallet_vh1icei_mid.zip",
+      "path": "cache/assets/wooden_pallet_vh1icei_mid",
+      "models": [
+        "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid.fbx"
+      ],
+      "maps": {
+        "ao": {
+          "1024": "cache/tex/wooden_pallet_vh1icei_mid/1024/Wooden_Pallet_vh1icei_Mid_2K_AO.jpg",
+          "2048": "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid_2K_AO.jpg",
+          "full": "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid_2K_AO.jpg"
+        },
+        "base_color": {
+          "1024": "cache/tex/wooden_pallet_vh1icei_mid/1024/Wooden_Pallet_vh1icei_Mid_2K_BaseColor.jpg",
+          "2048": "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid_2K_BaseColor.jpg",
+          "full": "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid_2K_BaseColor.jpg"
+        },
+        "gloss": {
+          "1024": "cache/tex/wooden_pallet_vh1icei_mid/1024/Wooden_Pallet_vh1icei_Mid_2K_Gloss.jpg",
+          "2048": "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid_2K_Gloss.jpg",
+          "full": "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid_2K_Gloss.jpg"
+        },
+        "normal": {
+          "1024": "cache/tex/wooden_pallet_vh1icei_mid/1024/Wooden_Pallet_vh1icei_Mid_2K_Normal.jpg",
+          "2048": "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid_2K_Normal.jpg",
+          "full": "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid_2K_Normal.jpg"
+        },
+        "roughness": {
+          "1024": "cache/tex/wooden_pallet_vh1icei_mid/1024/Wooden_Pallet_vh1icei_Mid_2K_Roughness.jpg",
+          "2048": "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid_2K_Roughness.jpg",
+          "full": "cache/assets/wooden_pallet_vh1icei_mid/Wooden_Pallet_vh1icei_Mid_2K_Roughness.jpg"
+        }
+      },
+      "non_color_maps": [
+        "ao",
+        "gloss",
+        "normal",
+        "roughness"
+      ],
+      "normal_convention": "opengl",
+      "version": "megascans:vh1icei",
+      "source_size_bytes": 11443991,
+      "megascans_id": "vh1icei",
+      "kind": "3D asset",
+      "categories": [
+        "3d",
+        "industrial",
+        "construction"
+      ],
+      "average_color": "#5F4A37",
+      "dims_m": [
+        1.16,
+        0.76,
+        0.13
+      ],
+      "roles": [
+        "prop.pallet"
+      ]
+    }
+  }
+}

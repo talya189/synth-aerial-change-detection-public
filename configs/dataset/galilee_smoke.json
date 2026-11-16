@@ -1,0 +1,84 @@
+{
+  "name": "galilee_smoke",
+  "description": "Smoke test: 3 scenes, low resolution and samples.",
+  "scene_config": "configs/scene/galilee_village.json",
+  "seeds": {
+    "start": 1000,
+    "count": 3
+  },
+  "overrides": {
+    "terrain": {
+      "site_top_k": 6
+    },
+    "camera": {
+      "resolution": [
+        512,
+        512
+      ],
+      "view_sampler": {
+        "count": [
+          3,
+          4
+        ],
+        "tilt_deg": [
+          [
+            0,
+            0.4
+          ],
+          [
+            15,
+            0.15
+          ],
+          [
+            30,
+            0.15
+          ],
+          [
+            45,
+            0.15
+          ],
+          [
+            65,
+            0.15
+          ]
+        ],
+        "gsd_m": [
+          [
+            0.15,
+            0.2
+          ],
+          [
+            0.25,
+            0.35
+          ],
+          [
+            0.35,
+            0.25
+          ],
+          [
+            0.5,
+            0.2
+          ]
+        ],
+        "village_fraction": 0.65
+      }
+    },
+    "render": {
+      "samples": 16
+    }
+  },
+  "splits": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.1
+  },
+  "coco_classes": [
+    "building",
+    "vegetation",
+    "asphalt_road",
+    "dirt_road",
+    "path_sidewalk"
+  ],
+  "min_instance_pixels": 12,
+  "output": "outputs/datasets/galilee_smoke"
+}

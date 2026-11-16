@@ -1,0 +1,248 @@
+{
+  "_comment": "Galilee basalt plateau, dry season. Colour targets (target_srgb, raw render) are measured from satellite imagery of the Korazim site: open ground grey-brown ~(112,108,88), not golden. Layers mix at tuft scale: `density` {m, lo, hi} = smooth amount of the layer varying at wavelength m (no islands), `dither` {m, amp} = tuft-scale mixing, `lines` {m, width, keep (higher = fewer)} = thin meandering network (trails), `wet` = drainage channels (splat B), `slope_deg` (+ slope_jitter_deg) = steep ground, `splat` 0/1 = road shoulders / trampled ground near buildings. `tone` shades a layer (tuft shadows, patches). `adjust` (hue 0.5 = none) is calibrated to the target by `python -m synth.steps.step3 --calibrate`. `core_only` / `far_only` restrict a layer to the detailed 1 km core or to the outer rings; far_shrubs paints the shrub cover into the outer rings, where nothing is scattered in 3D. Layers marked `vegetation` are dropped when the spec sets \"vegetation\": false.",
+  "base": {
+    "name": "soil",
+    "role": "terrain.soil",
+    "target_srgb": [
+      96,
+      89,
+      76
+    ],
+    "tone": {
+      "fine_m": 0.5,
+      "fine_amp": 0.07,
+      "patch_m": 45,
+      "patch_amp": 0.13
+    },
+    "adjust": {
+      "hue": 0.533,
+      "saturation": 0.91,
+      "value": 0.7202
+    }
+  },
+  "layers": [
+    {
+      "name": "dry_grass",
+      "role": "terrain.dry_grass",
+      "coverage": 0.0,
+      "target_srgb": [
+        114,
+        108,
+        87
+      ],
+      "density": {
+        "m": 55,
+        "lo": 0.45,
+        "hi": 1.0
+      },
+      "dither": {
+        "m": 0.3,
+        "amp": 1.0
+      },
+      "breakup": {
+        "m": 1.2,
+        "amp": 0.25
+      },
+      "slope_max_deg": 40,
+      "tone": {
+        "fine_m": 0.25,
+        "fine_amp": 0.12,
+        "patch_m": 38,
+        "patch_amp": 0.12
+      },
+      "adjust": {
+        "hue": 0.5504,
+        "saturation": 0.708,
+        "value": 1.0698
+      }
+    },
+    {
+      "name": "stony",
+      "role": "terrain.dust",
+      "coverage": 0.0,
+      "target_srgb": [
+        130,
+        123,
+        106
+      ],
+      "density": {
+        "m": 30,
+        "lo": -0.25,
+        "hi": 0.35
+      },
+      "dither": {
+        "m": 0.4,
+        "amp": 1.0
+      },
+      "tone": {
+        "fine_m": 0.3,
+        "fine_amp": 0.1,
+        "patch_m": 10,
+        "patch_amp": 0.05
+      },
+      "adjust": {
+        "hue": 0.5272,
+        "saturation": 0.6235,
+        "value": 0.5244
+      }
+    },
+    {
+      "name": "trails",
+      "role": "terrain.dust",
+      "coverage": 0.0,
+      "target_srgb": [
+        138,
+        126,
+        102
+      ],
+      "lines": {
+        "m": 80,
+        "width": 0.009,
+        "keep": 0.08
+      },
+      "dither": {
+        "m": 0.25,
+        "amp": 0.5
+      },
+      "slope_max_deg": 30,
+      "adjust": {
+        "hue": 0.5189,
+        "saturation": 0.7967,
+        "value": 0.5965
+      },
+      "core_only": true
+    },
+    {
+      "name": "wadi",
+      "role": "terrain.dirt",
+      "coverage": 0.0,
+      "target_srgb": [
+        92,
+        86,
+        70
+      ],
+      "wet": [
+        0.35,
+        0.75
+      ],
+      "dither": {
+        "m": 0.4,
+        "amp": 0.6
+      },
+      "tone": {
+        "fine_m": 0.4,
+        "fine_amp": 0.1,
+        "patch_m": 10,
+        "patch_amp": 0.06
+      },
+      "adjust": {
+        "hue": 0.5525,
+        "saturation": 0.8729,
+        "value": 0.8126
+      }
+    },
+    {
+      "name": "dirt",
+      "role": "terrain.dust",
+      "coverage": 0.0,
+      "splat": 0,
+      "target_srgb": [
+        150,
+        134,
+        108
+      ],
+      "dither": {
+        "m": 0.3,
+        "amp": 0.4
+      },
+      "adjust": {
+        "hue": 0.5094,
+        "saturation": 0.8757,
+        "value": 0.726
+      }
+    },
+    {
+      "name": "trampled",
+      "role": "terrain.dust",
+      "coverage": 0.0,
+      "splat": 1,
+      "target_srgb": [
+        145,
+        132,
+        110
+      ],
+      "dither": {
+        "m": 0.4,
+        "amp": 0.6
+      },
+      "adjust": {
+        "hue": 0.5127,
+        "saturation": 0.7857,
+        "value": 0.6697
+      }
+    },
+    {
+      "name": "rocky",
+      "role": "terrain.rocky",
+      "coverage": 0.0,
+      "target_srgb": [
+        92,
+        88,
+        82
+      ],
+      "slope_deg": [
+        24,
+        45
+      ],
+      "slope_jitter_deg": 4,
+      "dither": {
+        "m": 0.3,
+        "amp": 0.8
+      },
+      "tone": {
+        "fine_m": 0.25,
+        "fine_amp": 0.15,
+        "patch_m": 8,
+        "patch_amp": 0.08
+      },
+      "adjust": {
+        "hue": 0.514,
+        "saturation": 1.2928,
+        "value": 0.9041
+      }
+    },
+    {
+      "name": "far_shrubs",
+      "role": "terrain.dry_grass",
+      "coverage": 0.0,
+      "far_only": true,
+      "target_srgb": [
+        44,
+        54,
+        38
+      ],
+      "density": {
+        "m": 12,
+        "lo": -0.45,
+        "hi": 0.55
+      },
+      "dither": {
+        "m": 2.2,
+        "amp": 1.0
+      },
+      "slope_max_deg": 60,
+      "tone": {
+        "fine_m": 1.0,
+        "fine_amp": 0.15,
+        "patch_m": 30,
+        "patch_amp": 0.1
+      },
+      "adjust": {
+        "hue": 0.6919,
+        "saturation": 0.8259,
+        "value": 0.3093
+      },
+      "vegetation": true
+    }
+  ]
+}

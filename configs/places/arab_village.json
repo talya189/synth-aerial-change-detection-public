@@ -1,0 +1,939 @@
+{
+  "_comment": "Arab village / town in the Galilee: one file with the whole logic (terrain, buildings, asphalt roads, dirt tracks, footpaths, vegetation, fields) per style. Make a scene: python -m synth.make_scene --place arab_village --style <style> --seed <n>. Each style is derived from real places (examples, seen in aerial imagery). Units: metres, degrees; ranges [min, max]; types / species / crops: relative weights. The seed picks the terrain site among the best `site_choices` for the landform and drives every random choice, so the same place + style + seed always gives the same scene. roads.grade_limits (optional) overrides the class grade limits for a style (very steep hill towns). Variety: terrain.aois = real areas a seed may land in (one of the best site_choices sites there); vary = the seed's own character (see synth/places.vary); environment = light per seed; ground_cover_scale = density of wild bushes (veg) and stones (rock) per seed.",
+  "place": "arab_village",
+  "styles": {
+    "hillside": {
+      "description": "Village climbing a hillside: main road along the foot of the slope with shops and a mosque near it, contour streets and lanes climbing the hill linked by short cross lanes, houses 2-4 storeys densest near the road and thinning upslope into olive groves; fields on the valley floor.",
+      "examples": [
+        {
+          "name": "Deir Hanna",
+          "latlon": [
+            32.862,
+            35.364
+          ]
+        },
+        {
+          "name": "Tuba-Zangariyye",
+          "latlon": [
+            32.967,
+            35.6
+          ]
+        }
+      ],
+      "terrain": {
+        "mode": "hillside",
+        "target_slope_deg": [
+          6,
+          14
+        ],
+        "site_choices": 30,
+        "ground_material": "galilee_summer",
+        "ground_cover": "galilee_summer",
+        "aois": [
+          "lower_galilee",
+          "western_galilee",
+          "upper_galilee_south",
+          "nazareth_hills",
+          "shefa_amr"
+        ]
+      },
+      "roads": {
+        "main_road": "downhill",
+        "contour": {
+          "count": 6,
+          "spacing_m": [
+            38,
+            52
+          ],
+          "length_m": [
+            260,
+            420
+          ],
+          "class": "lane",
+          "follow": 0.95
+        },
+        "connectors": {
+          "every_m": [
+            55,
+            95
+          ],
+          "alley_p": 0.35,
+          "alley_m": [
+            20,
+            45
+          ]
+        },
+        "access_count": 2,
+        "tracks": {
+          "continue": 3,
+          "field": 3,
+          "length_m": [
+            150,
+            300
+          ],
+          "leg_m": [
+            80,
+            150
+          ]
+        },
+        "main_section": "two_lane"
+      },
+      "buildings": {
+        "count": [
+          170,
+          240
+        ],
+        "types": {
+          "arab_house": 0.55,
+          "house": 0.12,
+          "shop_house": 0.08,
+          "unfinished": 0.14,
+          "apartment": 0.03,
+          "shed": 0.04,
+          "warehouse": 0.04
+        },
+        "landmarks": {
+          "mosque": [
+            1,
+            1
+          ]
+        },
+        "frontage": {
+          "spacing_m": [
+            12,
+            16
+          ],
+          "setback_m": [
+            1.0,
+            3.0
+          ],
+          "second_row_p": 0.65,
+          "rows": 3
+        },
+        "density": {
+          "core_m": 150,
+          "falloff_m": 260,
+          "main_frontage_m": 260
+        }
+      },
+      "footpaths": {
+        "count": 8
+      },
+      "vegetation": {
+        "yard": {
+          "per_house": [
+            0,
+            2
+          ],
+          "dist_m": [
+            1.5,
+            6.0
+          ],
+          "species": {
+            "olive": 4,
+            "citrus": 2,
+            "ziziphus": 1,
+            "date_palm": 1,
+            "fan_palm": 1
+          }
+        },
+        "street": {
+          "classes": [],
+          "spacing_m": [
+            12,
+            18
+          ],
+          "offset_m": 1.5,
+          "p_side": 0.0,
+          "species": {
+            "date_palm": 1
+          }
+        },
+        "groves": {
+          "count": 10,
+          "species": {
+            "olive": 1
+          },
+          "size_m": [
+            [
+              50,
+              150
+            ],
+            [
+              40,
+              100
+            ]
+          ],
+          "spacing_m": [
+            7,
+            9
+          ],
+          "max_slope_deg": 16,
+          "dist_m": [
+            15,
+            260
+          ]
+        },
+        "forest": {
+          "count": 1,
+          "size_m": [
+            [
+              60,
+              110
+            ],
+            [
+              50,
+              90
+            ]
+          ],
+          "spacing_m": [
+            6,
+            8
+          ],
+          "max_slope_deg": 30,
+          "dist_m": [
+            200,
+            420
+          ]
+        }
+      },
+      "fields": {
+        "count": 4,
+        "size_m": [
+          [
+            120,
+            260
+          ],
+          [
+            60,
+            140
+          ]
+        ],
+        "max_slope_deg": 6,
+        "dist_m": [
+          120,
+          420
+        ],
+        "strips": [
+          1,
+          3
+        ],
+        "crops": {
+          "ploughed": 3,
+          "stubble": 4,
+          "fallow": 1
+        }
+      },
+      "vary": {
+        "_comment": "Per-seed character: each seed draws every entry ('a.b.c' = path in this style). range = uniform (integers if both are), choice = one of, scale = multiplies the value there. _types_jitter = log-normal spread on each building type weight.",
+        "roads.contour.count": {
+          "range": [
+            3,
+            8
+          ]
+        },
+        "roads.contour.spacing_m": {
+          "choice": [
+            [
+              30,
+              40
+            ],
+            [
+              36,
+              50
+            ],
+            [
+              45,
+              62
+            ]
+          ]
+        },
+        "roads.contour.length_m": {
+          "choice": [
+            [
+              160,
+              280
+            ],
+            [
+              240,
+              400
+            ],
+            [
+              320,
+              520
+            ]
+          ]
+        },
+        "roads.contour.follow": {
+          "range": [
+            0.75,
+            1.0
+          ]
+        },
+        "roads.connectors.every_m": {
+          "choice": [
+            [
+              40,
+              70
+            ],
+            [
+              55,
+              95
+            ],
+            [
+              80,
+              130
+            ]
+          ]
+        },
+        "roads.connectors.alley_p": {
+          "range": [
+            0.1,
+            0.6
+          ]
+        },
+        "roads.access_count": {
+          "range": [
+            1,
+            3
+          ]
+        },
+        "roads.tracks.continue": {
+          "range": [
+            1,
+            4
+          ]
+        },
+        "roads.tracks.field": {
+          "range": [
+            1,
+            5
+          ]
+        },
+        "buildings.count": {
+          "choice": [
+            [
+              80,
+              120
+            ],
+            [
+              120,
+              170
+            ],
+            [
+              170,
+              240
+            ],
+            [
+              230,
+              320
+            ]
+          ]
+        },
+        "buildings.density.core_m": {
+          "range": [
+            80,
+            220
+          ]
+        },
+        "buildings.density.falloff_m": {
+          "range": [
+            140,
+            360
+          ]
+        },
+        "buildings.frontage.second_row_p": {
+          "range": [
+            0.3,
+            0.9
+          ]
+        },
+        "buildings.frontage.spacing_m": {
+          "choice": [
+            [
+              10,
+              13
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              15,
+              21
+            ]
+          ]
+        },
+        "yards.share_scale": {
+          "range": [
+            0.4,
+            1.2
+          ]
+        },
+        "vegetation.yard.per_house": {
+          "choice": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        "vegetation.groves.count": {
+          "range": [
+            1,
+            16
+          ]
+        },
+        "vegetation.forest.count": {
+          "range": [
+            0,
+            4
+          ]
+        },
+        "fields.count": {
+          "range": [
+            0,
+            10
+          ]
+        },
+        "fields.strips": {
+          "choice": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        "footpaths.count": {
+          "range": [
+            4,
+            12
+          ]
+        },
+        "_types_jitter": 0.6,
+        "roads.main_road": {
+          "choice": [
+            "downhill",
+            "bypass"
+          ]
+        }
+      },
+      "environment": {
+        "_comment": "Light drawn per seed: dry-season month range, local time of day (hours), haze visibility (km).",
+        "months": [
+          5,
+          10
+        ],
+        "hours": [
+          8.5,
+          15.5
+        ],
+        "haze_km": [
+          20,
+          60
+        ]
+      },
+      "ground_cover_scale": {
+        "veg": {
+          "range": [
+            0.25,
+            1.8
+          ]
+        },
+        "rock": {
+          "range": [
+            0.4,
+            1.7
+          ]
+        }
+      }
+    },
+    "hilltop": {
+      "description": "Compact village on a hilltop: ring streets following the contours around the top, short radial lanes between them, a dense old core with the mosque at the top; the main road passes below; olive groves on the slopes and fields in the valleys around.",
+      "examples": [
+        {
+          "name": "village by Route 77 near Zarzir",
+          "latlon": [
+            32.729,
+            35.201
+          ]
+        },
+        {
+          "name": "Arraba old core",
+          "latlon": [
+            32.851,
+            35.336
+          ]
+        }
+      ],
+      "terrain": {
+        "mode": "hilltop",
+        "target_slope_deg": [
+          4,
+          12
+        ],
+        "site_choices": 30,
+        "ground_material": "galilee_summer",
+        "ground_cover": "galilee_summer",
+        "aois": [
+          "lower_galilee",
+          "western_galilee",
+          "upper_galilee_south",
+          "nazareth_hills",
+          "shefa_amr",
+          "menashe"
+        ]
+      },
+      "roads": {
+        "main_road": "bypass",
+        "contour": {
+          "count": 4,
+          "spacing_m": [
+            36,
+            50
+          ],
+          "length_m": [
+            200,
+            340
+          ],
+          "class": "lane",
+          "follow": 1.0
+        },
+        "connectors": {
+          "every_m": [
+            45,
+            80
+          ],
+          "alley_p": 0.3,
+          "alley_m": [
+            20,
+            40
+          ]
+        },
+        "access_count": 2,
+        "tracks": {
+          "continue": 3,
+          "field": 4,
+          "length_m": [
+            150,
+            300
+          ],
+          "leg_m": [
+            80,
+            160
+          ]
+        },
+        "main_section": "two_lane"
+      },
+      "buildings": {
+        "count": [
+          160,
+          230
+        ],
+        "types": {
+          "arab_house": 0.6,
+          "house": 0.1,
+          "shop_house": 0.06,
+          "unfinished": 0.14,
+          "old_basalt": 0.03,
+          "shed": 0.04,
+          "warehouse": 0.03
+        },
+        "landmarks": {
+          "mosque": [
+            1,
+            1
+          ]
+        },
+        "frontage": {
+          "spacing_m": [
+            12,
+            17
+          ],
+          "setback_m": [
+            1.0,
+            2.5
+          ],
+          "second_row_p": 0.65,
+          "rows": 3
+        },
+        "density": {
+          "core_m": 120,
+          "falloff_m": 220,
+          "main_frontage_m": 220
+        }
+      },
+      "footpaths": {
+        "count": 7
+      },
+      "vegetation": {
+        "yard": {
+          "per_house": [
+            0,
+            2
+          ],
+          "dist_m": [
+            1.5,
+            6.0
+          ],
+          "species": {
+            "olive": 4,
+            "citrus": 2,
+            "ziziphus": 1,
+            "date_palm": 1,
+            "fan_palm": 1
+          }
+        },
+        "street": {
+          "classes": [],
+          "spacing_m": [
+            12,
+            18
+          ],
+          "offset_m": 1.5,
+          "p_side": 0.0,
+          "species": {
+            "date_palm": 1
+          }
+        },
+        "groves": {
+          "count": 8,
+          "species": {
+            "olive": 1
+          },
+          "size_m": [
+            [
+              50,
+              140
+            ],
+            [
+              40,
+              90
+            ]
+          ],
+          "spacing_m": [
+            7,
+            9
+          ],
+          "max_slope_deg": 16,
+          "dist_m": [
+            15,
+            240
+          ]
+        },
+        "forest": {
+          "count": 0,
+          "size_m": [
+            [
+              60,
+              110
+            ],
+            [
+              50,
+              90
+            ]
+          ],
+          "spacing_m": [
+            6,
+            8
+          ],
+          "max_slope_deg": 30,
+          "dist_m": [
+            200,
+            420
+          ]
+        }
+      },
+      "fields": {
+        "count": 6,
+        "size_m": [
+          [
+            120,
+            260
+          ],
+          [
+            60,
+            140
+          ]
+        ],
+        "max_slope_deg": 6,
+        "dist_m": [
+          100,
+          420
+        ],
+        "strips": [
+          1,
+          3
+        ],
+        "crops": {
+          "ploughed": 3,
+          "stubble": 4,
+          "fallow": 1
+        }
+      },
+      "vary": {
+        "_comment": "Per-seed character: each seed draws every entry ('a.b.c' = path in this style). range = uniform (integers if both are), choice = one of, scale = multiplies the value there. _types_jitter = log-normal spread on each building type weight.",
+        "roads.contour.count": {
+          "range": [
+            3,
+            8
+          ]
+        },
+        "roads.contour.spacing_m": {
+          "choice": [
+            [
+              30,
+              40
+            ],
+            [
+              36,
+              50
+            ],
+            [
+              45,
+              62
+            ]
+          ]
+        },
+        "roads.contour.length_m": {
+          "choice": [
+            [
+              160,
+              280
+            ],
+            [
+              240,
+              400
+            ],
+            [
+              320,
+              520
+            ]
+          ]
+        },
+        "roads.contour.follow": {
+          "range": [
+            0.75,
+            1.0
+          ]
+        },
+        "roads.connectors.every_m": {
+          "choice": [
+            [
+              40,
+              70
+            ],
+            [
+              55,
+              95
+            ],
+            [
+              80,
+              130
+            ]
+          ]
+        },
+        "roads.connectors.alley_p": {
+          "range": [
+            0.1,
+            0.6
+          ]
+        },
+        "roads.access_count": {
+          "range": [
+            1,
+            3
+          ]
+        },
+        "roads.tracks.continue": {
+          "range": [
+            1,
+            4
+          ]
+        },
+        "roads.tracks.field": {
+          "range": [
+            1,
+            5
+          ]
+        },
+        "buildings.count": {
+          "choice": [
+            [
+              80,
+              120
+            ],
+            [
+              120,
+              170
+            ],
+            [
+              170,
+              240
+            ],
+            [
+              230,
+              320
+            ]
+          ]
+        },
+        "buildings.density.core_m": {
+          "range": [
+            80,
+            220
+          ]
+        },
+        "buildings.density.falloff_m": {
+          "range": [
+            140,
+            360
+          ]
+        },
+        "buildings.frontage.second_row_p": {
+          "range": [
+            0.3,
+            0.9
+          ]
+        },
+        "buildings.frontage.spacing_m": {
+          "choice": [
+            [
+              10,
+              13
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              15,
+              21
+            ]
+          ]
+        },
+        "yards.share_scale": {
+          "range": [
+            0.4,
+            1.2
+          ]
+        },
+        "vegetation.yard.per_house": {
+          "choice": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        "vegetation.groves.count": {
+          "range": [
+            1,
+            16
+          ]
+        },
+        "vegetation.forest.count": {
+          "range": [
+            0,
+            4
+          ]
+        },
+        "fields.count": {
+          "range": [
+            0,
+            10
+          ]
+        },
+        "fields.strips": {
+          "choice": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        "footpaths.count": {
+          "range": [
+            4,
+            12
+          ]
+        },
+        "_types_jitter": 0.6,
+        "roads.main_road": {
+          "choice": [
+            "bypass",
+            "downhill"
+          ]
+        }
+      },
+      "environment": {
+        "_comment": "Light drawn per seed: dry-season month range, local time of day (hours), haze visibility (km).",
+        "months": [
+          5,
+          10
+        ],
+        "hours": [
+          8.5,
+          15.5
+        ],
+        "haze_km": [
+          20,
+          60
+        ]
+      },
+      "ground_cover_scale": {
+        "veg": {
+          "range": [
+            0.25,
+            1.8
+          ]
+        },
+        "rock": {
+          "range": [
+            0.4,
+            1.7
+          ]
+        }
+      }
+    }
+  }
+}

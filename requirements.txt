@@ -1,0 +1,11 @@
+# Standard-Python side (DTM prep, planner, tests). Install into ~/synth_aerial_work/venv.
+# Blender-side code uses only Blender 5.2's bundled numpy and OpenImageIO.
+numpy>=2.0
+scipy>=1.14
+rasterio>=1.4
+pyproj>=3.7
+shapely>=2.0
+pillow>=11.0
+pytest>=8.0
+scikit-image>=0.24
+OpenImageIO>=3.1  # tests + dataset tools (Blender ships its own)

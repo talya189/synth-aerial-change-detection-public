@@ -1,0 +1,23 @@
+{
+  "_comment": "Street furniture and small objects (spec entities `props`, ids prop_NNN). Each type: kind (labels), and its build parameters (metres). Placement per style: place file `props` (spacing per road class); defaults in synth/spec/props.py.",
+  "types": {
+    "streetlight": {
+      "kind": "prop.streetlight",
+      "height_m": [7.5, 9.0],
+      "arm_m": 1.6,
+      "clear_m": 0.4
+    },
+    "streetlight_double": {
+      "kind": "prop.streetlight",
+      "height_m": [9.0, 10.0],
+      "arm_m": 1.8,
+      "clear_m": 0.4
+    },
+    "streetlight_small": {
+      "kind": "prop.streetlight",
+      "height_m": [5.5, 6.5],
+      "arm_m": 1.0,
+      "clear_m": 0.3
+    }
+  }
+}

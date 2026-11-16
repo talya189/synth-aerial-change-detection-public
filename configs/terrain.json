@@ -1,0 +1,131 @@
+{
+  "sources": {
+    "copernicus_glo30": {
+      "files": [
+        "data/dtm/raw/Copernicus_N32_E035.tif",
+        "data/dtm/raw/Copernicus_N33_E035.tif"
+      ],
+      "kind": "DSM",
+      "vertical_datum": "EGM2008",
+      "licence": "Copernicus DEM GLO-30, (c) DLR/Airbus, free and open",
+      "resolution_m": 30
+    }
+  },
+  "aois": {
+    "korazim": {
+      "polygon_file": "data/aoi_korazim.gpkg",
+      "site_selection": {
+        "mode": "auto",
+        "_comment": "auto = pick the core centre inside the AOI whose terrain suits a village: moderate median slope, some relief",
+        "target_median_slope_deg": [
+          4,
+          12
+        ],
+        "search_step_m": 150
+      }
+    },
+    "lower_galilee": {
+      "_comment": "Lower Galilee hills and valleys around Sakhnin, Arraba, Deir Hanna, Kafr Kanna, Tur'an (Arab towns and villages).",
+      "bbox_latlon": [
+        32.7,
+        35.18,
+        32.92,
+        35.45
+      ],
+      "site_selection": {
+        "mode": "hillside",
+        "target_slope_deg": [
+          5,
+          14
+        ],
+        "search_step_m": 150
+      }
+    },
+    "wadi_ara": {
+      "_comment": "Wadi Ara / Umm al-Fahm ridges.",
+      "bbox_latlon": [
+        32.46,
+        35.04,
+        32.58,
+        35.2
+      ],
+      "site_selection": {
+        "mode": "ridge",
+        "target_slope_deg": [
+          7,
+          18
+        ],
+        "search_step_m": 150
+      }
+    },
+    "western_galilee": {
+      "_comment": "Western Galilee hills: Tamra, Kabul, Majd al-Krum, Yarka, Julis.",
+      "bbox_latlon": [
+        32.86,
+        35.15,
+        33.0,
+        35.3
+      ]
+    },
+    "upper_galilee_south": {
+      "_comment": "Southern Upper Galilee: Rame, Sajur, Beit Jann, Peki'in, Kisra.",
+      "bbox_latlon": [
+        32.93,
+        35.3,
+        33.02,
+        35.45
+      ]
+    },
+    "nazareth_hills": {
+      "_comment": "Nazareth hills: Nazareth, Kafr Kanna, Reineh, Mashhad, Iksal.",
+      "bbox_latlon": [
+        32.64,
+        35.24,
+        32.76,
+        35.4
+      ]
+    },
+    "shefa_amr": {
+      "_comment": "Shefa-Amr hills: Shefa-Amr, I'billin, Tamra (south), Kafr Manda.",
+      "bbox_latlon": [
+        32.75,
+        35.13,
+        32.86,
+        35.27
+      ]
+    },
+    "menashe": {
+      "_comment": "Menashe heights / northern Wadi Ara: Ar'ara, Kafr Qara, Ein Ibrahim.",
+      "bbox_latlon": [
+        32.48,
+        35.0,
+        32.56,
+        35.12
+      ]
+    }
+  },
+  "processing": {
+    "core_res_m": 1.0,
+    "mid_res_m": 5.0,
+    "mid_half_m": 1600,
+    "far_res_m": 30.0,
+    "far_radius_m": 9000,
+    "dsm_to_dtm": {
+      "enabled": true,
+      "opening_window_m": 90,
+      "object_threshold_m": 2.5,
+      "keep_fraction": 0.15
+    },
+    "micro_relief": {
+      "enabled": true,
+      "amplitude_m": 0.4,
+      "wavelengths_m": [
+        4,
+        9,
+        18,
+        35
+      ],
+      "slope_gain": 1.5
+    }
+  }
+}

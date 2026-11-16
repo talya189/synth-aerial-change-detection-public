@@ -1,0 +1,1428 @@
+{
+  "_comment": "Building types for scene specs. A spec building names its `type`; any field it leaves out is drawn from these ranges (seeded by the building id). The placement generator (synth/spec/placement.py) writes every structural field explicitly into the spec. `placement` = rules a site must satisfy: mean slope under the footprint, height difference across it, clearance from other buildings, never in a wadi bed. Hill-village houses (arab_house, house, unfinished, shop_house, old_basalt) may stand on slopes up to 26 deg with up to 6.5 m height difference: the downhill side gets an exposed stone base, as on real Galilee hillsides.",
+  "types": {
+    "house": {
+      "kind": "building.house",
+      "floors_p": {
+        "1": 0.45,
+        "2": 0.55
+      },
+      "width_m": [
+        8,
+        13
+      ],
+      "depth_m": [
+        9,
+        13
+      ],
+      "floor_height_m": [
+        2.9,
+        3.2
+      ],
+      "roof_p": {
+        "flat": 0.88,
+        "tiled": 0.12
+      },
+      "wall_p": {
+        "wall.stucco": 0.7,
+        "wall.stone": 0.3
+      },
+      "parapet_m": [
+        0.5,
+        1.0
+      ],
+      "annex_p": 0.35,
+      "balcony_p": 0.4,
+      "expandable_p": 0.3,
+      "window_spacing": 3.2,
+      "shutters_p": 0.6,
+      "window_style": "glass",
+      "rooftop": {
+        "solar_heaters": [
+          1,
+          3
+        ],
+        "water_tanks": [
+          0,
+          3
+        ],
+        "ac_units": [
+          0,
+          4
+        ],
+        "dish_p": 0.5,
+        "stairwell_p": 0.7,
+        "clutter": [
+          0,
+          4
+        ]
+      },
+      "placement": {
+        "max_slope_deg": 26,
+        "max_relief_m": 6.5,
+        "gap_m": 4.0
+      },
+      "zone": "core",
+      "window_w": 1.3,
+      "window_h": 1.3,
+      "options": {
+        "top_setback_p": 0.1,
+        "pv_p": 0.05,
+        "railing_p": 0.1,
+        "pergola_p": 0.15,
+        "roof_hat_p": 0.12,
+        "pilotis_p": 0.1
+      }
+    },
+    "apartment": {
+      "kind": "building.residential",
+      "floors_p": {
+        "3": 0.6,
+        "4": 0.4
+      },
+      "width_m": [
+        16,
+        24
+      ],
+      "depth_m": [
+        10,
+        13
+      ],
+      "floor_height_m": [
+        2.9,
+        3.0
+      ],
+      "roof_p": {
+        "flat": 1.0
+      },
+      "wall_p": {
+        "wall.stucco": 0.75,
+        "wall.stone": 0.25
+      },
+      "parapet_m": [
+        0.9,
+        1.1
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.9,
+      "expandable_p": 0.0,
+      "window_spacing": 2.8,
+      "shutters_p": 0.7,
+      "window_style": "glass",
+      "rooftop": {
+        "solar_heaters": [
+          4,
+          8
+        ],
+        "water_tanks": [
+          1,
+          4
+        ],
+        "ac_units": [
+          3,
+          8
+        ],
+        "dish_p": 0.7,
+        "stairwell_p": 1.0,
+        "clutter": [
+          0,
+          2
+        ]
+      },
+      "placement": {
+        "max_slope_deg": 18,
+        "max_relief_m": 6.0,
+        "gap_m": 8.0
+      },
+      "zone": "core",
+      "window_w": 1.3,
+      "window_h": 1.3,
+      "options": {
+        "pv_p": 0.15,
+        "railing_p": 0.2,
+        "pilotis_p": 0.2
+      }
+    },
+    "unfinished": {
+      "kind": "building.unfinished",
+      "floors_p": {
+        "1": 0.6,
+        "2": 0.4
+      },
+      "width_m": [
+        8,
+        12
+      ],
+      "depth_m": [
+        9,
+        12
+      ],
+      "floor_height_m": [
+        2.9,
+        3.1
+      ],
+      "roof_p": {
+        "flat": 1.0
+      },
+      "wall_p": {
+        "wall.block": 1.0
+      },
+      "parapet_m": [
+        0.0,
+        0.0
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.0,
+      "expandable_p": 1.0,
+      "window_spacing": 3.2,
+      "shutters_p": 0.0,
+      "window_style": "open",
+      "rooftop": {
+        "solar_heaters": [
+          0,
+          0
+        ],
+        "water_tanks": [
+          0,
+          0
+        ],
+        "ac_units": [
+          0,
+          0
+        ],
+        "dish_p": 0.0,
+        "stairwell_p": 0.0,
+        "clutter": [
+          0,
+          2
+        ]
+      },
+      "placement": {
+        "max_slope_deg": 30,
+        "max_relief_m": 8.0,
+        "gap_m": 4.0
+      },
+      "zone": "core",
+      "window_w": 1.3,
+      "window_h": 1.3,
+      "options": {
+        "pilotis_p": 0.25
+      }
+    },
+    "shed": {
+      "kind": "building.shed",
+      "floors_p": {
+        "1": 1.0
+      },
+      "width_m": [
+        14,
+        30
+      ],
+      "depth_m": [
+        9,
+        15
+      ],
+      "floor_height_m": [
+        4.5,
+        6.0
+      ],
+      "roof_p": {
+        "gable_metal": 1.0
+      },
+      "wall_p": {
+        "wall.block": 0.6,
+        "wall.concrete": 0.4
+      },
+      "parapet_m": [
+        0.0,
+        0.0
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.0,
+      "expandable_p": 0.0,
+      "window_spacing": 7.0,
+      "shutters_p": 0.0,
+      "window_style": "glass",
+      "door": "roller",
+      "rooftop": null,
+      "placement": {
+        "max_slope_deg": 10,
+        "max_relief_m": 2.5,
+        "gap_m": 6.0
+      },
+      "zone": "edge",
+      "window_w": 1.3,
+      "window_h": 1.3,
+      "options": {
+        "pv_p": 0.35
+      }
+    },
+    "moshav_house": {
+      "kind": "building.house",
+      "zone": "core",
+      "floors_p": {
+        "1": 0.85,
+        "2": 0.15
+      },
+      "width_m": [
+        9,
+        13
+      ],
+      "depth_m": [
+        8,
+        11
+      ],
+      "floor_height_m": [
+        2.8,
+        3.0
+      ],
+      "roof_p": {
+        "tiled_gable": 0.75,
+        "tiled": 0.25
+      },
+      "wall_p": {
+        "wall.white": 0.6,
+        "wall.stucco": 0.4
+      },
+      "parapet_m": [
+        0,
+        0
+      ],
+      "annex_p": 0.45,
+      "balcony_p": 0.0,
+      "expandable_p": 0.0,
+      "window_spacing": 3.0,
+      "window_w": 1.4,
+      "window_h": 1.2,
+      "shutters_p": 0.5,
+      "window_style": "glass",
+      "rooftop": null,
+      "options": {
+        "pergola_p": 0.4
+      },
+      "placement": {
+        "max_slope_deg": 14,
+        "max_relief_m": 2.5,
+        "gap_m": 6.0
+      }
+    },
+    "villa": {
+      "kind": "building.house",
+      "zone": "core",
+      "floors_p": {
+        "2": 0.85,
+        "1": 0.15
+      },
+      "width_m": [
+        12,
+        17
+      ],
+      "depth_m": [
+        10,
+        13
+      ],
+      "floor_height_m": [
+        3.1,
+        3.4
+      ],
+      "roof_p": {
+        "flat": 0.8,
+        "tiled": 0.2
+      },
+      "wall_p": {
+        "wall.white": 0.75,
+        "wall.stone": 0.25
+      },
+      "parapet_m": [
+        0.3,
+        0.5
+      ],
+      "annex_p": 0.85,
+      "annex_size": [
+        [
+          0.5,
+          0.75
+        ],
+        [
+          0.6,
+          0.9
+        ]
+      ],
+      "balcony_p": 0.3,
+      "expandable_p": 0.0,
+      "window_spacing": 3.4,
+      "window_w": 2.2,
+      "window_h": 1.7,
+      "shutters_p": 0.3,
+      "window_style": "glass",
+      "rooftop": {
+        "solar_heaters": [
+          1,
+          2
+        ],
+        "water_tanks": [
+          0,
+          1
+        ],
+        "ac_units": [
+          1,
+          3
+        ],
+        "dish_p": 0.1,
+        "stairwell_p": 0.5,
+        "clutter": [
+          0,
+          1
+        ]
+      },
+      "options": {
+        "pv_p": 0.5,
+        "railing_p": 0.7,
+        "pergola_p": 0.6,
+        "roof_hat_p": 0.1
+      },
+      "placement": {
+        "max_slope_deg": 16,
+        "max_relief_m": 3.0,
+        "gap_m": 6.0
+      }
+    },
+    "arab_house": {
+      "kind": "building.house",
+      "zone": "core",
+      "floors_p": {
+        "2": 0.35,
+        "3": 0.45,
+        "4": 0.2
+      },
+      "width_m": [
+        11,
+        16
+      ],
+      "depth_m": [
+        11,
+        15
+      ],
+      "floor_height_m": [
+        3.0,
+        3.2
+      ],
+      "roof_p": {
+        "flat": 1.0
+      },
+      "wall_p": {
+        "wall.stone": 0.55,
+        "wall.stucco": 0.3,
+        "wall.white": 0.15
+      },
+      "parapet_m": [
+        0.9,
+        1.1
+      ],
+      "annex_p": 0.4,
+      "balcony_p": 0.85,
+      "expandable_p": 0.65,
+      "window_spacing": 3.0,
+      "window_w": 1.5,
+      "window_h": 1.5,
+      "shutters_p": 0.7,
+      "window_style": "glass",
+      "rooftop": {
+        "solar_heaters": [
+          2,
+          5
+        ],
+        "water_tanks": [
+          2,
+          6
+        ],
+        "ac_units": [
+          1,
+          4
+        ],
+        "dish_p": 0.8,
+        "stairwell_p": 0.9,
+        "clutter": [
+          1,
+          4
+        ]
+      },
+      "options": {
+        "top_setback_p": 0.45,
+        "railing_p": 0.5,
+        "pilotis_p": 0.3,
+        "roof_hat_p": 0.2
+      },
+      "placement": {
+        "max_slope_deg": 30,
+        "max_relief_m": 8.0,
+        "gap_m": 3.0
+      },
+      "annex_size": [
+        [
+          0.4,
+          0.7
+        ],
+        [
+          0.5,
+          0.9
+        ]
+      ]
+    },
+    "old_basalt": {
+      "kind": "building.house",
+      "zone": "core",
+      "floors_p": {
+        "1": 0.6,
+        "2": 0.4
+      },
+      "width_m": [
+        8,
+        12
+      ],
+      "depth_m": [
+        7,
+        10
+      ],
+      "floor_height_m": [
+        3.3,
+        3.8
+      ],
+      "roof_p": {
+        "tiled": 0.6,
+        "flat": 0.4
+      },
+      "wall_p": {
+        "wall.basalt": 1.0
+      },
+      "parapet_m": [
+        0.4,
+        0.6
+      ],
+      "annex_p": 0.3,
+      "balcony_p": 0.0,
+      "expandable_p": 0.0,
+      "window_spacing": 3.6,
+      "window_w": 0.9,
+      "window_h": 1.4,
+      "shutters_p": 0.8,
+      "window_style": "glass",
+      "rooftop": {
+        "solar_heaters": [
+          0,
+          1
+        ],
+        "water_tanks": [
+          0,
+          1
+        ],
+        "ac_units": [
+          0,
+          1
+        ],
+        "dish_p": 0.2,
+        "stairwell_p": 0.0,
+        "clutter": [
+          0,
+          1
+        ]
+      },
+      "options": {
+        "pergola_p": 0.2
+      },
+      "placement": {
+        "max_slope_deg": 26,
+        "max_relief_m": 6.5,
+        "gap_m": 4.0
+      }
+    },
+    "public": {
+      "kind": "building.public",
+      "zone": "core",
+      "floors_p": {
+        "1": 0.5,
+        "2": 0.5
+      },
+      "width_m": [
+        26,
+        42
+      ],
+      "depth_m": [
+        12,
+        18
+      ],
+      "floor_height_m": [
+        3.6,
+        4.0
+      ],
+      "roof_p": {
+        "flat": 1.0
+      },
+      "wall_p": {
+        "wall.white": 0.5,
+        "wall.stucco": 0.3,
+        "wall.stone": 0.2
+      },
+      "parapet_m": [
+        0.6,
+        0.9
+      ],
+      "annex_p": 0.4,
+      "balcony_p": 0.0,
+      "expandable_p": 0.0,
+      "window_spacing": 2.6,
+      "window_w": 1.9,
+      "window_h": 1.6,
+      "shutters_p": 0.2,
+      "window_style": "glass",
+      "rooftop": {
+        "solar_heaters": [
+          0,
+          2
+        ],
+        "water_tanks": [
+          0,
+          2
+        ],
+        "ac_units": [
+          4,
+          10
+        ],
+        "dish_p": 0.3,
+        "stairwell_p": 0.6,
+        "clutter": [
+          1,
+          3
+        ]
+      },
+      "options": {
+        "pv_p": 0.5
+      },
+      "placement": {
+        "max_slope_deg": 10,
+        "max_relief_m": 2.5,
+        "gap_m": 10.0
+      }
+    },
+    "coop": {
+      "kind": "building.agricultural",
+      "zone": "edge",
+      "floors_p": {
+        "1": 1.0
+      },
+      "width_m": [
+        55,
+        100
+      ],
+      "depth_m": [
+        12,
+        15
+      ],
+      "floor_height_m": [
+        2.6,
+        3.0
+      ],
+      "roof_p": {
+        "gable_metal": 1.0
+      },
+      "wall_p": {
+        "wall.white": 0.6,
+        "wall.concrete": 0.4
+      },
+      "parapet_m": [
+        0,
+        0
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.0,
+      "expandable_p": 0.0,
+      "window_spacing": 4.0,
+      "window_style": "glass",
+      "door": "curtain",
+      "rooftop": null,
+      "options": {
+        "pv_p": 0.4
+      },
+      "placement": {
+        "max_slope_deg": 9,
+        "max_relief_m": 5.0,
+        "gap_m": 8.0
+      },
+      "shutters_p": 0.0,
+      "group": [
+        2,
+        4
+      ],
+      "group_gap_m": [
+        9,
+        14
+      ]
+    },
+    "greenhouse": {
+      "kind": "building.greenhouse",
+      "zone": "edge",
+      "floors_p": {
+        "1": 1.0
+      },
+      "width_m": [
+        24,
+        56
+      ],
+      "depth_m": [
+        25,
+        60
+      ],
+      "floor_height_m": [
+        2.5,
+        3.0
+      ],
+      "roof_p": {
+        "tunnel": 1.0
+      },
+      "wall_p": {
+        "wall.white": 1.0
+      },
+      "parapet_m": [
+        0,
+        0
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.0,
+      "expandable_p": 0.0,
+      "window_spacing": 99,
+      "window_style": "glass",
+      "rooftop": null,
+      "options": {},
+      "placement": {
+        "max_slope_deg": 8,
+        "max_relief_m": 3.5,
+        "gap_m": 6.0
+      },
+      "shutters_p": 0.0
+    },
+    "water_tower": {
+      "kind": "building.tower",
+      "zone": "edge",
+      "floors_p": {
+        "1": 0.5,
+        "2": 0.5
+      },
+      "width_m": [
+        6,
+        16
+      ],
+      "depth_m": [
+        6,
+        16
+      ],
+      "floor_height_m": [
+        4,
+        6
+      ],
+      "roof_p": {
+        "tank": 1.0
+      },
+      "wall_p": {
+        "wall.concrete": 1.0
+      },
+      "parapet_m": [
+        0,
+        0
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.0,
+      "expandable_p": 0.0,
+      "window_spacing": 99,
+      "window_style": "glass",
+      "rooftop": null,
+      "options": {},
+      "placement": {
+        "max_slope_deg": 12,
+        "max_relief_m": 2.5,
+        "gap_m": 8.0
+      },
+      "shutters_p": 0.0
+    },
+    "midrise": {
+      "kind": "building.residential",
+      "zone": "core",
+      "floors_p": {
+        "5": 0.3,
+        "6": 0.3,
+        "7": 0.2,
+        "8": 0.2
+      },
+      "width_m": [
+        18,
+        28
+      ],
+      "depth_m": [
+        12,
+        16
+      ],
+      "floor_height_m": [
+        2.9,
+        3.1
+      ],
+      "roof_p": {
+        "flat": 1.0
+      },
+      "wall_p": {
+        "wall.stucco": 0.4,
+        "wall.white": 0.3,
+        "wall.stone": 0.3
+      },
+      "parapet_m": [
+        1.0,
+        1.2
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.9,
+      "expandable_p": 0.0,
+      "window_spacing": 2.6,
+      "window_w": 1.5,
+      "window_h": 1.4,
+      "shutters_p": 0.6,
+      "window_style": "glass",
+      "rooftop": {
+        "solar_heaters": [
+          6,
+          12
+        ],
+        "water_tanks": [
+          1,
+          3
+        ],
+        "ac_units": [
+          4,
+          10
+        ],
+        "dish_p": 0.6,
+        "stairwell_p": 1.0,
+        "clutter": [
+          0,
+          2
+        ]
+      },
+      "options": {
+        "pv_p": 0.2,
+        "railing_p": 0.1,
+        "podium_p": 0.3,
+        "top_setback_p": 0.15,
+        "pilotis_p": 0.15
+      },
+      "placement": {
+        "max_slope_deg": 18,
+        "max_relief_m": 6.0,
+        "gap_m": 12.0
+      }
+    },
+    "tower": {
+      "kind": "building.residential",
+      "zone": "core",
+      "floors_p": {
+        "9": 0.08,
+        "10": 0.08,
+        "12": 0.14,
+        "14": 0.14,
+        "16": 0.14,
+        "18": 0.12,
+        "20": 0.12,
+        "24": 0.1,
+        "28": 0.08
+      },
+      "width_m": [
+        22,
+        32
+      ],
+      "depth_m": [
+        17,
+        24
+      ],
+      "floor_height_m": [
+        3.0,
+        3.2
+      ],
+      "roof_p": {
+        "flat": 1.0
+      },
+      "wall_p": {
+        "wall.white": 0.4,
+        "wall.stone": 0.35,
+        "wall.concrete": 0.25
+      },
+      "parapet_m": [
+        1.1,
+        1.4
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.95,
+      "expandable_p": 0.0,
+      "window_spacing": 2.5,
+      "window_w": 1.7,
+      "window_h": 1.6,
+      "shutters_p": 0.4,
+      "window_style": "glass",
+      "rooftop": {
+        "solar_heaters": [
+          4,
+          10
+        ],
+        "water_tanks": [
+          0,
+          2
+        ],
+        "ac_units": [
+          2,
+          6
+        ],
+        "dish_p": 0.4,
+        "stairwell_p": 1.0,
+        "clutter": [
+          0,
+          1
+        ]
+      },
+      "options": {
+        "pv_p": 0.3,
+        "podium_p": 0.6,
+        "top_setback_p": 0.3
+      },
+      "placement": {
+        "max_slope_deg": 12,
+        "max_relief_m": 5.0,
+        "gap_m": 16.0
+      }
+    },
+    "mosque": {
+      "kind": "building.mosque",
+      "zone": "core",
+      "floors_p": {
+        "1": 0.6,
+        "2": 0.4
+      },
+      "width_m": [
+        16,
+        26
+      ],
+      "depth_m": [
+        16,
+        24
+      ],
+      "floor_height_m": [
+        4.5,
+        5.5
+      ],
+      "roof_p": {
+        "dome": 1.0
+      },
+      "wall_p": {
+        "wall.white": 0.5,
+        "wall.stone": 0.5
+      },
+      "parapet_m": [
+        0.6,
+        0.8
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.0,
+      "expandable_p": 0.0,
+      "window_spacing": 3.0,
+      "window_w": 1.6,
+      "window_h": 2.4,
+      "shutters_p": 0.0,
+      "window_style": "glass",
+      "rooftop": null,
+      "options": {},
+      "placement": {
+        "max_slope_deg": 12,
+        "max_relief_m": 4.0,
+        "gap_m": 5.0
+      }
+    },
+    "shop_house": {
+      "kind": "building.mixed",
+      "zone": "core",
+      "floors_p": {
+        "2": 0.2,
+        "3": 0.4,
+        "4": 0.3,
+        "5": 0.1
+      },
+      "width_m": [
+        12,
+        20
+      ],
+      "depth_m": [
+        11,
+        16
+      ],
+      "floor_height_m": [
+        3.0,
+        3.2
+      ],
+      "roof_p": {
+        "flat": 1.0
+      },
+      "wall_p": {
+        "wall.stone": 0.45,
+        "wall.stucco": 0.3,
+        "wall.white": 0.25
+      },
+      "parapet_m": [
+        0.9,
+        1.1
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.8,
+      "expandable_p": 0.4,
+      "window_spacing": 3.0,
+      "window_w": 1.5,
+      "window_h": 1.5,
+      "shutters_p": 0.6,
+      "window_style": "glass",
+      "rooftop": {
+        "solar_heaters": [
+          2,
+          5
+        ],
+        "water_tanks": [
+          2,
+          5
+        ],
+        "ac_units": [
+          2,
+          5
+        ],
+        "dish_p": 0.7,
+        "stairwell_p": 0.9,
+        "clutter": [
+          1,
+          3
+        ]
+      },
+      "options": {
+        "podium_p": 1.0,
+        "podium_min_floors": 2,
+        "podium_margin_m": [
+          0,
+          0
+        ],
+        "podium_floors": [
+          1,
+          1
+        ]
+      },
+      "placement": {
+        "max_slope_deg": 30,
+        "max_relief_m": 8.0,
+        "gap_m": 1.5
+      },
+      "frontage": [
+        "main",
+        "street",
+        "lane"
+      ]
+    },
+    "warehouse": {
+      "kind": "building.industrial",
+      "zone": "industrial",
+      "floors_p": {
+        "1": 1.0
+      },
+      "width_m": [
+        25,
+        60
+      ],
+      "depth_m": [
+        15,
+        30
+      ],
+      "floor_height_m": [
+        6.0,
+        8.0
+      ],
+      "roof_p": {
+        "gable_metal": 0.6,
+        "flat": 0.4
+      },
+      "wall_p": {
+        "wall.block": 0.5,
+        "wall.concrete": 0.5
+      },
+      "parapet_m": [
+        0.3,
+        0.5
+      ],
+      "annex_p": 0.0,
+      "balcony_p": 0.0,
+      "expandable_p": 0.0,
+      "window_spacing": 8.0,
+      "window_style": "glass",
+      "door": "roller",
+      "shutters_p": 0.0,
+      "rooftop": {
+        "solar_heaters": [
+          0,
+          0
+        ],
+        "water_tanks": [
+          0,
+          1
+        ],
+        "ac_units": [
+          0,
+          3
+        ],
+        "dish_p": 0.0,
+        "stairwell_p": 0.0,
+        "clutter": [
+          0,
+          2
+        ]
+      },
+      "options": {
+        "pv_p": 0.35
+      },
+      "placement": {
+        "max_slope_deg": 8,
+        "max_relief_m": 3.5,
+        "gap_m": 6.0
+      }
+    }
+  },
+  "roofs": [
+    "flat",
+    "tiled",
+    "tiled_gable",
+    "gable_metal",
+    "tunnel",
+    "tank",
+    "dome"
+  ],
+  "walls": [
+    "wall.stucco",
+    "wall.white",
+    "wall.stone",
+    "wall.basalt",
+    "wall.block",
+    "wall.concrete"
+  ],
+  "core_margin_m": 40.0,
+  "max_wetness": 0.45,
+  "_options_comment": "Per-type option probabilities (seeded by id when the spec leaves them out): top_setback = top floor built over the back part only; pv = solar panel array on the roof; railing = metal railing on a flat roof instead of a solid parapet; pergola = wooden pergola at the front door. zone: core types grow inside the settlement, edge types (sheds, coops, greenhouses, water towers) on its outskirts. podium = 1-2 storey wider commercial base of a mid/high-rise (shopfront glazing). Coops come in parallel groups (`group` count range, `group_gap_m`). podium_min_floors / podium_margin_m / podium_floors: when and how a podium is drawn (shop-houses: ground-floor shops on the same footprint). zone 'industrial': along the main road outside the core. pilotis = ground floor on columns, open (parking); roof_hat = small tiled pyramid roof over a room on the flat roof (common in Arab villages).",
+  "settlements": {
+    "_comment": "Settlement styles for grow_village: which types (probabilities), how far apart (spacing_m between neighbours), how many on the outskirts.",
+    "moshav": {
+      "types": {
+        "moshav_house": 0.3,
+        "house": 0.15,
+        "villa": 0.15,
+        "unfinished": 0.03,
+        "shed": 0.1,
+        "coop": 0.13,
+        "greenhouse": 0.12,
+        "water_tower": 0.02
+      },
+      "spacing_m": [
+        12,
+        30
+      ]
+    },
+    "arab_village": {
+      "types": {
+        "arab_house": 0.6,
+        "house": 0.17,
+        "unfinished": 0.15,
+        "apartment": 0.03,
+        "public": 0.02,
+        "shed": 0.03
+      },
+      "spacing_m": [
+        3,
+        12
+      ]
+    },
+    "kibbutz": {
+      "types": {
+        "moshav_house": 0.42,
+        "apartment": 0.06,
+        "public": 0.08,
+        "house": 0.1,
+        "coop": 0.08,
+        "shed": 0.12,
+        "greenhouse": 0.08,
+        "water_tower": 0.03,
+        "villa": 0.03
+      },
+      "spacing_m": [
+        10,
+        24
+      ]
+    },
+    "old_town": {
+      "types": {
+        "old_basalt": 0.45,
+        "house": 0.25,
+        "villa": 0.15,
+        "public": 0.05,
+        "moshav_house": 0.1
+      },
+      "spacing_m": [
+        4,
+        14
+      ]
+    },
+    "town": {
+      "types": {
+        "tower": 0.17,
+        "midrise": 0.25,
+        "apartment": 0.25,
+        "public": 0.07,
+        "house": 0.14,
+        "villa": 0.06,
+        "shed": 0.06
+      },
+      "spacing_m": [
+        10,
+        24
+      ]
+    }
+  },
+  "facades": {
+    "_comment": "Facade colour per wall material: tint multiplied on the normalised wall texture, with relative weights. Measured from aerial imagery of Sakhnin / Deir Hanna: warm cream-beige stone and plaster dominate, white and grey are common, pastel paint is rare.",
+    "wall.stone": [
+      [
+        [
+          1.0,
+          0.95,
+          0.86
+        ],
+        4
+      ],
+      [
+        [
+          1.05,
+          0.97,
+          0.82
+        ],
+        3
+      ],
+      [
+        [
+          0.95,
+          0.93,
+          0.88
+        ],
+        2
+      ],
+      [
+        [
+          1.0,
+          0.9,
+          0.78
+        ],
+        2
+      ]
+    ],
+    "wall.stucco": [
+      [
+        [
+          0.97,
+          0.92,
+          0.82
+        ],
+        5
+      ],
+      [
+        [
+          0.92,
+          0.85,
+          0.72
+        ],
+        4
+      ],
+      [
+        [
+          1.0,
+          1.0,
+          0.97
+        ],
+        2
+      ],
+      [
+        [
+          0.88,
+          0.88,
+          0.86
+        ],
+        2
+      ],
+      [
+        [
+          0.98,
+          0.9,
+          0.7
+        ],
+        1.5
+      ],
+      [
+        [
+          1.0,
+          0.86,
+          0.76
+        ],
+        0.6
+      ],
+      [
+        [
+          0.98,
+          0.85,
+          0.83
+        ],
+        0.4
+      ],
+      [
+        [
+          0.86,
+          0.92,
+          0.84
+        ],
+        0.4
+      ],
+      [
+        [
+          0.85,
+          0.9,
+          0.95
+        ],
+        0.3
+      ]
+    ],
+    "wall.white": [
+      [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        3
+      ],
+      [
+        [
+          0.98,
+          0.97,
+          0.93
+        ],
+        3
+      ],
+      [
+        [
+          0.95,
+          0.95,
+          0.95
+        ],
+        1
+      ]
+    ],
+    "wall.concrete": [
+      [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        2
+      ],
+      [
+        [
+          0.92,
+          0.9,
+          0.86
+        ],
+        2
+      ]
+    ],
+    "wall.block": [
+      [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        2
+      ],
+      [
+        [
+          0.95,
+          0.95,
+          0.93
+        ],
+        1
+      ]
+    ],
+    "wall.basalt": [
+      [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        1
+      ]
+    ]
+  },
+  "roof_tints": {
+    "_comment": "Flat-roof colour (tint on the roof texture), weights. Real Sakhnin bright surfaces: 77 % warm beige, 14 % cement grey, 6 % white.",
+    "palette": [
+      [
+        [
+          1.04,
+          0.9,
+          0.7
+        ],
+        5
+      ],
+      [
+        [
+          1.06,
+          0.97,
+          0.82
+        ],
+        1.5
+      ],
+      [
+        [
+          0.88,
+          0.88,
+          0.84
+        ],
+        0.9
+      ],
+      [
+        [
+          1.42,
+          1.4,
+          1.34
+        ],
+        0.8
+      ],
+      [
+        [
+          0.62,
+          0.6,
+          0.56
+        ],
+        0.4
+      ],
+      [
+        [
+          0.96,
+          0.93,
+          0.88
+        ],
+        0.6
+      ]
+    ]
+  }
+}
