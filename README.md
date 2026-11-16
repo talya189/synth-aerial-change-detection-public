@@ -1,6 +1,14 @@
 # Synthetic aerial change-detection generator (Blender 5.2 + Python)
 
-Photorealistic, reproducible aerial scenes of Middle-Eastern landscapes (rural Galilee first, Negev later), built from real elevation data and your Fab/Megascans assets, with pixel-exact labels. Scenes are edited through a JSON spec to produce T1/T2 change-detection pairs.
+I built a Python and Blender pipeline to generate reproducible, photorealistic aerial scenes for change-detection research. The project models Middle Eastern landscapes, with examples of hillside villages and dense urban scenes.
+
+## What I built
+
+- A procedural scene planner that places roads, parcels, buildings, fields, terraces, and vegetation on terrain derived from elevation data.
+- A Blender pipeline that renders scenes from multiple viewpoints and exports RGB images with aligned semantic and instance masks.
+- A JSON scene specification that makes scenes reproducible by seed and supports controlled edits for before-and-after (T1/T2) pairs.
+
+I used purchased, licensed Fab/Megascans assets for rendering. The public repository includes the source code, configuration, documentation, and an example render. The licensed asset files are excluded.
 
 - Design: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - Hard-won lessons: [docs/LESSONS.md](docs/LESSONS.md)
