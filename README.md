@@ -6,6 +6,14 @@ Photorealistic, reproducible aerial scenes of Middle-Eastern landscapes (rural G
 - Hard-won lessons: [docs/LESSONS.md](docs/LESSONS.md)
 - Step reports: [docs/steps/](docs/steps/)
 
+## Example output
+
+Synthetic hillside village, seed 1, rendered from directly overhead in Blender.
+
+![Nadir render of a synthetic hillside village](docs/results/hillside-village-seed-1.jpg)
+
+The scene planner reported 195 buildings, 29 road segments, 85 access paths, and 179 trees. All buildings had access paths. One road exceeded the slope threshold. This example shows a single generated scene.
+
 ## Where things live
 
 | What | Where |
