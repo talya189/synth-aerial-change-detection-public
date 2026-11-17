@@ -26,6 +26,12 @@ Synthetic hillside village, seed 1, rendered in Blender from three viewpoints.
 
 The scene planner reported 195 buildings, 29 road segments, 85 access paths, and 179 trees. All buildings had access paths. One road exceeded the slope threshold. This example shows a single generated scene.
 
+### Dense urban scene
+
+Oblique view of a dense synthetic city, seed 13.
+
+![Oblique view of a dense synthetic city](docs/results/dense-city-seed-13.jpg)
+
 ## Where things live
 
 | What | Where |
